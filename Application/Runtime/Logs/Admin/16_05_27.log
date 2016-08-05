@@ -1,0 +1,788 @@
+[ 2016-05-27T22:16:43+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.012001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\5d913dbd2da64d0b19844a871847723d.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.251014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.251014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015001s ]
+
+[ 2016-05-27T22:16:44+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-27T22:16:51+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0110s ]
+SQL: UPDATE `easy_user` SET `logintime`='1464358611',`loginip`='0.0.0.0' WHERE `id` = 6 [ RunTime:0.0050s ]
+
+[ 2016-05-27T22:16:52+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-05-27T22:16:57+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/index/type/export.html?_=1464358616198
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.8821s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\DatabaseController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-27T22:17:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=0&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_access` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_access` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=1&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_ads` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_ads` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_ads` LIMIT 0, 1000 [ RunTime:0.0010s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=2&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW CREATE TABLE `easy_article` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_article` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_article` LIMIT 0, 1000 [ RunTime:0.0110s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=3&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_category` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_category` LIMIT 0, 1000 [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=4&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW CREATE TABLE `easy_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=5&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_coupon` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_coupon` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `easy_coupon` LIMIT 0, 1000 [ RunTime:0.0120s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=6&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_coupontype` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_coupontype` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupontype` LIMIT 0, 1000 [ RunTime:0.0010s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=7&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_fields` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_fields` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` LIMIT 0, 1000 [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=8&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW CREATE TABLE `easy_friendscoreaudit` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_friendscoreaudit` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=9&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_link` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_link` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_link` LIMIT 0, 1000 [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=10&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_lotteryaudit` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_lotteryaudit` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotteryaudit` LIMIT 0, 1000 [ RunTime:0.0010s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=11&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW CREATE TABLE `easy_lotterytype` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_lotterytype` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotterytype` LIMIT 0, 1000 [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=12&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_member_user` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_member_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_member_user` LIMIT 0, 1000 [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=13&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_news` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_news` LIMIT 0, 1000 [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=14&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_node` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_node` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=15&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_order` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` LIMIT 0, 1000 [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=16&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_plugin` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_plugin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_plugin` LIMIT 0, 1000 [ RunTime:0.0010s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=17&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_product` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_product` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_product` LIMIT 0, 1000 [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=18&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW CREATE TABLE `easy_productimglib` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_productimglib` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_productimglib` LIMIT 0, 1000 [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=19&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_recommendation` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_recommendation` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_recommendation` LIMIT 0, 1000 [ RunTime:0.0010s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=20&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_recompos` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_recompos` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `easy_recompos` LIMIT 0, 1000 [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=21&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_redpacket` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_redpacket` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_redpacket` LIMIT 0, 1000 [ RunTime:0.0010s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=22&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_role` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_role` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=23&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW CREATE TABLE `easy_role_user` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_role_user` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=24&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_scoreaudit` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_scoreaudit` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_scoreaudit` LIMIT 0, 1000 [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=25&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_scoreproduct` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_scoreproduct` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_scoreproduct` LIMIT 0, 1000 [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=26&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_scoreproductimglib` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_scoreproductimglib` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_scoreproductimglib` LIMIT 0, 1000 [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=27&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW CREATE TABLE `easy_scoretype` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_scoretype` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_scoretype` LIMIT 0, 1000 [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=28&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_user` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_user` LIMIT 0, 1000 [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/export.html?id=29&start=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW CREATE TABLE `easy_wechat` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: Create Table D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS count FROM `easy_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_wechat` LIMIT 0, 1000 [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\Net\Database.class.php 第 159 行.
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-05-27T22:17:18+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-27T22:17:21+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/index/type/export.html?_=1464358641593
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\DatabaseController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-27T22:21:16+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-27T22:21:20+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/index/type/import.html?_=1464358880471
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\DatabaseController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-27T22:21:25+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/index/type/export.html?_=1464358885053
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\DatabaseController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-27T22:21:31+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Memberuser/index.html?_=1464358891151
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_member_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_member_user` ORDER BY userid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\MemberuserController.class.php 第 483 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\MemberuserController.class.php 第 484 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 14 行.
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-27T22:21:34+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Memberuser/index.html?_=1464358894326
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_member_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_member_user` ORDER BY userid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\MemberuserController.class.php 第 483 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\MemberuserController.class.php 第 484 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 14 行.
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-27T22:21:38+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Score/index.html?_=1464358898628
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_scoretype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_scoretype` ORDER BY typeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreController.class.php 第 313 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreController.class.php 第 314 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-27T22:22:33+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/index/type/export.html?_=1464358953242
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\DatabaseController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-27T22:22:37+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/index/type/import.html?_=1464358957158
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\DatabaseController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-27T22:24:18+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/index/type/import.html?_=1464359058422
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\DatabaseController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-27T22:24:19+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/index/type/export.html?_=1464359059239
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\DatabaseController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-27T22:24:21+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/index/type/import.html?_=1464359061597
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\DatabaseController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-27T22:24:27+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/index/type/export.html?_=1464359067339
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\DatabaseController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-27T22:24:39+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-27T22:24:43+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Database/index/type/export.html?_=1464359083240
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\DatabaseController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

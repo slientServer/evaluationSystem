@@ -1,0 +1,1560 @@
+[ 2016-01-28T00:00:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/update/navTabId/listorders/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `easy_order` SET `recipientname`='buzh',`recipientphone`='123',`recipientaddress`='',`productnum`='1',`lastmodifytime`='1453910401' WHERE `orderid` = 4 [ RunTime:0.0640s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-01-28T00:00:02+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 270 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 271 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T00:00:16+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T00:00:19+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1453910419777
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 270 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 271 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T00:00:21+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/edit/orderid/4?_=1453910421432
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_order` WHERE `orderid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-01-28T00:00:28+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/update/navTabId/listorders/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-01-28T00:00:55+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T00:00:58+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1453910458464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 270 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 271 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T00:01:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/edit/orderid/4?_=1453910460554
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_order` WHERE `orderid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T00:01:02+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/update/navTabId/listorders/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-01-28T00:01:18+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-28T00:01:21+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1453910481473
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 270 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 271 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T00:01:23+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/edit/orderid/4?_=1453910482983
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_order` WHERE `orderid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T00:01:24+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/update/navTabId/listorders/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `easy_order` SET `recipientname`='buzh',`recipientphone`='123',`recipientaddress`='',`productnum`='1',`lastmodifytime`='1453910484' WHERE `orderid` = 4 [ RunTime:0.0900s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-01-28T00:01:24+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 270 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 271 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-28T00:01:28+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/edit/orderid/4?_=1453910488697
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_order` WHERE `orderid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-01-28T00:01:41+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-28T00:01:44+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1453910504064
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 270 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 271 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T00:01:46+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/edit/orderid/4?_=1453910506347
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_order` WHERE `orderid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T00:01:49+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/update/navTabId/listorders/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-01-28T00:03:58+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-28T00:03:58+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T00:04:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1453910641350
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 270 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 271 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T00:04:03+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/edit/orderid/4?_=1453910643555
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_order` WHERE `orderid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T00:04:06+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/update/navTabId/listorders/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-01-28T00:04:09+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/update/navTabId/listorders/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-01-28T00:05:05+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T00:05:09+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1453910709283
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 270 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 271 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T00:05:11+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/edit/orderid/4?_=1453910711795
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_order` WHERE `orderid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T00:05:13+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/update/navTabId/listorders/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `easy_order` SET `recipientname`='buzh',`recipientphone`='123',`recipientaddress`='',`productnum`='1',`lastmodifytime`='1453910713' WHERE `orderid` = 4 [ RunTime:0.0760s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-01-28T00:05:13+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 270 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 271 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-01-28T00:05:20+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/edit/orderid/4?_=1453910720053
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_order` WHERE `orderid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T00:05:25+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/update/navTabId/listorders/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `easy_order` SET `recipientname`='buzh',`recipientphone`='123',`recipientaddress`='蓝村',`productnum`='1',`lastmodifytime`='1453910725' WHERE `orderid` = 4 [ RunTime:0.0860s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-01-28T00:05:25+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 270 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 271 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T00:05:29+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/specifiedproduct/productid/6?_=1453910729208
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_product` WHERE `productid` = 6 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T20:50:52+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T20:50:52+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T20:50:52+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-01-28T20:51:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0796s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_user` SET `logintime`='1453985460',`loginip`='0.0.0.0' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2016-01-28T20:51:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-28T21:09:45+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1453986584889
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 270 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 271 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-28T21:17:08+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/index.html?_=1453987028828
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_product` ORDER BY productid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 375 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 376 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-01-28T22:10:50+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Score/index.html?_=1453990250036
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_scoretype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_scoretype` ORDER BY typeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreController.class.php 第 290 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreController.class.php 第 291 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:10:52+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/User/index.html?_=1453990252468
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_member_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_member_user` ORDER BY userid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\UserController.class.php 第 373 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\UserController.class.php 第 374 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:10:56+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/User/coupon/userid/11?_=1453990256221
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_coupon` WHERE ( userid= 11 )  [ RunTime:0.0340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ea3f0910ecc0c5fc526b62e86042cc74.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ea3f0910ecc0c5fc526b62e86042cc74.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ea3f0910ecc0c5fc526b62e86042cc74.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-28T22:11:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/User/index.html?_=1453990259921
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_member_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_member_user` ORDER BY userid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\UserController.class.php 第 373 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\UserController.class.php 第 374 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-28T22:11:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/User/scoreaudit/userid/11?_=1453990261735
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_scoreaudit` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `easy_scoreaudit` INNER JOIN easy_scoretype on easy_scoreaudit.typekey= easy_scoretype.typekey  WHERE ( userid= 11 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\934c196b575ab8cec0495c0cae32a631.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\934c196b575ab8cec0495c0cae32a631.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\934c196b575ab8cec0495c0cae32a631.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-01-28T22:11:04+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/User/index.html?_=1453990264017
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_member_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_member_user` ORDER BY userid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\UserController.class.php 第 373 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\UserController.class.php 第 374 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:11:19+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1453990279863
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 270 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 271 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:14:45+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/specifieduser/userid/11?_=1453990485556
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `userid` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-28T22:14:49+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/specifiedproduct/productid/6?_=1453990489075
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `easy_product` WHERE `productid` = 6 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-01-28T22:14:52+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Score/index.html?_=1453990492407
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_scoretype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_scoretype` ORDER BY typeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreController.class.php 第 290 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreController.class.php 第 291 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:15:33+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/User/index.html?_=1453990533012
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_member_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_member_user` ORDER BY userid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\UserController.class.php 第 373 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\UserController.class.php 第 374 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:15:38+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/News/index.html?_=1453990538857
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_news` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_news` ORDER BY newsid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\NewsController.class.php 第 290 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\NewsController.class.php 第 291 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9c9069fb50ed95e0d557427c41be5bdb.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9c9069fb50ed95e0d557427c41be5bdb.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9c9069fb50ed95e0d557427c41be5bdb.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:15:42+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Score/index.html?_=1453990542379
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.0186s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_scoretype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_scoretype` ORDER BY typeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreController.class.php 第 290 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreController.class.php 第 291 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:16:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Score/edit/typeid/14?_=1453990561792
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_scoretype` WHERE `typeid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:23:05+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:23:08+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Scoreproduct/index.html?_=1453990988401
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_score_product` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_score_product` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'easy_scoreProduct.productid' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `easy_score_product` INNER JOIN easy_product on easy_scoreProduct.productid= easy_product.productid  ORDER BY scoreproductid desc LIMIT 0,10  
+ERR: 1054:Unknown column 'easy_scoreProduct.productid' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `easy_score_product` INNER JOIN easy_product on easy_scoreProduct.productid= easy_product.productid  ORDER BY scoreproductid desc LIMIT 0,10  
+
+[ 2016-01-28T22:24:15+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:24:18+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Scoreproduct/index.html?_=1453991058640
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_score_product` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_score_product` LIMIT 1   [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'easy_scoreProduct.productid' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `easy_score_product` INNER JOIN easy_product on easy_scoreProduct.productid= easy_product.productid  ORDER BY scoreproductid desc LIMIT 0,10  
+ERR: 1054:Unknown column 'easy_scoreProduct.productid' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `easy_score_product` INNER JOIN easy_product on easy_scoreProduct.productid= easy_product.productid  ORDER BY scoreproductid desc LIMIT 0,10  
+
+[ 2016-01-28T22:25:22+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:25:27+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Scoreproduct/index.html?_=1453991127744
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_score_product` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_score_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_score_product` ORDER BY scoreproductid desc LIMIT 0,10   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreproductController.class.php 第 375 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreproductController.class.php 第 376 行.
+ERR: 模板不存在:./Application/Admin/View/default/Scoreproduct/index.html
+
+[ 2016-01-28T22:28:23+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:28:28+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/index.html?_=1453991308217
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_product` ORDER BY productid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 375 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 376 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:28:29+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Scoreproduct/index.html?_=1453991309166
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_score_product` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_score_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_score_product` ORDER BY scoreproductid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreproductController.class.php 第 375 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreproductController.class.php 第 376 行.
+ERR: 模板不存在:./Application/Admin/View/default/Scoreproduct/index.html
+
+[ 2016-01-28T22:30:33+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:30:35+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Scoreproduct/index.html?_=1453991435754
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+ERR: 1146:Table 'easycms.easy_score' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `easy_score`
+ERR: 1146:Table 'easycms.easy_score' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `easy_score`
+
+[ 2016-01-28T22:31:51+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-01-28T22:31:56+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Scoreproduct/index.html?_=1453991515952
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_score_product` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_score_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_score_product` ORDER BY scoreproductid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreproductController.class.php 第 375 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreproductController.class.php 第 376 行.
+ERR: 模板不存在:./Application/Admin/View/default/Scoreproduct/index.html
+
+[ 2016-01-28T22:32:27+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:32:30+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Scoreproduct/index.html?_=1453991550520
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_score_product` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_score_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_score_product` ORDER BY scoreproductid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreproductController.class.php 第 375 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreproductController.class.php 第 376 行.
+ERR: 模板不存在:./Application/Admin/View/default/Scoreproduct/index.html
+
+[ 2016-01-28T22:33:42+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/index.html?_=1453991621930
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_product` ORDER BY productid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 375 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 376 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:34:05+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:34:08+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Scoreproduct/index.html?_=1453991648295
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_score_product` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_score_product` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_score_product` ORDER BY scoreproductid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreproductController.class.php 第 375 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreproductController.class.php 第 376 行.
+ERR: 模板不存在:./Application/Admin/View/default/Scoreproduct/index.html
+
+[ 2016-01-28T22:43:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-28T22:43:04+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Scoreproduct/index.html?_=1453992184619
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_score_product` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_score_product` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_score_product` ORDER BY scoreproductid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreproductController.class.php 第 375 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreproductController.class.php 第 376 行.
+ERR: 模板不存在:./Application/Admin/View/default/Scoreproduct/index.html
+
+[ 2016-01-28T22:47:34+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:47:38+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Scoreproduct/index.html?_=1453992458182
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_score_product` [ RunTime:0.0030s ]
+ERR: 模板不存在:./Application/Admin/View/default/Scoreproduct/index.html
+
+[ 2016-01-28T22:47:48+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:47:51+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Scoreproduct/index.html?_=1453992471296
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+ERR: 模板不存在:./Application/Admin/View/default/Scoreproduct/index.html
+
+[ 2016-01-28T22:48:11+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-28T22:48:14+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Scoreproduct/index.html?_=1453992494710
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+ERR: 模板不存在:./Application/Admin/View/default/Scoreproduct/index.html
+
+[ 2016-01-28T22:48:56+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1453992536799
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0226s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 270 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 271 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

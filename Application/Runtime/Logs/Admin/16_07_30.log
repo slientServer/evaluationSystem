@@ -1,0 +1,254 @@
+[ 2016-07-30T21:05:53+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.014001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0710s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\5d913dbd2da64d0b19844a871847723d.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.490028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.491028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.027002s ]
+
+[ 2016-07-30T21:05:54+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2016-07-30T21:59:14+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\5d913dbd2da64d0b19844a871847723d.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-30T21:59:14+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-30T21:59:21+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0740s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+ERR: 模板不存在:./Application/Admin/View/mobile/Login/login.html
+
+[ 2016-07-30T21:59:25+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+ERR: 模板不存在:./Application/Admin/View/mobile/Login/login.html
+
+[ 2016-07-30T21:59:30+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\5d913dbd2da64d0b19844a871847723d.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-30T21:59:30+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-30T21:59:39+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_user` SET `logintime`='1469887179',`loginip`='0.0.0.0' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2016-07-30T21:59:39+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-30T21:59:49+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Rbacuser/index.html?_=1469887189158
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_user`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 5 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 60 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 60 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 60 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 60 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 71 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 72 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 73 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 74 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 75 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 77 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 79 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 79 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-30T21:59:49+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Rbacrole/index.html?_=1469887189792
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `easy_role` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_role` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-30T22:00:22+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-30T22:01:57+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\5d913dbd2da64d0b19844a871847723d.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-30T22:01:57+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-30T22:02:06+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+ERR: 模板不存在:./Application/Admin/View/mobile/Login/login.html
+
+[ 2016-07-30T22:03:05+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-30T22:03:05+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

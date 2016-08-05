@@ -1,0 +1,1143 @@
+[ 2016-03-17T00:05:12+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/delete/productid/17/navTabId/listproducts
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0030s ]
+SQL: DELETE FROM `easy_product` WHERE `productid` IN ('17') [ RunTime:0.0650s ]
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-03-17T00:05:12+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/index.html?pageNum=1&numPerPage=10&_order=&_sort=&keyword=&_=1458144312451
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_product` ORDER BY productid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 412 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 413 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-17T00:14:13+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/imgLib/productid/15?_=1458144853776
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_productimglib` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_productimglib` WHERE ( productid=15 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T00:14:17+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/addImgLib/productid/15?_=1458144857358
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T00:14:25+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/insertImgLib/navTabId/listimglibs/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `easy_productimglib` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `easy_productimglib` (`productid`,`imgsrc`,`inserttime`,`lastmodifytime`) VALUES ('15','/Uploads/Product/15/1458144865.png','1458144865','1458144865') [ RunTime:0.0650s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-03-17T00:14:25+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/imgLib/productid/15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_productimglib` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_productimglib` WHERE ( productid=15 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-17T00:14:27+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/addImgLib/productid/15?_=1458144867617
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T00:29:14+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/insertImgLib/navTabId/listimglibs/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `easy_productimglib` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `easy_productimglib` (`productid`,`imgsrc`,`inserttime`,`lastmodifytime`) VALUES ('15','/Uploads/Product/15/1458145754.png','1458145754','1458145754') [ RunTime:0.0560s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-03-17T00:29:15+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/imgLib/productid/15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `easy_productimglib` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `easy_productimglib` WHERE ( productid=15 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-17T00:30:58+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/imgLib/productid/14?_=1458145858367
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_productimglib` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_productimglib` WHERE ( productid=14 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T00:30:59+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/addImgLib/productid/14?_=1458145859674
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T00:31:07+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/insertImgLib/navTabId/listimglibs/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `easy_productimglib` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `easy_productimglib` (`productid`,`imgsrc`,`inserttime`,`lastmodifytime`) VALUES ('14','/Uploads/Product/14/1458145866.png','1458145866','1458145866') [ RunTime:0.1800s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-03-17T00:31:07+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/imgLib/productid/14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `easy_productimglib` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_productimglib` WHERE ( productid=14 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T00:45:27+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/add?_=1458146727080
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T00:45:39+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/insert/navTabId/listproducts/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: productid D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 41 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `easy_product` (`productname`,`productprice`,`producttotal`,`productleft`,`productshortdescription`,`productdescription`,`productpic`,`inserttime`,`lastmodifytime`) VALUES ('423423','432','432','432','432','432','/Uploads/Product//1458146739.png','1458146739','1458146739') [ RunTime:0.1270s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-03-17T00:45:39+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_product` ORDER BY productid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 412 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 413 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T21:01:40+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T21:01:40+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T21:01:56+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/1458219715999
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T21:02:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0840s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_user` SET `logintime`='1458219720',`loginip`='0.0.0.0' WHERE `id` = 6 [ RunTime:0.0010s ]
+
+[ 2016-03-17T21:02:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T21:02:04+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/index.html?_=1458219724772
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_product` ORDER BY productid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 412 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 413 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-17T21:02:09+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/imgLib/productid/18?_=1458219729125
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_productimglib` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_productimglib` WHERE ( productid=18 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T21:02:12+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/imgLib/productid/15?_=1458219732809
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_productimglib` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_productimglib` WHERE ( productid=15 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T21:02:16+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/imgLib/productid/14?_=1458219736001
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_productimglib` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_productimglib` WHERE ( productid=14 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T21:03:06+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/index.html?_=1458219786256
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_product` ORDER BY productid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 412 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 413 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T21:03:09+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/imgLib/productid/14?_=1458219789627
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `easy_productimglib` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_productimglib` WHERE ( productid=14 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7f8716a98c6cd439e0eb84392381666f.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T21:22:48+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/News/index.html?_=1458220968677
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_news` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_news` ORDER BY newsid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\NewsController.class.php 第 411 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\NewsController.class.php 第 412 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9c9069fb50ed95e0d557427c41be5bdb.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9c9069fb50ed95e0d557427c41be5bdb.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9c9069fb50ed95e0d557427c41be5bdb.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T21:23:39+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T21:47:29+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/News/index.html?_=1458222449760
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_news` ORDER BY newsid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\NewsController.class.php 第 411 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\NewsController.class.php 第 412 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9c9069fb50ed95e0d557427c41be5bdb.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9c9069fb50ed95e0d557427c41be5bdb.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9c9069fb50ed95e0d557427c41be5bdb.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:03:28+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:03:32+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/index.html?_=1458223412342
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_product` ORDER BY productid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 412 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 413 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:04:03+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Scoreproduct/index.html?_=1458223443745
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_scoreproduct` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_scoreproduct` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_scoreproduct` ORDER BY scoreproductid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreproductController.class.php 第 412 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreproductController.class.php 第 413 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\1aa47668307f3ede4692441ef3e16cf0.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\1aa47668307f3ede4692441ef3e16cf0.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\1aa47668307f3ede4692441ef3e16cf0.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:04:07+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/index.html?_=1458223447524
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_product` ORDER BY productid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 412 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 413 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:04:29+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/add?_=1458223469466
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:05:16+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Memberuser/index.html?_=1458223516319
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_member_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_member_user` ORDER BY userid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\MemberuserController.class.php 第 483 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\MemberuserController.class.php 第 484 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 14 行.
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T22:05:36+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Memberuser/edit/userid/61?_=1458223536061
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `userid` = 61 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\0284c911cf5ddecd62b32d506a5d2c69.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T22:05:48+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Memberuser/wechat/wechatid/?_=1458223548536
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_wechat` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: wechatid D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\MemberuserController.class.php 第 123 行.
+SQL: SELECT * FROM `easy_wechat` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:06:03+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Memberuser/wechat/wechatid/?_=1458223562927
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_wechat` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wechatid D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\MemberuserController.class.php 第 123 行.
+SQL: SELECT * FROM `easy_wechat` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:06:14+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Scoreproduct/index.html?_=1458223574653
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_scoreproduct` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_scoreproduct` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_scoreproduct` ORDER BY scoreproductid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreproductController.class.php 第 412 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreproductController.class.php 第 413 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\1aa47668307f3ede4692441ef3e16cf0.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\1aa47668307f3ede4692441ef3e16cf0.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\1aa47668307f3ede4692441ef3e16cf0.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:06:19+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Scoreproduct/add?_=1458223579814
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:06:30+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/News/index.html?_=1458223590495
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_news` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_news` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_news` ORDER BY newsid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\NewsController.class.php 第 411 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\NewsController.class.php 第 412 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9c9069fb50ed95e0d557427c41be5bdb.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9c9069fb50ed95e0d557427c41be5bdb.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9c9069fb50ed95e0d557427c41be5bdb.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:12:23+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Memberuser/index.html?_=1458223943630
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_member_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_member_user` ORDER BY userid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\MemberuserController.class.php 第 483 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\MemberuserController.class.php 第 484 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 14 行.
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:14:22+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Memberuser/wechat/wechatid/?_=1458224062487
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_wechat` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wechatid D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\MemberuserController.class.php 第 123 行.
+SQL: SELECT * FROM `easy_wechat` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T22:15:47+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Memberuser/edit/userid/61?_=1458224147313
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `userid` = 61 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\0284c911cf5ddecd62b32d506a5d2c69.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:20:38+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Memberuser/wechat/wechatid/?_=1458224437909
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_wechat` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: wechatid D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\MemberuserController.class.php 第 123 行.
+SQL: SELECT * FROM `easy_wechat` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:22:42+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:22:44+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Memberuser/index.html?_=1458224564851
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_member_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_member_user` ORDER BY userid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\MemberuserController.class.php 第 483 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\MemberuserController.class.php 第 484 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 14 行.
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:22:58+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0020s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T22:23:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Memberuser/index.html?_=1458224580161
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_member_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_member_user` ORDER BY userid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\MemberuserController.class.php 第 483 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\MemberuserController.class.php 第 484 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 14 行.
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:24:59+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/index.html?_=1458224699459
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_product` ORDER BY productid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 412 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 413 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:25:07+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/add?_=1458224707617
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:25:26+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/insert/navTabId/listproducts/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: productid D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `easy_product` (`productname`,`productprice`,`productleft`,`productshortdescription`,`productdescription`,`productpic`,`inserttime`,`lastmodifytime`) VALUES ('testetts','2332','32','324432','testettstestettstestettstestettstestettstestettstestettstestettstestettstestettstestettstestettstestettstestetts','','1458224726','1458224726') [ RunTime:0.1120s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-03-17T22:25:26+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_product` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_product` ORDER BY productid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 412 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 413 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:27:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/add?_=1458224820571
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:27:02+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/edit/productid/14?_=1458224822910
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_product` WHERE `productid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T22:27:07+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/edit/productid/19?_=1458224827272
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_product` WHERE `productid` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-03-17T22:27:18+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/update/navTabId/listproducts/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `easy_product` SET `productname`='testetts',`productprice`='2332',`productleft`='32',`productshortdescription`='324432',`productdescription`='testettstestettstestettstestettstestettstestettstestettstestettstestettstestettstestettstestettstestettstestetts',`lastmodifytime`='1458224838',`productpic`='/Uploads/Product/19/1458224838.png' WHERE `productid` = 19 [ RunTime:0.1480s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-03-17T22:27:18+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_product` ORDER BY productid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 412 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 413 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

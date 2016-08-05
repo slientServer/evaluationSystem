@@ -1,0 +1,1870 @@
+[ 2016-03-21T21:20:48+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-03-21T21:20:48+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-03-21T21:26:53+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_user` SET `logintime`='1458566813',`loginip`='0.0.0.0' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2016-03-21T21:26:53+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-21T21:26:58+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458566818797
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 66 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 66 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 66 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 66 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 66 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 66 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 66 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 66 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 66 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-21T21:32:36+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:32:40+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/News/index.html?_=1458567160878
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_news` ORDER BY newsid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\NewsController.class.php 第 411 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\NewsController.class.php 第 412 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9c9069fb50ed95e0d557427c41be5bdb.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9c9069fb50ed95e0d557427c41be5bdb.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9c9069fb50ed95e0d557427c41be5bdb.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-21T21:32:44+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458567164837
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:32:52+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/edit/orderid/26?_=1458567172497
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_order` WHERE `orderid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:33:09+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:33:12+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458567192440
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:33:15+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/edit/orderid/26?_=1458567194997
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_order` WHERE `orderid` = 26 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-21T21:33:35+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/update/navTabId/listorders/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `easy_order` SET `recipientname`='NICKNAME',`recipientphone`='18818203641',`province`='浦东新区',`county`='五星路',`recipientaddress`='&浦东新区',`productprice`='41',`productnum`='1',`orderstate`='1',`orderexpress`='',`lastmodifytime`='1458567214' WHERE `orderid` = 26 [ RunTime:0.2620s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-03-21T21:33:35+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:33:58+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:34:02+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458567242167
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:34:06+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/edit/orderid/26?_=1458567246033
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_order` WHERE `orderid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:34:20+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/update/navTabId/listorders/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `easy_order` SET `recipientname`='NICKNAME',`recipientphone`='18818203641',`province`='上海市',`city`='浦东新区',`county`='五星路',`recipientaddress`='&浦东新区',`productprice`='41',`productnum`='1',`orderstate`='1',`orderexpress`='',`lastmodifytime`='1458567259' WHERE `orderid` = 26 [ RunTime:0.1520s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-03-21T21:34:20+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:34:24+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/edit/orderid/26?_=1458567264362
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `easy_order` WHERE `orderid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-21T21:34:52+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/edit/orderid/25?_=1458567292714
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_order` WHERE `orderid` = 25 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:35:15+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/update/navTabId/listorders/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `easy_order` SET `recipientname`='NICKNAME',`recipientphone`='18818203641',`province`='上海市',`city`='浦东新区',`county`='无',`recipientaddress`='&浦东新区',`productprice`='400',`productnum`='1',`orderstate`='1',`orderexpress`='',`lastmodifytime`='1458567314' WHERE `orderid` = 25 [ RunTime:0.0820s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-03-21T21:35:15+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:50:10+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:50:14+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458568214694
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:50:21+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/edit/orderid/26?_=1458568221422
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_order` WHERE `orderid` = 26 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:50:46+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/update/navTabId/listorders/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `easy_order` SET `recipientname`='NICKNAME',`recipientphone`='18818203641',`recipientaddress`='&浦东新区',`productprice`='41',`productnum`='1',`orderstate`='1',`orderexpress`='',`lastmodifytime`='1458568246' WHERE `orderid` = 26 [ RunTime:0.1080s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-03-21T21:50:46+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:51:17+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:51:21+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458568281002
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:51:58+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:52:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458568321196
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:52:05+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/edit/orderid/26?_=1458568325500
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_order` WHERE `orderid` = 26 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-21T21:52:26+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/update/navTabId/listorders/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `easy_order` SET `recipientname`='NICKNAME',`recipientphone`='18818203641',`mainaddress`='上海市|浦东新区|晨晖路',`recipientaddress`='&浦东新区',`productprice`='41',`productnum`='1',`orderstate`='1',`orderexpress`='',`lastmodifytime`='1458568345' WHERE `orderid` = 26 [ RunTime:0.2030s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-03-21T21:52:26+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-03-21T21:52:37+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/edit/orderid/25?_=1458568357376
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_order` WHERE `orderid` = 25 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:52:44+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/update/navTabId/listorders/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `easy_order` SET `recipientname`='NICKNAME',`recipientphone`='18818203641',`mainaddress`='上海市1231',`recipientaddress`='&浦东新区',`productprice`='400',`productnum`='1',`orderstate`='1',`orderexpress`='',`lastmodifytime`='1458568364' WHERE `orderid` = 25 [ RunTime:0.0710s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-03-21T21:52:44+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:54:39+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458568479908
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:54:57+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458568497041
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:54:57+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458568497793
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:54:58+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458568498460
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-21T21:54:58+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458568498881
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:54:59+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458568499433
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:56:10+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-21T21:56:13+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458568572980
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:56:16+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/delAll
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: DELETE FROM `easy_order` WHERE `orderid` IN ('27','26','25','24','23','22','21','20','19','18') [ RunTime:0.1040s ]
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-03-21T21:56:17+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:56:21+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/delAll
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: DELETE FROM `easy_order` WHERE `orderid` IN ('17','16','15','14','13','12','11','10','9','8') [ RunTime:0.0670s ]
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-03-21T21:56:21+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:56:25+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/delAll
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: DELETE FROM `easy_order` WHERE `orderid` IN ('7') [ RunTime:0.0710s ]
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-03-21T21:56:25+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T21:57:08+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458568628830
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T22:01:57+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-21T22:06:03+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458569163280
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T22:06:17+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/delAll
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: DELETE FROM `easy_order` WHERE `orderid` IN ('29','28') [ RunTime:0.1440s ]
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-03-21T22:06:17+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T22:06:31+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458569191342
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T22:10:40+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458569440679
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T22:11:39+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458569499341
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T22:12:14+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T22:12:18+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458569538370
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T22:12:37+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458569557865
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T22:12:59+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T22:13:24+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458569604767
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-21T22:15:33+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458569733693
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T22:16:10+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458569770872
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY orderid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T22:21:18+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T22:21:22+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458570082010
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T22:21:52+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458570111952
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T22:24:03+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-21T22:24:20+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458570260490
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_order` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 70 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-21T22:25:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458570300673
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 70 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 70 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-21T22:25:23+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/specifiedproduct/productid/12/ordertype/scoreproduct?_=1458570323618
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_scoreproduct` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_scoreproduct` WHERE `scoreproductid` = 12 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T22:25:26+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/specifiedproduct/productid/14/ordertype/product?_=1458570326177
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_product` WHERE `productid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-21T22:25:39+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458570339531
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 70 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 70 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T22:26:37+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1458570397480
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 281 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 70 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 70 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 70 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-21T22:31:24+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/edit/orderid/PB1458570256998?_=1458570684121
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 66 行.
+SQL: SELECT * FROM `easy_order` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T22:31:26+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/index.html?_=1458570686784
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_product` ORDER BY productid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 412 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 413 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

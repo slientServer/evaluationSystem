@@ -1,0 +1,4 @@
+1. 配置hosts
+   127.0.0.1 www.foundpark.com
+2. 在PC端微信中打开 http://www.foundpark.com/Index/ 进行微信用户登录测试开发
+3. 在PC端微信中打开 http://www.foundpark.com/Index/Pay 进行微信支付测试开发

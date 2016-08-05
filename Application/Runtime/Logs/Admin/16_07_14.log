@@ -1,0 +1,2086 @@
+[ 2016-07-14T00:01:58+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: Think\Controller:_param方法不存在！
+
+[ 2016-07-14T00:04:25+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: Think\Controller:_param方法不存在！
+
+[ 2016-07-14T00:04:41+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Think\Controller:_param方法不存在！
+
+[ 2016-07-14T00:05:17+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Think\Controller:_param方法不存在！
+
+[ 2016-07-14T00:07:08+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Think\Controller:_param方法不存在！
+
+[ 2016-07-14T21:27:16+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0970s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\5d913dbd2da64d0b19844a871847723d.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T21:27:18+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T21:27:28+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.5660s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.1350s ]
+ERR: 模板不存在:./Application/Admin/View/mobile/Login/login.html
+
+[ 2016-07-14T21:27:37+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\5d913dbd2da64d0b19844a871847723d.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T21:27:37+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T21:27:48+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\5d913dbd2da64d0b19844a871847723d.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T21:27:48+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T21:27:55+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+ERR: 模板不存在:./Application/Admin/View/mobile/Login/login.html
+
+[ 2016-07-14T21:28:09+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/1468502889300
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T21:28:11+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/1468502891138
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T21:28:12+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/1468502892767
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T21:28:17+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_user` SET `logintime`='1468502897',`loginip`='0.0.0.0' WHERE `id` = 6 [ RunTime:0.6610s ]
+
+[ 2016-07-14T21:28:18+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+ERR: 模板不存在:./Application/Admin/View/mobile/Index/index.html
+
+[ 2016-07-14T21:29:13+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T21:29:20+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Memberuser/index.html?_=1468502960149
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0670s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_member_user` LIMIT 1   [ RunTime:0.0870s ]
+SQL: SELECT * FROM `easy_member_user` ORDER BY userid desc LIMIT 0,10   [ RunTime:0.0590s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\MemberuserController.class.php 第 483 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\MemberuserController.class.php 第 484 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 14 行.
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 62 行.
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 62 行.
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 62 行.
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 62 行.
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 62 行.
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 62 行.
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 62 行.
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 62 行.
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-14T21:29:23+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Score/index.html?_=1468502963271
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.2850s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_scoretype` LIMIT 1   [ RunTime:0.0530s ]
+SQL: SELECT * FROM `easy_scoretype` ORDER BY typeid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreController.class.php 第 313 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreController.class.php 第 314 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T21:29:25+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html?_=1468502965275
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0530s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0250s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 319 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 320 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T21:29:52+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T21:29:52+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\5d913dbd2da64d0b19844a871847723d.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T21:30:13+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: Think\Controller:_param方法不存在！
+
+[ 2016-07-14T21:30:18+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Think\Controller:_param方法不存在！
+
+[ 2016-07-14T21:31:53+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Think\Controller:_param方法不存在！
+
+[ 2016-07-14T21:32:56+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Think\Controller:_param方法不存在！
+
+[ 2016-07-14T21:33:00+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: Think\Controller:_param方法不存在！
+
+[ 2016-07-14T21:33:18+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\5d913dbd2da64d0b19844a871847723d.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T21:33:18+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T21:33:31+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Think\Controller:_param方法不存在！
+
+[ 2016-07-14T21:33:40+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?xx=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Think\Controller:_param方法不存在！
+
+[ 2016-07-14T21:33:57+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?xx=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: Think\Controller:_param方法不存在！
+
+[ 2016-07-14T21:37:56+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?xx=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Think\Controller:_param方法不存在！
+
+[ 2016-07-14T21:46:55+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: Think\Controller:_param方法不存在！
+
+[ 2016-07-14T21:47:25+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/view/default/test.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T21:47:25+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = '' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T21:47:29+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Think\Controller:_param方法不存在！
+
+[ 2016-07-14T21:48:02+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Think\Controller:_param方法不存在！
+
+[ 2016-07-14T21:50:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T21:50:16+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/index.html?_=1468504216332
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0620s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupon` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupon` ORDER BY couponid desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 289 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 290 行.
+ERR: 模板不存在:./Application/Admin/View/mobile/Couponverify/index.html
+
+[ 2016-07-14T21:50:19+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0020s ]
+ERR: 模板不存在:./Application/Admin/View/mobile/Index/index.html
+
+[ 2016-07-14T21:50:20+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+ERR: 模板不存在:./Application/Admin/View/mobile/Index/index.html
+
+[ 2016-07-14T21:51:06+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+ERR: 模板不存在:./Application/Admin/View/mobile/Index/index.html
+
+[ 2016-07-14T22:00:34+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `easy_user` SET `logintime`='1468504834',`loginip`='0.0.0.0' WHERE `id` = 6 [ RunTime:0.0010s ]
+
+[ 2016-07-14T22:00:34+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:06:46+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_sign=80890&sim_timestramp=%2724324423%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:06:46+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\5d913dbd2da64d0b19844a871847723d.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:06:46+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:07:52+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:08:01+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?xx=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: Think\Controller:_param方法不存在！
+
+[ 2016-07-14T22:16:50+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?xx=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-14T22:16:50+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\5d913dbd2da64d0b19844a871847723d.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:16:50+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:18:10+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?xx=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: Think\Controller:_get方法不存在！
+
+[ 2016-07-14T22:19:11+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?xx=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sim_timestramp' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [2] Illegal string offset 'sim_sign' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'sim_data' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:19:26+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?xx=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sim_timestramp' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [2] Illegal string offset 'sim_sign' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'sim_data' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:20:05+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timstramp=2016-07-14/22-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sim_timestramp' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [2] Illegal string offset 'sim_sign' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'sim_data' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:20:09+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timstramp=2016-07-14/22-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sim_timestramp' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [2] Illegal string offset 'sim_sign' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'sim_data' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:20:39+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timstramp=2016-07-14/22-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sim_timestramp' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [2] Illegal string offset 'sim_sign' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'sim_data' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:21:02+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sim_timestramp' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [2] Illegal string offset 'sim_sign' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'sim_data' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:21:05+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sim_timestramp' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [2] Illegal string offset 'sim_sign' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'sim_data' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:21:42+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sim_timestramp' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [2] Illegal string offset 'sim_sign' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'sim_data' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:21:53+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=%222016-07-14/22-20%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sim_timestramp' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [2] Illegal string offset 'sim_sign' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'sim_data' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:21:56+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=%222016-07-14/22-20%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sim_timestramp' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [2] Illegal string offset 'sim_sign' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'sim_data' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:22:49+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=%222016-07-14/22-20%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sim_timestramp' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [2] Illegal string offset 'sim_sign' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'sim_data' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:23:14+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=%222016-07-14/22-20%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sim_timestramp' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [2] Illegal string offset 'sim_sign' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'sim_data' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:23:34+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=%222016-07-14/22-20%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sim_timestramp' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [2] Illegal string offset 'sim_sign' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'sim_data' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:24:07+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=%222016-07-14/22-20%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [2] Illegal string offset 'sim_timestramp' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'sim_sign' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+NOTIC: [2] Illegal string offset 'sim_data' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:24:16+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=%222016-07-14/22-20%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-14T22:24:53+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=%222016-07-14/22-20%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __GET - assumed '__GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [2] Illegal string offset 'sim_timestramp' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'sim_sign' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+NOTIC: [2] Illegal string offset 'sim_data' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:25:01+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=%222016-07-14/22-20%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:25:51+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=%222016-07-14/22-20%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [2] Illegal string offset 'sim_timestramp' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'sim_sign' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [8] Use of undefined constant _GET - assumed '_GET' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+NOTIC: [2] Illegal string offset 'sim_data' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:26:08+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=%222016-07-14/22-20%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:27:12+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=%222016-07-14/22-20%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:27:21+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=%222016-07-14/22-27%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:27:28+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:28:39+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:28:44+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-28
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:28:53+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=%E2%80%9C2016-07-14/22-28%E2%80%9D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:29:25+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=%E2%80%9C2016-07-14/22-28%E2%80%9D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:29:35+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-28
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:29:56+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-28
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:29:57+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-28
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:30:09+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:30:59+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:31:51+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-14T22:31:53+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:32:15+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:32:16+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:32:16+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:32:16+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:32:16+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:32:17+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:32:17+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:32:17+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:32:18+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:32:18+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:32:18+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:35:34+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+
+[ 2016-07-14T22:39:51+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+
+[ 2016-07-14T22:40:25+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+
+[ 2016-07-14T22:47:52+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:48:07+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:48:08+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:49:59+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:50:01+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:50:10+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:50:11+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:50:30+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:51:01+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:53:30+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:53:34+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:53:35+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-14T22:53:42+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:53:42+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\5d913dbd2da64d0b19844a871847723d.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:53:42+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:53:51+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:53:51+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\5d913dbd2da64d0b19844a871847723d.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:53:51+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:53:58+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:54:01+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:54:12+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-54
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:54:16+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-54
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-14T22:54:49+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=2016-07-14/22-54
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:54:59+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142254
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-14T22:55:08+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142254
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:55:14+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142255
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:58:44+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142255
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:58:53+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142258
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:58:56+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142258
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:59:14+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142258
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T22:59:15+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142258
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:59:20+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142259
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T22:59:39+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142259&sim_sign=12a3715a570ce173ec36ef2945a7af05
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:00:13+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142259&sim_sign=12a3715a570ce173ec36ef2945a7af05
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:00:14+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142259&sim_sign=12a3715a570ce173ec36ef2945a7af05
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:04:53+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142259&sim_sign=b998399a4109dce15d16049cdedfc7fe
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:04:59+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142304&sim_sign=b998399a4109dce15d16049cdedfc7fe
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:05:29+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142305&sim_sign=d667b776a6d7b72c8a6f60608a638730
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:05:36+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142305&sim_sign=d667b776a6d7b72c8a6f60608a638730
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:06:22+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142305&sim_sign=d667b776a6d7b72c8a6f60608a638730
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:06:28+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142306&sim_sign=d667b776a6d7b72c8a6f60608a638730
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:06:47+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142306&sim_sign=d667b776a6d7b72c8a6f60608a638730
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:07:19+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142307&sim_sign=bf17dd6939d3c0836d5ac8f1b9b3eea9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:07:24+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142307&sim_sign=bf17dd6939d3c0836d5ac8f1b9b3eea9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:09:17+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142307&sim_sign=bf17dd6939d3c0836d5ac8f1b9b3eea9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:09:18+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142307&sim_sign=bf17dd6939d3c0836d5ac8f1b9b3eea9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-14T23:09:26+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142309&sim_sign=bf17dd6939d3c0836d5ac8f1b9b3eea9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: signUser D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:12:22+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142309&sim_sign=bf17dd6939d3c0836d5ac8f1b9b3eea9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:12:29+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142312&sim_sign=bf17dd6939d3c0836d5ac8f1b9b3eea9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: signUser D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:14:26+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142314&sim_sign=29043dbc530d29bb1e960986690f1a7d
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: signUser D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:16:54+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142317&sim_sign=18bb4097cbc2d47efd876f1cab287094
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:17:02+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142317&sim_sign=18bb4097cbc2d47efd876f1cab287094
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:17:38+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142317&sim_sign=18bb4097cbc2d47efd876f1cab287094
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:17:39+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142317&sim_sign=18bb4097cbc2d47efd876f1cab287094
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:32:48+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142317&sim_sign=18bb4097cbc2d47efd876f1cab287094
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:34:14+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142317&sim_sign=18bb4097cbc2d47efd876f1cab287094
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:34:15+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142317&sim_sign=18bb4097cbc2d47efd876f1cab287094
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-14T23:35:08+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142317&sim_sign=18bb4097cbc2d47efd876f1cab287094
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:35:09+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142317&sim_sign=18bb4097cbc2d47efd876f1cab287094
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:35:10+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142317&sim_sign=18bb4097cbc2d47efd876f1cab287094
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:37:11+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142317&sim_sign=18bb4097cbc2d47efd876f1cab287094
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:37:13+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142317&sim_sign=18bb4097cbc2d47efd876f1cab287094
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:42:06+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142317&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:42:19+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:42:23+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:42:33+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:49:15+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22coupon%22:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:49:44+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22coupon%22:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:49:46+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22coupon%22:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:49:56+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22coupon%22:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:49:58+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22coupon%22:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:49:59+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22coupon%22:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:50:29+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22coupon%22:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:50:38+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22coupon%22:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-14T23:50:39+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22coupon%22:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:50:59+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22coupon%22:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:51:28+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22coupon%22:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:51:42+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22coupon%22:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:51:44+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:51:45+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:51:46+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:51:57+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-14T23:51:59+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:52:00+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:52:29+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:52:30+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:52:40+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:52:41+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-14T23:52:41+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:52:41+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:52:41+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:52:41+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:52:41+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:52:42+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:52:42+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{coupon:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:52:56+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22coupon%22:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:53:09+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22coupon%22:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:53:24+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22coupon%22:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:55:33+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22coupon%22:2432}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:56:38+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22couponnumber%22:%20%22SIM7421%22,%20%22couponcode%22:%227421%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:56:42+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142342&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22couponnumber%22:%20%22SIM7421%22,%20%22couponcode%22:%227421%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:56:48+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142356&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22couponnumber%22:%20%22SIM7421%22,%20%22couponcode%22:%227421%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:57:04+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142356&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22couponnumber%22:%20%22SIM7421%22,%20%22couponcode%22:%227421%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:57:10+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142357&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22couponnumber%22:%20%22SIM7421%22,%20%22couponcode%22:%227421%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:57:33+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142357&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22couponnumber%22:%20%22SIM7421%22,%20%22couponcode%22:%227421%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:58:23+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142357&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22couponnumber%22:%20%22SIM7421%22,%20%22couponcode%22:%227421%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-14T23:58:36+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142358&sim_sign=18bb4097cbc2d47efd876f1cab287094&sim_data=[{%22couponnumber%22:%20%22SIM7421%22,%20%22couponcode%22:%227421%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:59:19+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142359&sim_sign=2a46dda09de38d0a1cba6a5f9b59551c&sim_data=[{%22couponnumber%22:%20%22SIM7421%22,%20%22couponcode%22:%227421%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-14T23:59:49+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_timestramp=201607142359&sim_sign=2a46dda09de38d0a1cba6a5f9b59551c&sim_data=[{%22couponnumber%22:%20%22SIM7421%22,%20%22couponcode%22:%227421%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: sim_timestramp D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 24 行.
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

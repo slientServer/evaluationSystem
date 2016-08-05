@@ -1,0 +1,1888 @@
+[ 2016-06-15T00:00:00+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/benefitMain.html?timestampForLoad=1465920000347
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920000' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_lotteryaudit` WHERE ( userid= 87 and inserttime>=1465920000 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:00:00+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920000' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:00:04+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/benefitResult.html?timestampForLoad=1465920004681
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920004' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_lotteryaudit` WHERE ( userid= 87 and inserttime>=1465920000 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_lotterytype` WHERE `lotteryratio` >= 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_scoretype` WHERE `typekey` = '登录' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: couponnumber D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 284 行.
+SQL: SHOW COLUMNS FROM `easy_scoreaudit` [ RunTime:0.0030s ]
+SQL: INSERT INTO `easy_scoreaudit` (`userid`,`typekey`,`typename`,`scorevalue`,`changetype`,`inserttime`,`lastmodifytime`) VALUES ('87','','登录','100','ADD','1465920004','1465920004') [ RunTime:0.0710s ]
+SQL: SELECT `score` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `score`='1200' WHERE ( userid=87 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0020s ]
+SQL: INSERT INTO `easy_lotteryaudit` (`userid`,`lotterytype`,`lotterytypekey`,`state`,`listid`,`returndata`,`lotteryvalue`,`lotterycondition`,`inserttime`,`lastmodifytime`) VALUES ('87','scoretype','登录','1','无','无','100','无','1465920004','1465920004') [ RunTime:0.0290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:00:09+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/benefitResult.html?timestampForLoad=1465920009688
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920009' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_lotteryaudit` WHERE ( userid= 87 and inserttime>=1465920000 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:00:10+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/mainMenu.html?timestampForLoad=1465920010109
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920010' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:00:10+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920010' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:00:13+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/benefitMain.html?timestampForLoad=1465920013850
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920013' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_lotteryaudit` WHERE ( userid= 87 and inserttime>=1465920000 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:00:14+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920014' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0050s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:00:45+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920045' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:00:47+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920046' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-15T00:00:52+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/mainMenu.html?timestampForLoad=1465920052559
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920052' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:00:53+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920052' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:00:55+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/benefitMain.html?timestampForLoad=1465920055265
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920055' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_lotteryaudit` WHERE ( userid= 87 and inserttime>=1465920000 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-06-15T00:00:56+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920055' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:01:02+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/benefitResult.html?timestampForLoad=1465920062305
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920062' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_lotteryaudit` WHERE ( userid= 87 and inserttime>=1465920000 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_lotterytype` WHERE `lotteryratio` >= 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_scoretype` WHERE `typekey` = '登录' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: couponnumber D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 284 行.
+SQL: SHOW COLUMNS FROM `easy_scoreaudit` [ RunTime:0.0020s ]
+SQL: INSERT INTO `easy_scoreaudit` (`userid`,`typekey`,`typename`,`scorevalue`,`changetype`,`inserttime`,`lastmodifytime`) VALUES ('87','','登录','100','ADD','1465920062','1465920062') [ RunTime:0.0630s ]
+SQL: SELECT `score` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `score`='1300' WHERE ( userid=87 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0030s ]
+SQL: INSERT INTO `easy_lotteryaudit` (`userid`,`lotterytype`,`lotterytypekey`,`state`,`listid`,`returndata`,`lotteryvalue`,`lotterycondition`,`inserttime`,`lastmodifytime`) VALUES ('87','scoretype','登录','1','无','无','100','无','1465920062','1465920062') [ RunTime:0.0210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:01:31+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920090' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-06-15T00:01:32+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920092' WHERE `openid` = ' OPENID' [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:01:39+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/mainMenu.html?timestampForLoad=1465920099094
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920099' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-15T00:01:39+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920099' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:01:41+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/benefitMain.html?timestampForLoad=1465920101391
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920101' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_lotteryaudit` WHERE ( userid= 87 and inserttime>=1465920000 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:01:42+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920101' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:01:53+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/benefitResult.html?timestampForLoad=1465920112745
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920112' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_lotteryaudit` WHERE ( userid= 87 and inserttime>=1465920000 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_lotterytype` WHERE `lotteryratio` >= 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `easy_scoretype` WHERE `typekey` = '登录' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: couponnumber D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 284 行.
+SQL: SHOW COLUMNS FROM `easy_scoreaudit` [ RunTime:0.0020s ]
+SQL: INSERT INTO `easy_scoreaudit` (`userid`,`typekey`,`typename`,`scorevalue`,`changetype`,`inserttime`,`lastmodifytime`) VALUES ('87','','登录','100','ADD','1465920112','1465920112') [ RunTime:0.0740s ]
+SQL: SELECT `score` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `score`='1400' WHERE ( userid=87 ) [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::updateScore() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 36 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 45 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0040s ]
+SQL: INSERT INTO `easy_lotteryaudit` (`userid`,`lotterytype`,`lotterytypekey`,`state`,`listid`,`returndata`,`lotteryvalue`,`lotterycondition`,`inserttime`,`lastmodifytime`) VALUES ('87','scoretype','登录','1','无','无','100','无','1465920113','1465920113') [ RunTime:0.0540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:02:06+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920125' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-15T00:02:07+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920127' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:02:28+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920148' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:02:30+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920149' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:02:50+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920169' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-15T00:02:51+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920171' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-15T00:02:59+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/mainMenu.html?timestampForLoad=1465920179237
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920179' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:03:00+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920179' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:03:03+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/benefitMain.html?timestampForLoad=1465920183402
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920183' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_lotteryaudit` WHERE ( userid= 87 and inserttime>=1465920000 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:03:04+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920183' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:03:09+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/benefitResult.html?timestampForLoad=1465920188673
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920188' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_lotteryaudit` WHERE ( userid= 87 and inserttime>=1465920000 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_lotterytype` WHERE `lotteryratio` >= 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_scoretype` WHERE `typekey` = '登录' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: couponnumber D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 284 行.
+SQL: SHOW COLUMNS FROM `easy_scoreaudit` [ RunTime:0.0020s ]
+SQL: INSERT INTO `easy_scoreaudit` (`userid`,`typekey`,`typename`,`scorevalue`,`changetype`,`inserttime`,`lastmodifytime`) VALUES ('87','','登录','100','ADD','1465920188','1465920188') [ RunTime:0.0680s ]
+SQL: SELECT `score` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `score`='1500' WHERE ( userid=87 ) [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::updateScore() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 36 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 45 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0020s ]
+SQL: INSERT INTO `easy_lotteryaudit` (`userid`,`lotterytype`,`lotterytypekey`,`state`,`listid`,`returndata`,`lotteryvalue`,`lotterycondition`,`inserttime`,`lastmodifytime`) VALUES ('87','scoretype','登录','1','无','无','100','无','1465920189','1465920189') [ RunTime:0.0690s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-15T00:03:13+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920192' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:03:14+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920194' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-15T00:03:33+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/mainMenu.html?timestampForLoad=1465920213056
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920213' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-06-15T00:03:33+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920213' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:03:52+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/exchangeCenter.html?timestampForLoad=1465920232288
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920232' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_scoreproduct` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_scoreproduct` WHERE `scoreproductleft` > 0  [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 33 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:03:53+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920232' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-15T00:03:56+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/confirmExchangeInfo.html?scoreproductid=18&timestampForLoad=1465920236575
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920236' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_scoreproduct` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_scoreproduct` WHERE ( scoreproductid=18 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant sizel - assumed 'sizel' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\14658e49347c8077a7dafcc23a718473.php 第 213 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\14658e49347c8077a7dafcc23a718473.php 第 213 行.
+NOTIC: [8] Use of undefined constant sizel - assumed 'sizel' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\14658e49347c8077a7dafcc23a718473.php 第 218 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\14658e49347c8077a7dafcc23a718473.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:04:44+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/exchangeCenter.html?timestampForLoad=1465920283698
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920283' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_scoreproduct` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_scoreproduct` WHERE `scoreproductleft` > 0  [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 33 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-15T00:04:44+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920284' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:04:46+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/confirmExchangeInfo.html?scoreproductid=18&timestampForLoad=1465920286071
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920286' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_scoreproduct` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_scoreproduct` WHERE ( scoreproductid=18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: productid D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\14658e49347c8077a7dafcc23a718473.php 第 220 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:04:59+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/confirmExchangeFinal.html?scoreproductid=18&name=12344443fdsafdsa546&phone=13901958937&mainaddress=%E5%8C%97%E4%BA%AC%E5%B8%82+%E5%8C%97%E4%BA%AC%E5%B8%82+%E4%B8%9C%E5%9F%8E%E5%8C%BA&address=fsdafsa&size=avg&timestampForLoad=1465920298206
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920298' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 33 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_scoreproduct` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_scoreproduct` WHERE ( scoreproductid=18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: UPDATE `easy_member_user` SET `score`='152' WHERE ( userid=87 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `easy_order` (`userid`,`orderid`,`recipientname`,`recipientphone`,`mainaddress`,`recipientaddress`,`productid`,`productname`,`productprice`,`producttypekey`,`productnum`,`orderstate`,`size`,`inserttime`,`lastmodifytime`) VALUES ('87','PE1465920298930','12344443fdsafdsa546','13901958937','北京市 北京市 东城区','fsdafsa','18','兑换商品','50','scoreproduct','1','2','avg','1465920298','1465920298') [ RunTime:0.0730s ]
+SQL: UPDATE `easy_scoreproduct` SET `sizeavg`='0' WHERE ( scoreproductid=18 ) [ RunTime:0.0540s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::updateScore() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 40 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 45 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: product D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\477f6fed21ff95c3321715d3ac596627.php 第 16 行.
+NOTIC: [8] Undefined variable: product D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\477f6fed21ff95c3321715d3ac596627.php 第 18 行.
+NOTIC: [8] Undefined variable: product D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\477f6fed21ff95c3321715d3ac596627.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-15T00:05:05+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920305' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:05:07+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920306' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-15T00:05:44+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/mainMenu.html?timestampForLoad=1465920344759
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920344' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:05:45+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920344' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-06-15T00:05:47+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/exchangeCenter.html?timestampForLoad=1465920346998
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920347' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_scoreproduct` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_scoreproduct` WHERE `scoreproductleft` > 0  [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 33 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:05:48+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920347' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:05:50+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/confirmExchangeInfo.html?scoreproductid=18&timestampForLoad=1465920350049
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920350' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_scoreproduct` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_scoreproduct` WHERE ( scoreproductid=18 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: productid D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\14658e49347c8077a7dafcc23a718473.php 第 220 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:05:59+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/Index/WScreen/confirmExchangeFinal.html?scoreproductid=18&name=12344443fdsafdsa546&phone=13901958937&mainaddress=%E5%8C%97%E4%BA%AC%E5%B8%82+%E5%8C%97%E4%BA%AC%E5%B8%82+%E4%B8%9C%E5%9F%8E%E5%8C%BA&address=fsdafsa&size=xl&timestampForLoad=1465920358560
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920358' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 33 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_scoreproduct` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_scoreproduct` WHERE ( scoreproductid=18 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: UPDATE `easy_member_user` SET `score`='102' WHERE ( userid=87 ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `easy_order` (`userid`,`orderid`,`recipientname`,`recipientphone`,`mainaddress`,`recipientaddress`,`productid`,`productname`,`productprice`,`producttypekey`,`productnum`,`orderstate`,`size`,`inserttime`,`lastmodifytime`) VALUES ('87','PE1465920358873','12344443fdsafdsa546','13901958937','北京市 北京市 东城区','fsdafsa','18','兑换商品','50','scoreproduct','1','2','xl','1465920358','1465920358') [ RunTime:0.1390s ]
+SQL: UPDATE `easy_scoreproduct` SET `sizexl`='0' WHERE ( scoreproductid=18 ) [ RunTime:0.0990s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::updateScore() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 40 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 45 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: product D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\477f6fed21ff95c3321715d3ac596627.php 第 16 行.
+NOTIC: [8] Undefined variable: product D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\477f6fed21ff95c3321715d3ac596627.php 第 18 行.
+NOTIC: [8] Undefined variable: product D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\477f6fed21ff95c3321715d3ac596627.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-15T00:06:03+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920363' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T00:06:05+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1465920364' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 6 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 92 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

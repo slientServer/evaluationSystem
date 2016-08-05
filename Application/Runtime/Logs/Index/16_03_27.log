@@ -1,0 +1,18 @@
+[ 2016-03-27T12:00:46+08:00 ] ::1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+
+[ 2016-03-27T14:21:49+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+
+[ 2016-03-27T14:22:00+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+

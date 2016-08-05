@@ -1,0 +1,18 @@
+优惠券注销接口
+
+Url: http://www.thesimpsonschina.com/Admin/Couponverify/verifyCoupon
+
+Post parameters:
+
+sim_timestramp: 201607142359   Year(4位)Month(2位)Day(2位)Hour(2位)Minute(2位)
+sim_sign: md5(md5("simpsonsCMS7421")[前16位]md5("s@A&1247*#")[前16位]sim_timestramp)
+sim_data: [{"couponnumber": "SIM7421", "couponcode": "7421"}]
+
+
+Response:
+
+	array('code' => '1000', 'id'=> '7421') //成功
+	'1004'; //优惠券码无效
+	'1002'; //签名失败
+	'1003';//时间戳错误
+	'1001'; //功能未开启

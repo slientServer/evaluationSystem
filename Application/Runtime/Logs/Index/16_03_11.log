@@ -1,0 +1,1610 @@
+[ 2016-03-11T22:16:52+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T22:16:56+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `nickname`='Brian',`photosrc`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLD1CoqaOVO33GicvV7oyFaJ5FF0lCJZv2Zeq2ia9ibm9nbWPwhoOYjjoY10aicV8licAbn1deXzWgia886A/0' WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 72 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T22:16:57+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/oriantationNotification?timestampForLoad=1457705817107
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T22:19:13+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457705953270
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T22:50:05+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T22:50:08+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=&code=01193d870377019e541c5fc628e3f4c1&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `nickname`='Brian',`photosrc`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLD1CoqaOVO33GicvV7oyFaJ5FF0lCJZv2Zeq2ia9ibm9nbWPwhoOYjjoY10aicV8licAbn1deXzWgia886A/0' WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 72 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-11T22:50:12+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457707812731
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+
+[ 2016-03-11T22:53:52+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=&code=01193d870377019e541c5fc628e3f4c1&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T22:53:56+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=&code=01193d870377019e541c5fc628e3f4c1&state=&code=00101a85c55f3be72918530c68333043&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `nickname`='Brian',`photosrc`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLD1CoqaOVO33GicvV7oyFaJ5FF0lCJZv2Zeq2ia9ibm9nbWPwhoOYjjoY10aicV8licAbn1deXzWgia886A/0' WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 72 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T22:57:19+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=&code=01193d870377019e541c5fc628e3f4c1&state=&code=00101a85c55f3be72918530c68333043&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T22:57:22+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457708242214
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-11T22:58:05+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=&code=01193d870377019e541c5fc628e3f4c1&state=&code=00101a85c55f3be72918530c68333043&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T22:58:08+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457708288454
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-11T23:00:19+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=&code=01193d870377019e541c5fc628e3f4c1&state=&code=00101a85c55f3be72918530c68333043&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:00:22+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457708422311
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-11T23:00:31+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=&code=01193d870377019e541c5fc628e3f4c1&state=&code=00101a85c55f3be72918530c68333043&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+
+[ 2016-03-11T23:00:35+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=&code=01193d870377019e541c5fc628e3f4c1&state=&code=00101a85c55f3be72918530c68333043&state=&code=01172b9ee44e9085f9bda6e0e45891af&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `nickname`='Brian',`photosrc`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLD1CoqaOVO33GicvV7oyFaJ5FF0lCJZv2Zeq2ia9ibm9nbWPwhoOYjjoY10aicV8licAbn1deXzWgia886A/0' WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 72 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:00:37+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457708437282
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T23:00:52+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=&code=01193d870377019e541c5fc628e3f4c1&state=&code=00101a85c55f3be72918530c68333043&state=&code=01172b9ee44e9085f9bda6e0e45891af&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: oauth D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 53 行.
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: oauth D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 56 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 58 行.
+SQL: INSERT INTO `easy_member_user` (`openid`,`nickname`,`photosrc`) VALUES (NULL,NULL,NULL) [ RunTime:0.0340s ]
+NOTIC: [8] Undefined variable: oauth D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: oauth D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 62 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 63 行.
+NOTIC: [8] Undefined variable: oauth D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 65 行.
+NOTIC: [8] Undefined variable: oauth D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:00:54+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457708454670
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: oauth D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 53 行.
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: oauth D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 56 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 58 行.
+SQL: INSERT INTO `easy_member_user` (`openid`,`nickname`,`photosrc`) VALUES (NULL,NULL,NULL) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: oauth D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: oauth D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 62 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 63 行.
+NOTIC: [8] Undefined variable: oauth D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 65 行.
+NOTIC: [8] Undefined variable: oauth D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-03-11T23:01:49+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=&code=01193d870377019e541c5fc628e3f4c1&state=&code=00101a85c55f3be72918530c68333043&state=&code=01172b9ee44e9085f9bda6e0e45891af&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 58 行.
+SQL: INSERT INTO `easy_member_user` (`openid`,`nickname`,`photosrc`) VALUES (NULL,NULL,NULL) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:01:51+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457708511627
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 58 行.
+SQL: INSERT INTO `easy_member_user` (`openid`,`nickname`,`photosrc`) VALUES (NULL,NULL,NULL) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-11T23:02:04+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=&code=01193d870377019e541c5fc628e3f4c1&state=&code=00101a85c55f3be72918530c68333043&state=&code=01172b9ee44e9085f9bda6e0e45891af&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+
+[ 2016-03-11T23:02:08+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=&code=01193d870377019e541c5fc628e3f4c1&state=&code=00101a85c55f3be72918530c68333043&state=&code=01172b9ee44e9085f9bda6e0e45891af&state=&code=011346e2126d2f08630b27f9d8e5731Z&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 69 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 70 行.
+SQL: UPDATE `easy_member_user` SET `nickname`=NULL,`photosrc`=NULL WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 75 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:02:10+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457708530147
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T23:02:24+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=&code=01193d870377019e541c5fc628e3f4c1&state=&code=00101a85c55f3be72918530c68333043&state=&code=01172b9ee44e9085f9bda6e0e45891af&state=&code=011346e2126d2f08630b27f9d8e5731Z&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 58 行.
+SQL: INSERT INTO `easy_member_user` (`openid`,`nickname`,`photosrc`) VALUES (NULL,NULL,NULL) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-11T23:02:30+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457708550054
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 58 行.
+SQL: INSERT INTO `easy_member_user` (`openid`,`nickname`,`photosrc`) VALUES (NULL,NULL,NULL) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-11T23:02:49+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=&code=01193d870377019e541c5fc628e3f4c1&state=&code=00101a85c55f3be72918530c68333043&state=&code=01172b9ee44e9085f9bda6e0e45891af&state=&code=011346e2126d2f08630b27f9d8e5731Z&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\bf04dbfa7886155a2502952e262d518b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.182010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.182010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:02:53+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=&code=01193d870377019e541c5fc628e3f4c1&state=&code=00101a85c55f3be72918530c68333043&state=&code=01172b9ee44e9085f9bda6e0e45891af&state=&code=011346e2126d2f08630b27f9d8e5731Z&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\bf04dbfa7886155a2502952e262d518b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-11T23:02:57+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=&code=01193d870377019e541c5fc628e3f4c1&state=&code=00101a85c55f3be72918530c68333043&state=&code=01172b9ee44e9085f9bda6e0e45891af&state=&code=011346e2126d2f08630b27f9d8e5731Z&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\bf04dbfa7886155a2502952e262d518b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-11T23:03:00+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=&code=01193d870377019e541c5fc628e3f4c1&state=&code=00101a85c55f3be72918530c68333043&state=&code=01172b9ee44e9085f9bda6e0e45891af&state=&code=011346e2126d2f08630b27f9d8e5731Z&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\bf04dbfa7886155a2502952e262d518b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:03:06+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=&code=01193d870377019e541c5fc628e3f4c1&state=&code=00101a85c55f3be72918530c68333043&state=&code=01172b9ee44e9085f9bda6e0e45891af&state=&code=031a0f199f2b35f28df5dd2c4bb2998c&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `nickname`='Brian',`photosrc`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLD1CoqaOVO33GicvV7oyFaJ5FF0lCJZv2Zeq2ia9ibm9nbWPwhoOYjjoY10aicV8licAbn1deXzWgia886A/0' WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 72 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-11T23:19:22+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=&code=01193d870377019e541c5fc628e3f4c1&state=&code=00101a85c55f3be72918530c68333043&state=&code=01172b9ee44e9085f9bda6e0e45891af&state=&code=031a0f199f2b35f28df5dd2c4bb2998c&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\bf04dbfa7886155a2502952e262d518b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-11T23:19:26+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=00118e34f08af79b6ce0c929f885669x&state=&code=0012593921bcb1d07c1915a618e1733F&state=&code=01193d870377019e541c5fc628e3f4c1&state=&code=00101a85c55f3be72918530c68333043&state=&code=01172b9ee44e9085f9bda6e0e45891af&state=&code=031a0f199f2b35f28df5dd2c4bb2998c&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\bf04dbfa7886155a2502952e262d518b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:24:02+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+
+[ 2016-03-11T23:24:49+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=
+WARN: 
+[ 2016-03-11T23:24:49+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T23:24:52+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=
+WARN: Array
+[ 2016-03-11T23:24:52+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Log.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `nickname`='Brian',`photosrc`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLD1CoqaOVO33GicvV7oyFaJ5FF0lCJZv2Zeq2ia9ibm9nbWPwhoOYjjoY10aicV8licAbn1deXzWgia886A/0' WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 74 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 78 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:27:11+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=
+WARN: 
+[ 2016-03-11T23:27:11+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T23:27:15+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=
+WARN: 
+[ 2016-03-11T23:27:15+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `nickname`='Brian',`photosrc`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLD1CoqaOVO33GicvV7oyFaJ5FF0lCJZv2Zeq2ia9ibm9nbWPwhoOYjjoY10aicV8licAbn1deXzWgia886A/0' WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 74 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 78 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:29:22+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=
+ERROR: 
+[ 2016-03-11T23:29:22+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T23:29:25+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=
+ERROR: 
+[ 2016-03-11T23:29:25+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `nickname`='Brian',`photosrc`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLD1CoqaOVO33GicvV7oyFaJ5FF0lCJZv2Zeq2ia9ibm9nbWPwhoOYjjoY10aicV8licAbn1deXzWgia886A/0' WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 74 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 78 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:29:55+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=
+ERROR: 
+[ 2016-03-11T23:29:55+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=
+ERROR: 
+[ 2016-03-11T23:29:55+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=
+ERROR: 
+[ 2016-03-11T23:29:55+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T23:29:58+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=
+ERROR: 
+[ 2016-03-11T23:29:58+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=
+ERROR: 
+[ 2016-03-11T23:29:58+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=
+ERROR: 
+[ 2016-03-11T23:29:59+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 45 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `nickname`='Brian',`photosrc`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLD1CoqaOVO33GicvV7oyFaJ5FF0lCJZv2Zeq2ia9ibm9nbWPwhoOYjjoY10aicV8licAbn1deXzWgia886A/0' WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 80 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:40:26+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=
+ERROR: 
+[ 2016-03-11T23:40:26+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=
+ERROR: ||
+[ 2016-03-11T23:40:26+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=
+ERROR: 
+[ 2016-03-11T23:40:26+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=
+ERROR: ||
+[ 2016-03-11T23:40:26+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=
+ERROR: 
+[ 2016-03-11T23:40:26+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T23:40:29+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=
+ERROR: 
+[ 2016-03-11T23:40:29+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=
+ERROR: ||
+[ 2016-03-11T23:40:29+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=
+ERROR: 
+[ 2016-03-11T23:40:29+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=
+ERROR: ||
+[ 2016-03-11T23:40:29+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=
+ERROR: 
+[ 2016-03-11T23:40:29+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 45 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 47 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `easy_member_user` SET `nickname`='Brian',`photosrc`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLD1CoqaOVO33GicvV7oyFaJ5FF0lCJZv2Zeq2ia9ibm9nbWPwhoOYjjoY10aicV8licAbn1deXzWgia886A/0' WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 78 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 82 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:40:58+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=
+ERROR: 
+[ 2016-03-11T23:40:58+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=
+ERROR: ||
+[ 2016-03-11T23:40:58+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=
+ERROR: 
+[ 2016-03-11T23:40:58+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=
+ERROR: ||
+[ 2016-03-11T23:40:58+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=
+ERROR: 
+[ 2016-03-11T23:40:58+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+
+[ 2016-03-11T23:41:01+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=
+ERROR: 
+[ 2016-03-11T23:41:01+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=
+ERROR: ||
+[ 2016-03-11T23:41:01+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=
+ERROR: 
+[ 2016-03-11T23:41:01+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=
+ERROR: ||
+[ 2016-03-11T23:41:01+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=
+ERROR: 
+[ 2016-03-11T23:41:01+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 45 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 47 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `nickname`='Brian',`photosrc`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLD1CoqaOVO33GicvV7oyFaJ5FF0lCJZv2Zeq2ia9ibm9nbWPwhoOYjjoY10aicV8licAbn1deXzWgia886A/0' WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 78 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 82 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:42:37+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=
+ERROR: 
+[ 2016-03-11T23:42:37+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=
+ERROR: ||
+[ 2016-03-11T23:42:37+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=
+ERROR: 
+[ 2016-03-11T23:42:37+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=
+ERROR: ||
+[ 2016-03-11T23:42:37+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=
+ERROR: 
+[ 2016-03-11T23:42:37+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T23:43:58+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=
+ERROR: 1
+[ 2016-03-11T23:43:58+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T23:44:01+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=
+ERROR: 
+[ 2016-03-11T23:44:01+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `nickname`='Brian',`photosrc`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLD1CoqaOVO33GicvV7oyFaJ5FF0lCJZv2Zeq2ia9ibm9nbWPwhoOYjjoY10aicV8licAbn1deXzWgia886A/0' WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 74 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 78 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:44:11+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=
+ERROR: 1
+[ 2016-03-11T23:44:11+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T23:44:15+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=
+ERROR: 
+[ 2016-03-11T23:44:15+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `nickname`='Brian',`photosrc`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLD1CoqaOVO33GicvV7oyFaJ5FF0lCJZv2Zeq2ia9ibm9nbWPwhoOYjjoY10aicV8licAbn1deXzWgia886A/0' WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 74 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 78 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:45:01+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=
+ERROR: 1
+[ 2016-03-11T23:45:01+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=
+WARN: fsdafffffffffffff
+[ 2016-03-11T23:45:01+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T23:45:04+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=
+ERROR: 
+[ 2016-03-11T23:45:04+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `nickname`='Brian',`photosrc`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLD1CoqaOVO33GicvV7oyFaJ5FF0lCJZv2Zeq2ia9ibm9nbWPwhoOYjjoY10aicV8licAbn1deXzWgia886A/0' WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 75 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 79 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:49:52+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457711392738
+ERROR: 1
+[ 2016-03-11T23:49:52+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457711392738
+WARN: fsdafffffffffffff
+[ 2016-03-11T23:49:52+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457711392738
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T23:50:22+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=
+ERROR: 1
+[ 2016-03-11T23:50:22+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=
+WARN: fsdafffffffffffff
+[ 2016-03-11T23:50:22+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=
+WARN: fsdafffffffffffff22
+[ 2016-03-11T23:50:22+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T23:50:25+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=
+ERROR: 
+[ 2016-03-11T23:50:25+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=
+WARN: fsdafffffffffffff
+[ 2016-03-11T23:50:25+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `nickname`='Brian',`photosrc`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLD1CoqaOVO33GicvV7oyFaJ5FF0lCJZv2Zeq2ia9ibm9nbWPwhoOYjjoY10aicV8licAbn1deXzWgia886A/0' WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 80 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:51:58+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=
+ERROR: 
+[ 2016-03-11T23:51:58+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=
+WARN: fsdafffffffffffff
+[ 2016-03-11T23:51:58+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=
+WARN: fsdafffffffffffff22
+[ 2016-03-11T23:51:58+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+
+[ 2016-03-11T23:52:01+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=
+ERROR: Array
+[ 2016-03-11T23:52:01+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=
+WARN: fsdafffffffffffff
+[ 2016-03-11T23:52:01+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Log.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `nickname`='Brian',`photosrc`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLD1CoqaOVO33GicvV7oyFaJ5FF0lCJZv2Zeq2ia9ibm9nbWPwhoOYjjoY10aicV8licAbn1deXzWgia886A/0' WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 80 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:53:28+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=
+ERROR: 
+[ 2016-03-11T23:53:28+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=
+WARN: fsdafffffffffffff
+[ 2016-03-11T23:53:28+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=
+WARN: fsdafffffffffffff22
+[ 2016-03-11T23:53:28+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T23:54:41+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T23:54:45+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=&code=001855b4e1cbf5a5ae61ab48ff3906bJ&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `nickname`='Brian',`photosrc`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLD1CoqaOVO33GicvV7oyFaJ5FF0lCJZv2Zeq2ia9ibm9nbWPwhoOYjjoY10aicV8licAbn1deXzWgia886A/0' WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 73 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 77 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:54:56+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457711696740
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T23:55:09+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=&code=001855b4e1cbf5a5ae61ab48ff3906bJ&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\bf04dbfa7886155a2502952e262d518b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:55:12+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=&code=001855b4e1cbf5a5ae61ab48ff3906bJ&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\bf04dbfa7886155a2502952e262d518b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-11T23:55:18+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=&code=041450dc941367f32ff04be36d2eb275&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `nickname`='Brian',`photosrc`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLD1CoqaOVO33GicvV7oyFaJ5FF0lCJZv2Zeq2ia9ibm9nbWPwhoOYjjoY10aicV8licAbn1deXzWgia886A/0' WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 73 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 77 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:55:21+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457711720978
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-03-11T23:55:22+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457711722640
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-03-11T23:55:33+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=&code=041450dc941367f32ff04be36d2eb275&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\bf04dbfa7886155a2502952e262d518b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-11T23:55:37+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=&code=041450dc941367f32ff04be36d2eb275&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\bf04dbfa7886155a2502952e262d518b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:55:43+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=&code=011da1c26952bc06e37b4535eba3c24y&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `nickname`='Brian',`photosrc`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLD1CoqaOVO33GicvV7oyFaJ5FF0lCJZv2Zeq2ia9ibm9nbWPwhoOYjjoY10aicV8licAbn1deXzWgia886A/0' WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 73 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 77 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:55:45+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457711745314
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+NOTIC: [8] Undefined index: navTabId D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-03-11T23:55:58+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=&code=011da1c26952bc06e37b4535eba3c24y&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 59 行.
+SQL: INSERT INTO `easy_member_user` (`openid`,`nickname`,`photosrc`) VALUES (NULL,NULL,NULL) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:56:04+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457711764072
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 59 行.
+SQL: INSERT INTO `easy_member_user` (`openid`,`nickname`,`photosrc`) VALUES (NULL,NULL,NULL) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-11T23:56:21+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=&code=011da1c26952bc06e37b4535eba3c24y&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T23:56:25+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=&code=011da1c26952bc06e37b4535eba3c24y&state=&code=0118a9877ba2c93aaddb590bb1be672-&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 70 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 71 行.
+SQL: UPDATE `easy_member_user` SET `nickname`=NULL,`photosrc`=NULL WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 77 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-11T23:56:27+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457711787241
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T23:56:59+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=&code=011da1c26952bc06e37b4535eba3c24y&state=&code=0118a9877ba2c93aaddb590bb1be672-&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 59 行.
+SQL: INSERT INTO `easy_member_user` (`openid`,`nickname`,`photosrc`) VALUES (NULL,NULL,NULL) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:57:02+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457711822064
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 59 行.
+SQL: INSERT INTO `easy_member_user` (`openid`,`nickname`,`photosrc`) VALUES (NULL,NULL,NULL) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-11T23:57:54+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=&code=011da1c26952bc06e37b4535eba3c24y&state=&code=0118a9877ba2c93aaddb590bb1be672-&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:58:22+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=&code=011da1c26952bc06e37b4535eba3c24y&state=&code=0118a9877ba2c93aaddb590bb1be672-&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:58:26+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=&code=011da1c26952bc06e37b4535eba3c24y&state=&code=0118a9877ba2c93aaddb590bb1be672-&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-11T23:58:36+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=&code=011da1c26952bc06e37b4535eba3c24y&state=&code=0118a9877ba2c93aaddb590bb1be672-&state=
+ERR: https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxe34ce79030a5dfbe&redirect_uri=http%3A%2F%2Fwww.foundpark.com%2Fworkspace%2Fsimpsons%2Ftrunk%2Fserver%2Findex.php%2FIndex%2FWScreen%2Findex%3Fcode%3D0218e80c72b3440d0ca0b7e8d879f54e%26state%3D%26code%3D011bbc859b90b686b5649819ddabb14U%26state%3D%26code%3D0112c4b8ffbaeedaa13e5863253f875D%26state%3D%26code%3D021fd6ec2ad179b5c47e382ed1989ca1%26state%3D%26code%3D031475b900edc5eb604578a0e73c27aD%26state%3D%26code%3D0412f01b0de9629159aee2d8f59c4380%26state%3D%26code%3D041f4c1287457dcb51562d214b7638dp%26state%3D%26code%3D011ed6828d262c0fa646ea12fe5da804%26state%3D%26code%3D031bb209dcae6bafc5a71a18f5cee44O%26state%3D%26code%3D01142556ce4f0d6528aa0668c372209d%26state%3D%26code%3D031349bc4c0f7e406bac8329ff48c19E%26state%3D%26code%3D0413ca0c8104ecb67ef0c4412eb5657J%26state%3D%26code%3D011da1c26952bc06e37b4535eba3c24y%26state%3D%26code%3D0118a9877ba2c93aaddb590bb1be672-%26state%3D&response_type=code&scope=snsapi_userinfo&state=#wechat_redirect
+[ 2016-03-11T23:58:36+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=&code=011da1c26952bc06e37b4535eba3c24y&state=&code=0118a9877ba2c93aaddb590bb1be672-&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T23:58:39+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=&code=011da1c26952bc06e37b4535eba3c24y&state=&code=0118a9877ba2c93aaddb590bb1be672-&state=&code=00198a762744b835e33e682906bbbdfU&state=
+ERR: https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxe34ce79030a5dfbe&redirect_uri=http%3A%2F%2Fwww.foundpark.com%2Fworkspace%2Fsimpsons%2Ftrunk%2Fserver%2Findex.php%2FIndex%2FWScreen%2Findex%3Fcode%3D0218e80c72b3440d0ca0b7e8d879f54e%26state%3D%26code%3D011bbc859b90b686b5649819ddabb14U%26state%3D%26code%3D0112c4b8ffbaeedaa13e5863253f875D%26state%3D%26code%3D021fd6ec2ad179b5c47e382ed1989ca1%26state%3D%26code%3D031475b900edc5eb604578a0e73c27aD%26state%3D%26code%3D0412f01b0de9629159aee2d8f59c4380%26state%3D%26code%3D041f4c1287457dcb51562d214b7638dp%26state%3D%26code%3D011ed6828d262c0fa646ea12fe5da804%26state%3D%26code%3D031bb209dcae6bafc5a71a18f5cee44O%26state%3D%26code%3D01142556ce4f0d6528aa0668c372209d%26state%3D%26code%3D031349bc4c0f7e406bac8329ff48c19E%26state%3D%26code%3D0413ca0c8104ecb67ef0c4412eb5657J%26state%3D%26code%3D011da1c26952bc06e37b4535eba3c24y%26state%3D%26code%3D0118a9877ba2c93aaddb590bb1be672-%26state%3D%26code%3D00198a762744b835e33e682906bbbdfU%26state%3D&response_type=code&scope=snsapi_userinfo&state=#wechat_redirect
+[ 2016-03-11T23:58:39+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=&code=011da1c26952bc06e37b4535eba3c24y&state=&code=0118a9877ba2c93aaddb590bb1be672-&state=&code=00198a762744b835e33e682906bbbdfU&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 72 行.
+SQL: UPDATE `easy_member_user` SET `nickname`=NULL,`photosrc`=NULL WHERE `openid` = 'oO9Rqs3wB38dm7FCGjEYwBmE5oeY' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 77 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 78 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-11T23:58:42+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457711922563
+ERR: https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxe34ce79030a5dfbe&redirect_uri=http%3A%2F%2Fwww.foundpark.com%2Fworkspace%2Fsimpsons%2Ftrunk%2Fserver%2Findex.php%2FIndex%2FWScreen%2FshowUserLogin%3FtimestampForLoad%3D1457711922563&response_type=code&scope=snsapi_userinfo&state=#wechat_redirect
+[ 2016-03-11T23:58:42+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457711922563
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+
+[ 2016-03-11T23:59:15+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=&code=011da1c26952bc06e37b4535eba3c24y&state=&code=0118a9877ba2c93aaddb590bb1be672-&state=&code=00198a762744b835e33e682906bbbdfU&state=
+ERR: https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxe34ce79030a5dfbe&redirect_uri=http%3A%2F%2Fwww.foundpark.com%2Fworkspace%2Fsimpsons%2Ftrunk%2Fserver%2Findex.php%2FIndex%2FWScreen%2Findex%3Fcode%3D0218e80c72b3440d0ca0b7e8d879f54e%26state%3D%26code%3D011bbc859b90b686b5649819ddabb14U%26state%3D%26code%3D0112c4b8ffbaeedaa13e5863253f875D%26state%3D%26code%3D021fd6ec2ad179b5c47e382ed1989ca1%26state%3D%26code%3D031475b900edc5eb604578a0e73c27aD%26state%3D%26code%3D0412f01b0de9629159aee2d8f59c4380%26state%3D%26code%3D041f4c1287457dcb51562d214b7638dp%26state%3D%26code%3D011ed6828d262c0fa646ea12fe5da804%26state%3D%26code%3D031bb209dcae6bafc5a71a18f5cee44O%26state%3D%26code%3D01142556ce4f0d6528aa0668c372209d%26state%3D%26code%3D031349bc4c0f7e406bac8329ff48c19E%26state%3D%26code%3D0413ca0c8104ecb67ef0c4412eb5657J%26state%3D%26code%3D011da1c26952bc06e37b4535eba3c24y%26state%3D%26code%3D0118a9877ba2c93aaddb590bb1be672-%26state%3D%26code%3D00198a762744b835e33e682906bbbdfU%26state%3D&response_type=code&scope=snsapi_userinfo&state=#wechat_redirect
+[ 2016-03-11T23:59:16+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index?code=0218e80c72b3440d0ca0b7e8d879f54e&state=&code=011bbc859b90b686b5649819ddabb14U&state=&code=0112c4b8ffbaeedaa13e5863253f875D&state=&code=021fd6ec2ad179b5c47e382ed1989ca1&state=&code=031475b900edc5eb604578a0e73c27aD&state=&code=0412f01b0de9629159aee2d8f59c4380&state=&code=041f4c1287457dcb51562d214b7638dp&state=&code=011ed6828d262c0fa646ea12fe5da804&state=&code=031bb209dcae6bafc5a71a18f5cee44O&state=&code=01142556ce4f0d6528aa0668c372209d&state=&code=031349bc4c0f7e406bac8329ff48c19E&state=&code=0413ca0c8104ecb67ef0c4412eb5657J&state=&code=011da1c26952bc06e37b4535eba3c24y&state=&code=0118a9877ba2c93aaddb590bb1be672-&state=&code=00198a762744b835e33e682906bbbdfU&state=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 60 行.
+SQL: INSERT INTO `easy_member_user` (`openid`,`nickname`,`photosrc`) VALUES (NULL,NULL,NULL) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 65 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-11T23:59:19+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457711959683
+ERR: https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxe34ce79030a5dfbe&redirect_uri=http%3A%2F%2Fwww.foundpark.com%2Fworkspace%2Fsimpsons%2Ftrunk%2Fserver%2Findex.php%2FIndex%2FWScreen%2FshowUserLogin%3FtimestampForLoad%3D1457711959683&response_type=code&scope=snsapi_userinfo&state=#wechat_redirect
+[ 2016-03-11T23:59:19+08:00 ] 127.0.0.1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/showUserLogin?timestampForLoad=1457711959683
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_category` WHERE ( isverify=1 and isshow=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 60 行.
+SQL: INSERT INTO `easy_member_user` (`openid`,`nickname`,`photosrc`) VALUES (NULL,NULL,NULL) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 65 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

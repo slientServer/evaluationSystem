@@ -1,0 +1,1852 @@
+[ 2016-07-24T00:00:08+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:00:11+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html?_=1469289611519
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 366 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 367 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-24T00:00:12+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/add?_=1469289612940
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:00:56+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:01:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html?_=1469289659965
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 366 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 367 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:01:01+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/add?_=1469289661439
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-24T00:02:04+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:02:06+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html?_=1469289726760
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 366 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 367 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:02:13+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/delete/coupontypeid/13/navTabId/listcoupons
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SELECT `couponkey` FROM `easy_coupontype` WHERE `coupontypeid` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_lotterytype` WHERE `lotterytypekey` = '折扣券' LIMIT 1   [ RunTime:0.0020s ]
+SQL: DELETE FROM `easy_coupontype` WHERE `coupontypeid` IN ('13') [ RunTime:0.0950s ]
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-07-24T00:02:13+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html?pageNum=1&numPerPage=10&_order=&_sort=&_=1469289733382
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 366 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 367 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:02:18+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/delete/coupontypeid/14/navTabId/listcoupons
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0020s ]
+SQL: SELECT `couponkey` FROM `easy_coupontype` WHERE `coupontypeid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotterytype` WHERE `lotterytypekey` = '现金券' LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `easy_coupontype` WHERE `coupontypeid` IN ('14') [ RunTime:0.1040s ]
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-07-24T00:02:18+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html?pageNum=1&numPerPage=10&_order=&_sort=&_=1469289738364
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 366 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 367 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-24T00:02:19+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/add?_=1469289739752
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-24T00:02:36+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/insert/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `easy_coupontype` (`couponkey`,`coupontype`,`couponvalue`,`starttime`,`endtime`,`inserttime`,`lastmodifytime`) VALUES ('折扣券','discount','0.8','2016-07-27','2016-07-30','1469289756','1469289756') [ RunTime:0.1050s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-07-24T00:02:36+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 366 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 367 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:02:44+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/add?_=1469289764438
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:03:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/insert/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `easy_coupontype` (`couponkey`,`coupontype`,`couponvalue`,`starttime`,`endtime`,`inserttime`,`lastmodifytime`) VALUES ('现金券','cash','50','2016-07-25','2016-07-30','1469289780','1469289780') [ RunTime:0.0410s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-07-24T00:03:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 366 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 367 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:03:08+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCoupon?_=1469289788231
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-24T00:05:20+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:05:24+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html?_=1469289924422
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 365 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 366 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:05:30+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 365 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 366 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:05:32+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCoupon?_=1469289932262
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-24T00:06:22+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/index.html?_=1469289982223
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupon` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupon` ORDER BY couponid desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 312 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 313 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9249b054c75bd4fbcae56a540f40e7fd.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9249b054c75bd4fbcae56a540f40e7fd.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9249b054c75bd4fbcae56a540f40e7fd.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:06:40+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Order/index.html?_=1469290000225
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` WHERE `producttypekey` = 'product' LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT * FROM `easy_order` WHERE `producttypekey` = 'product' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 261 行.
+NOTIC: [2] Illegal string offset 'p' D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Page.class.php 第 81 行.
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 282 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\OrderController.class.php 第 283 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\ad58160d0ba497e124f68b10fdc57ae6.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:06:41+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/ExchangeOrder/index.html?_=1469290001303
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_order` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_order` WHERE `producttypekey` = 'scoreproduct' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_order` WHERE `producttypekey` = 'scoreproduct' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ExchangeOrderController.class.php 第 261 行.
+NOTIC: [2] Illegal string offset 'p' D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Page.class.php 第 81 行.
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ExchangeOrderController.class.php 第 282 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ExchangeOrderController.class.php 第 283 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\fc6ec18fd534929bfb75dcb861e98a9a.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\fc6ec18fd534929bfb75dcb861e98a9a.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\fc6ec18fd534929bfb75dcb861e98a9a.php 第 14 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\fc6ec18fd534929bfb75dcb861e98a9a.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\fc6ec18fd534929bfb75dcb861e98a9a.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\fc6ec18fd534929bfb75dcb861e98a9a.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\fc6ec18fd534929bfb75dcb861e98a9a.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\fc6ec18fd534929bfb75dcb861e98a9a.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\fc6ec18fd534929bfb75dcb861e98a9a.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\fc6ec18fd534929bfb75dcb861e98a9a.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\fc6ec18fd534929bfb75dcb861e98a9a.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\fc6ec18fd534929bfb75dcb861e98a9a.php 第 72 行.
+NOTIC: [8] Use of undefined constant scoreproduct - assumed 'scoreproduct' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\fc6ec18fd534929bfb75dcb861e98a9a.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:06:43+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/News/index.html?_=1469290003636
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `easy_news` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_news` LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT * FROM `easy_news` ORDER BY newsid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\NewsController.class.php 第 414 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\NewsController.class.php 第 415 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9c9069fb50ed95e0d557427c41be5bdb.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9c9069fb50ed95e0d557427c41be5bdb.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9c9069fb50ed95e0d557427c41be5bdb.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:06:45+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Product/index.html?_=1469290005324
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_product` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_product` LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT * FROM `easy_product` ORDER BY productid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 412 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ProductController.class.php 第 413 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\543886cf434153c66490642398adebe3.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:06:48+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/index.html?_=1469290008759
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupon` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_coupon` ORDER BY couponid desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 312 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 313 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9249b054c75bd4fbcae56a540f40e7fd.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9249b054c75bd4fbcae56a540f40e7fd.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9249b054c75bd4fbcae56a540f40e7fd.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:16:02+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Redpacket/index.html?_=1469290562256
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_redpacket` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_redpacket` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_redpacket` ORDER BY redpacketid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\RedpacketController.class.php 第 253 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\RedpacketController.class.php 第 254 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7365679d37150e714cc7c543aa3890ab.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7365679d37150e714cc7c543aa3890ab.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-24T00:16:02+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html?_=1469290562828
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 365 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 366 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:16:04+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCoupon?_=1469290564353
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:16:06+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '折扣券' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `userid` FROM `easy_member_user` WHERE ( `phonenumber` <> ''  )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `easy_coupon` (`couponnumber`,`couponcode`,`couponcomment`,`couponkey`,`coupontype`,`couponvalue`,`couponcondition`,`starttime`,`endtime`,`inserttime`,`lastmodifytime`,`userid`) VALUES ('IsSFAQIS','92743597','','折扣券','DISTIK','0','无使用条件','20160727','20160730','1469290566','1469290566','72'),('IIIiIKFk','99919735','','折扣券','DISTIK','0','无使用条件','20160727','20160730','1469290566','1469290566','70'),('OYKFWWkY','46738856','','折扣券','DISTIK','0','无使用条件','20160727','20160730','1469290566','1469290566','83'),('JE734YN4','51928678','','折扣券','DISTIK','0','无使用条件','20160727','20160730','1469290566','1469290566','85'),('p1mRa11p','63980336','','折扣券','DISTIK','0','无使用条件','20160727','20160730','1469290566','1469290566','87') [ RunTime:0.0730s ]
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'IsSFAQIS' [ RunTime:0.0730s ]
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'IIIiIKFk' [ RunTime:0.1820s ]
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'OYKFWWkY' [ RunTime:0.0390s ]
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'JE734YN4' [ RunTime:0.0290s ]
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'p1mRa11p' [ RunTime:0.0250s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-07-24T00:16:06+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 365 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 366 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:16:50+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCoupon?_=1469290610533
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:16:51+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '折扣券' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `userid` FROM `easy_member_user` WHERE ( `phonenumber` <> ''  )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `easy_coupon` (`couponnumber`,`couponcode`,`couponcomment`,`couponkey`,`coupontype`,`couponvalue`,`couponcondition`,`starttime`,`endtime`,`inserttime`,`lastmodifytime`,`userid`) VALUES ('pIIIAV9q','46662591','','折扣券','DISTIK','0','无使用条件','20160727','20160730','1469290611','1469290611','72'),('6CaCGr60','62029165','','折扣券','DISTIK','0','无使用条件','20160727','20160730','1469290611','1469290611','70'),('YkikiIkW','65151958','','折扣券','DISTIK','0','无使用条件','20160727','20160730','1469290611','1469290611','83'),('aJ3mUUa7','05234409','','折扣券','DISTIK','0','无使用条件','20160727','20160730','1469290611','1469290611','85'),('ZoZoSo9o','75756595','','折扣券','DISTIK','0','无使用条件','20160727','20160730','1469290611','1469290611','87') [ RunTime:0.0700s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 180 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'Array[\'couponnumber\']' [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 180 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'Array[\'couponnumber\']' [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 180 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'Array[\'couponnumber\']' [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 180 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'Array[\'couponnumber\']' [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 180 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'Array[\'couponnumber\']' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-07-24T00:16:51+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 365 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 366 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-24T00:29:59+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: sim_timestramp D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:30:40+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_data=[{%22couponnumber%22:%20%22SIM7421%22,%20%22couponcode%22:%20%227421%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: sim_timestramp D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:31:13+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_data=[{%22couponnumber%22:%20%22SIM7421%22,%20%22couponcode%22:%20%227421%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: sim_timestramp D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:32:02+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_data=[{%22couponnumber%22:%20%22SIM7421%22,%20%22couponcode%22:%20%227421%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: sim_timestramp D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:32:24+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_data=[{%22couponnumber%22:%20%22SIM7421%22,%20%22couponcode%22:%20%227421%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: sim_timestramp D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+NOTIC: [8] Undefined index: sim_data D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-24T00:32:41+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_data=[{%22couponnumber%22:%20%22SIM7421%22,%20%22couponcode%22:%20%227421%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: sim_timestramp D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+SQL: SELECT `couponcode` FROM `easy_coupon` WHERE `couponnumber` = 'SIM7421' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: couponcode D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:33:47+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\5d913dbd2da64d0b19844a871847723d.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-24T00:33:47+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:33:58+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_user` SET `logintime`='1469291638',`loginip`='0.0.0.0' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2016-07-24T00:33:58+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:34:04+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html?_=1469291643926
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 365 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 366 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:34:11+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCoupon?_=1469291651869
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-24T00:34:36+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '折扣券' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `userid` FROM `easy_member_user` WHERE ( `phonenumber` <> ''  )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `easy_coupon` (`couponnumber`,`couponcode`,`couponcomment`,`couponkey`,`coupontype`,`couponvalue`,`couponcondition`,`starttime`,`endtime`,`inserttime`,`lastmodifytime`,`userid`) VALUES ('Qrk8V8Q8','62839363','测试优惠券','折扣券','DISTIK','0','无使用条件','20160727','20160730','1469291674','1469291674','72'),('YY6IaIaB','44860607','测试优惠券','折扣券','DISTIK','0','无使用条件','20160727','20160730','1469291674','1469291674','70'),('aV9AIa99','05928077','测试优惠券','折扣券','DISTIK','0','无使用条件','20160727','20160730','1469291674','1469291674','83'),('o4hDh99a','52131990','测试优惠券','折扣券','DISTIK','0','无使用条件','20160727','20160730','1469291674','1469291674','85'),('GffGfGf8','51151513','测试优惠券','折扣券','DISTIK','0','无使用条件','20160727','20160730','1469291674','1469291674','87') [ RunTime:0.1390s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'Qrk8V8Q8' [ RunTime:0.0610s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'YY6IaIaB' [ RunTime:0.0710s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'aV9AIa99' [ RunTime:0.0510s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'o4hDh99a' [ RunTime:0.0590s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'GffGfGf8' [ RunTime:0.0220s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-07-24T00:34:36+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 365 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 366 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-24T00:35:52+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCoupon?_=1469291752110
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:36:19+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCoupon?_=1469291779152
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:36:35+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '折扣券' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `userid` FROM `easy_member_user` WHERE ( `phonenumber` <> ''  )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `easy_coupon` (`couponnumber`,`couponcode`,`couponcomment`,`couponkey`,`coupontype`,`couponvalue`,`couponcondition`,`starttime`,`endtime`,`inserttime`,`lastmodifytime`,`userid`) VALUES ('0Crk2raG','52147109','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469291793','1469291793','72'),('26eRjj6v','46983367','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469291793','1469291793','70'),('d8qgwgwd','15329291','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469291793','1469291793','83'),('FKYIiIaa','37691900','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469291793','1469291793','85'),('7a66O6aY','90662603','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469291793','1469291793','87') [ RunTime:0.0790s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = '0Crk2raG' [ RunTime:0.0490s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = '26eRjj6v' [ RunTime:0.0710s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'd8qgwgwd' [ RunTime:0.0420s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'FKYIiIaa' [ RunTime:0.0810s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = '7a66O6aY' [ RunTime:0.0320s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-07-24T00:36:35+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 365 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 366 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:38:51+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCoupon?_=1469291931699
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-24T00:39:02+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '折扣券' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `userid` FROM `easy_member_user` WHERE ( `phonenumber` <> ''  )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `easy_coupon` (`couponnumber`,`couponcode`,`couponcomment`,`couponkey`,`coupontype`,`couponvalue`,`couponcondition`,`starttime`,`endtime`,`inserttime`,`lastmodifytime`,`userid`) VALUES ('FIOFWKFW','39438738','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469291940','1469291940','72'),('FSsFIQSF','47249574','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469291940','1469291940','70'),('etX6XXta','91565510','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469291940','1469291940','83'),('avjtttav','07311102','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469291940','1469291940','85'),('aVwIVAIV','05365265','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469291940','1469291940','87') [ RunTime:0.1380s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'FIOFWKFW' [ RunTime:0.0210s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'FSsFIQSF' [ RunTime:0.0510s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'etX6XXta' [ RunTime:0.0340s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'avjtttav' [ RunTime:0.0230s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'aVwIVAIV' [ RunTime:0.0540s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-07-24T00:39:02+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 365 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 366 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-24T00:40:23+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCoupon?_=1469292023364
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-24T00:40:31+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '折扣券' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `userid` FROM `easy_member_user` WHERE ( `phonenumber` <> ''  )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `easy_coupon` (`couponnumber`,`couponcode`,`couponcomment`,`couponkey`,`coupontype`,`couponvalue`,`couponcondition`,`starttime`,`endtime`,`inserttime`,`lastmodifytime`,`userid`) VALUES ('YYIFIIF6','44626625','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292031','1469292031','72'),('QVrrooar','69227702','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292031','1469292031','70'),('karQVGCr','80269542','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292031','1469292031','83'),('8gqdDDFs','52317784','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292031','1469292031','85'),('QsSAgFIA','52731493','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292031','1469292031','87') [ RunTime:0.0790s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+NOTIC: [8] Undefined variable: parseResponse D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 179 行.
+
+[ 2016-07-24T00:40:50+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '折扣券' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `userid` FROM `easy_member_user` WHERE ( `phonenumber` <> ''  )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `easy_coupon` (`couponnumber`,`couponcode`,`couponcomment`,`couponkey`,`coupontype`,`couponvalue`,`couponcondition`,`starttime`,`endtime`,`inserttime`,`lastmodifytime`,`userid`) VALUES ('s6pF6B66','18328788','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292050','1469292050','72'),('8LjQQ8GL','15722165','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292050','1469292050','70'),('eidgibfd','48368153','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292050','1469292050','83'),('qdsAdwwd','31461991','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292050','1469292050','85'),('G06r0a8r','95615081','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292050','1469292050','87') [ RunTime:0.0650s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+
+[ 2016-07-24T00:41:34+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '折扣券' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `userid` FROM `easy_member_user` WHERE ( `phonenumber` <> ''  )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `easy_coupon` (`couponnumber`,`couponcode`,`couponcomment`,`couponkey`,`coupontype`,`couponvalue`,`couponcondition`,`starttime`,`endtime`,`inserttime`,`lastmodifytime`,`userid`) VALUES ('9Doo4944','93552922','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292094','1469292094','72'),('ieuaegur','42802385','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292094','1469292094','70'),('Gr8QooCk','52367748','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292094','1469292094','83'),('wFaAq8qd','98063531','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292094','1469292094','85'),('IFpSQIpQ','94675965','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292094','1469292094','87') [ RunTime:0.0610s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+
+[ 2016-07-24T00:42:51+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '折扣券' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `userid` FROM `easy_member_user` WHERE ( `phonenumber` <> ''  )  [ RunTime:0.0010s ]
+SQL: INSERT INTO `easy_coupon` (`couponnumber`,`couponcode`,`couponcomment`,`couponkey`,`coupontype`,`couponvalue`,`couponcondition`,`starttime`,`endtime`,`inserttime`,`lastmodifytime`,`userid`) VALUES ('3UJaNYm7','24507639','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292171','1469292171','72'),('mNa4EN7m','37081793','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292171','1469292171','70'),('UJUa7Y4E','45409681','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292171','1469292171','83'),('WuaauY4u','41001371','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292171','1469292171','85'),('8a8oCCCk','30374448','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292171','1469292171','87') [ RunTime:0.0660s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+
+[ 2016-07-24T00:43:16+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '折扣券' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `userid` FROM `easy_member_user` WHERE ( `phonenumber` <> ''  )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `easy_coupon` (`couponnumber`,`couponcode`,`couponcomment`,`couponkey`,`coupontype`,`couponvalue`,`couponcondition`,`starttime`,`endtime`,`inserttime`,`lastmodifytime`,`userid`) VALUES ('8C8CQoor','34346772','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292196','1469292196','72'),('VkfCfQoQ','98141676','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292196','1469292196','70'),('rccsauge','51160832','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292196','1469292196','83'),('IuIOaOKW','92940478','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292196','1469292196','85'),('AAqdqDgw','66313729','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292196','1469292196','87') [ RunTime:0.0690s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+
+[ 2016-07-24T00:44:28+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '折扣券' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `userid` FROM `easy_member_user` WHERE ( `phonenumber` <> ''  )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `easy_coupon` (`couponnumber`,`couponcode`,`couponcomment`,`couponkey`,`coupontype`,`couponvalue`,`couponcondition`,`starttime`,`endtime`,`inserttime`,`lastmodifytime`,`userid`) VALUES ('Q66Q8V8L','28421315','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292268','1469292268','72'),('2S4aSKB2','53903465','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292268','1469292268','70'),('S6ISSS6p','95699953','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292268','1469292268','83'),('L6V63aL8','54349051','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292268','1469292268','85'),('W6OuuO27','46211289','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292268','1469292268','87') [ RunTime:0.0780s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+
+[ 2016-07-24T00:44:59+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '折扣券' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `userid` FROM `easy_member_user` WHERE ( `phonenumber` <> ''  )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `easy_coupon` (`couponnumber`,`couponcode`,`couponcomment`,`couponkey`,`coupontype`,`couponvalue`,`couponcondition`,`starttime`,`endtime`,`inserttime`,`lastmodifytime`,`userid`) VALUES ('amaC71pz','09057361','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292299','1469292299','72'),('dDDADFFq','17767883','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292299','1469292299','70'),('876OYY6u','59623361','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292299','1469292299','83'),('jGLQL6jG','76525876','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292299','1469292299','85'),('IYWYWWKi','96868871','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292299','1469292299','87') [ RunTime:0.0670s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'amaC71pz' [ RunTime:0.0330s ]
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'amaC71pz' [ RunTime:0.0290s ]
+
+[ 2016-07-24T00:46:43+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '折扣券' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `userid` FROM `easy_member_user` WHERE ( `phonenumber` <> ''  )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `easy_coupon` (`couponnumber`,`couponcode`,`couponcomment`,`couponkey`,`coupontype`,`couponvalue`,`couponcondition`,`starttime`,`endtime`,`inserttime`,`lastmodifytime`,`userid`) VALUES ('pIAFpasS','69346027','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292402','1469292402','72'),('auFkuFai','02352301','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292402','1469292402','70'),('tRjRva6j','18387063','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292402','1469292402','83'),('36aa83V6','98001934','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292402','1469292402','85'),('iOpexFxa','28917670','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292402','1469292402','87') [ RunTime:0.0710s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'pIAFpasS' [ RunTime:0.0260s ]
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'pIAFpasS' [ RunTime:0.0510s ]
+
+[ 2016-07-24T00:48:08+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '折扣券' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `userid` FROM `easy_member_user` WHERE ( `phonenumber` <> ''  )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `easy_coupon` (`couponnumber`,`couponcode`,`couponcomment`,`couponkey`,`coupontype`,`couponvalue`,`couponcondition`,`starttime`,`endtime`,`inserttime`,`lastmodifytime`,`userid`) VALUES ('844KSKSa','79143430','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292486','1469292486','72'),('1Ca771zp','35077316','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292486','1469292486','70'),('GGkGkk8C','99494482','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292486','1469292486','83'),('FSs6FSFB','29182927','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292486','1469292486','85'),('awFD88ga','09875520','测试优惠券','折扣券','DISTIK','0.8','无使用条件','20160727','20160730','1469292486','1469292486','87') [ RunTime:0.0640s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = '844KSKSa' [ RunTime:0.0570s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = '1Ca771zp' [ RunTime:0.0280s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'GGkGkk8C' [ RunTime:0.0310s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'FSs6FSFB' [ RunTime:0.0320s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 53 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 62 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 63 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 64 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 84 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 70 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'awFD88ga' [ RunTime:0.0550s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-07-24T00:48:08+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 365 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 366 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-24T00:49:47+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_data=[{%22couponnumber%22:%20%22SIM7421%22,%20%22couponcode%22:%20%227421%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: sim_timestramp D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+SQL: SELECT `couponcode` FROM `easy_coupon` WHERE `couponnumber` = 'SIM7421' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: couponcode D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:50:49+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_data=[{%22couponnumber%22:%20%22tRjRva6j%22,%20%22couponcode%22:%20%2218387063%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sim_timestramp D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+SQL: SELECT `couponcode` FROM `easy_coupon` WHERE `couponnumber` = 'tRjRva6j' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: couponcode D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 40 行.
+SQL: UPDATE `easy_coupon` SET `isused`='1' WHERE `couponnumber` = 'tRjRva6j' [ RunTime:0.0540s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-24T00:51:23+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_data=[{%22couponnumber%22:%20%22tRjRva6j%22,%20%22couponcode%22:%20%2218387063%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sim_timestramp D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+SQL: SELECT `couponcode` FROM `easy_coupon` WHERE `couponnumber` = 'tRjRva6j' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_coupon` SET `isused`='1' WHERE `couponnumber` = 'tRjRva6j' [ RunTime:0.0610s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:51:53+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_data=[{%22couponnumber%22:%20%22tRjRva6j%22,%20%22couponcode%22:%22%2218387063%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: sim_timestramp D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-24T00:53:24+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_data=[{%22couponnumber%22:%20%22tRjRva6j%22,%20%22couponcode%22:%22%2218387063%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sim_timestramp D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-24T00:53:51+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_data=[{%22couponnumber%22:%20%22tRjRva6j%22,%20%22couponcode%22:%22%2218387063%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: sim_timestramp D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:54:09+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_data=[{%22couponnumber%22:%20%22tRjRva6j%22,%20%22couponcode%22:%22%2218387063%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: sim_timestramp D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:55:10+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_data=[{%22couponnumber%22:%20%22tRjRva6j%22,%20%22couponcode%22:%22%2218387063%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: sim_timestramp D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:55:13+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_data=[{%22couponnumber%22:%20%22tRjRva6j%22,%20%22couponcode%22:%20%2218387063%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: sim_timestramp D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+SQL: SELECT `couponcode` FROM `easy_coupon` WHERE `couponnumber` = 'tRjRva6j' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_coupon` SET `isused`='1' WHERE `couponnumber` = 'tRjRva6j' [ RunTime:0.0650s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-24T00:55:16+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_data=[{%22couponnumber%22:%20%22tRjRva6j%22,%20%22couponcode%22:%20%2218387063%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: sim_timestramp D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+SQL: SELECT `couponcode` FROM `easy_coupon` WHERE `couponnumber` = 'tRjRva6j' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_coupon` SET `isused`='1' WHERE `couponnumber` = 'tRjRva6j' [ RunTime:0.1020s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:55:40+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_data=[{%22couponnumber%22:%20%22tRjRva6j%22,%20%22couponcode%22:%20%2218387063%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: sim_timestramp D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+SQL: SELECT `couponcode` FROM `easy_coupon` WHERE `couponnumber` = 'tRjRva6j' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_coupon` SET `isused`='1' WHERE `couponnumber` = 'tRjRva6j' [ RunTime:0.0870s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-24T00:56:19+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Couponverify/verifyCoupon?sim_data=[{%22couponnumber%22:%20%22tRjRva6j%22,%20%22couponcode%22:%20%2218387063%22}]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: sim_timestramp D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 25 行.
+NOTIC: [8] Undefined index: sim_sign D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 26 行.
+SQL: SELECT `couponcode` FROM `easy_coupon` WHERE `couponnumber` = 'tRjRva6j' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `easy_coupon` SET `isused`='1' WHERE `couponnumber` = 'tRjRva6j' [ RunTime:0.0570s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CouponverifyController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:57:50+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-24T00:57:55+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html?_=1469293074925
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 365 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 366 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T00:57:56+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCoupon?_=1469293076906
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T19:23:06+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2016-07-24T19:23:13+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2016-07-24T19:23:20+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0910s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\5d913dbd2da64d0b19844a871847723d.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T19:23:21+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-24T19:27:10+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\5d913dbd2da64d0b19844a871847723d.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-24T19:27:10+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

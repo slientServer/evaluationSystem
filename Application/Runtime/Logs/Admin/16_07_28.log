@@ -1,0 +1,638 @@
+[ 2016-07-28T20:44:12+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\5d913dbd2da64d0b19844a871847723d.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T20:44:12+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T21:42:02+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\5d913dbd2da64d0b19844a871847723d.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T21:42:02+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T21:42:10+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/1469713330263
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T21:42:14+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0630s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_user` SET `logintime`='1469713334',`loginip`='0.0.0.0' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2016-07-28T21:42:14+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T21:42:18+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html?_=1469713338332
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0570s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 367 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 368 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-28T21:42:19+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCoupon?_=1469713339653
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T21:42:25+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0970s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '测试优惠券' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-28T21:52:26+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '测试优惠券' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 108 行.
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 108 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 109 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 109 行.
+
+[ 2016-07-28T21:53:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '测试优惠券' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 108 行.
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 108 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 109 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 109 行.
+
+[ 2016-07-28T21:53:22+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '测试优惠券' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 108 行.
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 108 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 109 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 109 行.
+
+[ 2016-07-28T21:53:56+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '测试优惠券' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 108 行.
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 108 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 109 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 109 行.
+
+[ 2016-07-28T21:55:18+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-28T21:55:21+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T21:55:39+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '测试优惠券' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 108 行.
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 108 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 109 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 109 行.
+
+[ 2016-07-28T22:04:05+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '测试优惠券' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 108 行.
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 108 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 109 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 109 行.
+
+[ 2016-07-28T22:05:12+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '测试优惠券' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 108 行.
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 108 行.
+
+[ 2016-07-28T22:09:27+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '测试优惠券' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `userid` FROM `easy_member_user` WHERE ( `lastmodifytime` >= 1469462401 AND `lastmodifytime` <= 1469635199  ) AND ( `phonenumber` <> ''  )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-07-28T22:09:27+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 361 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 362 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T22:09:30+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCoupon?_=1469714970288
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T22:09:42+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCouponExecution/navTabId/listcoupons/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_coupontype` WHERE `couponkey` = '测试优惠券现金券' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `userid` FROM `easy_member_user` WHERE ( `phonenumber` <> ''  )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `easy_coupon` (`couponnumber`,`couponcode`,`couponcomment`,`couponkey`,`coupontype`,`couponvalue`,`couponcondition`,`starttime`,`endtime`,`inserttime`,`lastmodifytime`,`userid`) VALUES ('SPA8VgJE8Ku','88796240','','测试优惠券现金券','cash','100','无使用条件','20160719','20160730','1469714977','1469714977','83'),('SPArUERDC68','07309450','','测试优惠券现金券','cash','100','无使用条件','20160719','20160730','1469714977','1469714977','85') [ RunTime:0.0650s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 108 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'SPA8VgJE8Ku' [ RunTime:0.0880s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 108 行.
+SQL: UPDATE `easy_coupon` SET `isupdated`='1' WHERE `couponnumber` = 'SPArUERDC68' [ RunTime:0.0910s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-07-28T22:09:42+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 361 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 362 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T22:15:27+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\5d913dbd2da64d0b19844a871847723d.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-28T22:15:28+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-28T22:15:35+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_user` SET `logintime`='1469715335',`loginip`='0.0.0.0' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2016-07-28T22:15:35+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T22:15:42+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Score/index.html?_=1469715342185
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.0520s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_scoretype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_scoretype` ORDER BY typeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreController.class.php 第 313 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreController.class.php 第 314 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T22:15:43+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html?_=1469715343149
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 361 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 362 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 57 行.
+NOTIC: [8] Use of undefined constant coupon - assumed 'coupon' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 58 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T22:15:44+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCoupon?_=1469715344681
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-28T22:28:34+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/dispatchCoupon?_=1469716114236
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T22:28:37+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/add?_=1469716116939
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-28T22:28:57+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/add?_=1469716137024
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T22:29:37+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/add?_=1469716177648
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T22:30:27+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/add?_=1469716227754
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T22:31:03+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/add?_=1469716263531
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T22:31:16+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/add?_=1469716276214
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T22:33:47+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/add?_=1469716426963
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T22:33:52+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

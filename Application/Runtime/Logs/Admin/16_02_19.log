@@ -1,0 +1,1717 @@
+[ 2016-02-19T00:00:07+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T00:00:11+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/index.html?_=1455811210991
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotterytype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotterytype` ORDER BY lotterytypeid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 254 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 255 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 5 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant scoretype - assumed 'scoretype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-19T00:00:23+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/add?_=1455811223283
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `easy_redpacket` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_scoretype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_redpacket`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T00:00:25+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/insert/navTabId/listlotterytype/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `easy_lotterytype` (`lotterytype`,`lotterytypekey`,`lotteryratio`,`inserttime`,`lastmodifytime`) VALUES ('coupontype','wer','1','1455811225','1455811225') [ RunTime:0.0740s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-02-19T00:00:26+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotterytype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotterytype` ORDER BY lotterytypeid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 254 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 255 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant scoretype - assumed 'scoretype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T00:00:57+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-02-19T00:01:00+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/index.html?_=1455811260403
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotterytype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotterytype` ORDER BY lotterytypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 254 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 255 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 5 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant scoretype - assumed 'scoretype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T00:01:23+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/delete/lotterytypeid/12/navTabId/listlotterytype
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0030s ]
+SQL: DELETE FROM `easy_lotterytype` WHERE `lotterytypeid` IN ('12') [ RunTime:0.1060s ]
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-02-19T00:01:23+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/index.html?pageNum=1&numPerPage=10&_order=&_sort=&_=1455811283502
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotterytype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_lotterytype` ORDER BY lotterytypeid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 254 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 255 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant scoretype - assumed 'scoretype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T00:01:26+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotteryaudit/index.html?_=1455811286790
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotteryaudit` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotteryaudit` INNER JOIN easy_lotterytype on easy_lotterytype.lotterytypekey= easy_lotteryaudit.lotterytypekey  ORDER BY lotteryauditid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 245 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 246 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-19T00:01:48+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/index.html?_=1455811308389
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotterytype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotterytype` ORDER BY lotterytypeid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 254 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 255 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 5 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant scoretype - assumed 'scoretype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-19T00:01:50+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotteryaudit/index.html?_=1455811310816
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotteryaudit` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotteryaudit` INNER JOIN easy_lotterytype on easy_lotterytype.lotterytypekey= easy_lotteryaudit.lotterytypekey  ORDER BY lotteryauditid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 245 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 246 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T00:27:51+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-19T00:27:55+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotteryaudit/index.html?_=1455812875821
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotteryaudit` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'easy_redpacket.lotterytypekey' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `easy_lotteryaudit` INNER JOIN easy_redpacket on easy_redpacket.lotterytypekey= easy_lotteryaudit.lotterytypekey  ORDER BY lotteryauditid desc LIMIT 0,10  
+ERR: 1054:Unknown column 'easy_redpacket.lotterytypekey' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `easy_lotteryaudit` INNER JOIN easy_redpacket on easy_redpacket.lotterytypekey= easy_lotteryaudit.lotterytypekey  ORDER BY lotteryauditid desc LIMIT 0,10  
+
+[ 2016-02-19T00:29:53+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T00:29:56+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotteryaudit/index.html?_=1455812996173
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotteryaudit` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_lotteryaudit` INNER JOIN easy_redpacket on easy_redpacket.redpacketkey= easy_lotteryaudit.lotterytypekey  ORDER BY lotteryauditid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 245 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 246 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-19T00:30:30+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-19T00:30:37+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotteryaudit/index.html?_=1455813037130
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotteryaudit` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotteryaudit` INNER JOIN easy_lotterytype on easy_lotterytype.lotterytypekey= easy_lotteryaudit.lotterytypekey  ORDER BY lotteryauditid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 245 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 246 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T00:32:45+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-02-19T00:32:48+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/index.html?_=1455813168153
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotterytype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotterytype` ORDER BY lotterytypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 254 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 255 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 5 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant scoretype - assumed 'scoretype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-02-19T00:32:50+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotteryaudit/index.html?_=1455813170183
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotteryaudit` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotteryaudit` INNER JOIN easy_lotterytype on easy_lotterytype.lotterytypekey= easy_lotteryaudit.lotterytypekey  ORDER BY lotteryauditid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 245 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 246 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T00:32:51+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/index.html?_=1455813171520
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotterytype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_lotterytype` ORDER BY lotterytypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 254 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 255 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 5 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant scoretype - assumed 'scoretype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T00:32:53+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/add?_=1455813173171
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `easy_redpacket` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_scoretype`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_redpacket`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T00:32:59+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/edit/lotterytypeid/22/navTabId/listlotterytype?_=1455813179085
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_lotterytype` WHERE `lotterytypeid` = 22 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T00:33:04+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotteryaudit/index.html?_=1455813184236
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotteryaudit` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotteryaudit` INNER JOIN easy_lotterytype on easy_lotterytype.lotterytypekey= easy_lotteryaudit.lotterytypekey  ORDER BY lotteryauditid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 245 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 246 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T00:37:47+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T00:37:51+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotteryaudit/index.html?_=1455813471113
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotteryaudit` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_lotteryaudit` INNER JOIN easy_lotterytype on easy_lotterytype.lotterytypekey= easy_lotteryaudit.lotterytypekey  ORDER BY lotteryauditid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 245 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 246 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-02-19T00:37:52+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/index.html?_=1455813472472
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotterytype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotterytype` ORDER BY lotterytypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 254 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 255 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 5 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant scoretype - assumed 'scoretype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T21:44:48+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T21:44:48+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T21:44:58+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_user` [ RunTime:0.0850s ]
+SQL: SELECT * FROM `easy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_user` SET `logintime`='1455889498',`loginip`='0.0.0.0' WHERE `id` = 6 [ RunTime:0.0010s ]
+
+[ 2016-02-19T21:44:59+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T21:45:04+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/index.html?_=1455889504007
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0390s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotterytype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotterytype` ORDER BY lotterytypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 254 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 255 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 5 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant scoretype - assumed 'scoretype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-19T21:46:03+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-19T21:46:08+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/index.html?_=1455889568157
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotterytype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_lotterytype` ORDER BY lotterytypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 254 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 255 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 5 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant scoretype - assumed 'scoretype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-19T21:46:15+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/add?_=1455889575741
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `easy_redpacket` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `easy_scoretype`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_redpacket`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-02-19T21:46:30+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T21:46:33+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/index.html?_=1455889593323
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotterytype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotterytype` ORDER BY lotterytypeid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 254 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 255 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 5 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant scoretype - assumed 'scoretype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T21:46:34+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/add?_=1455889594626
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_redpacket` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_scoretype`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_redpacket`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T21:46:55+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-19T21:46:58+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/index.html?_=1455889618338
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotterytype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotterytype` ORDER BY lotterytypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 254 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 255 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 5 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant scoretype - assumed 'scoretype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T21:46:59+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/add?_=1455889619812
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `easy_redpacket` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_scoretype`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_redpacket`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T21:47:06+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/add?_=1455889626513
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `easy_redpacket` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_scoretype`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_redpacket`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T21:47:12+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/edit/lotterytypeid/23/navTabId/listlotterytype?_=1455889632696
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_lotterytype` WHERE `lotterytypeid` = 23 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T21:47:17+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/update/navTabId/listlotterytype/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `easy_lotterytype` SET `lotteryratio`='10',`lastmodifytime`='1455889637' WHERE `lotterytypeid` = 23 [ RunTime:0.0650s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-02-19T21:47:17+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotterytype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotterytype` ORDER BY lotterytypeid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 254 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 255 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant scoretype - assumed 'scoretype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-19T21:47:47+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotteryaudit/index.html?_=1455889666971
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0680s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotteryaudit` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_lotteryaudit` INNER JOIN easy_lotterytype on easy_lotterytype.lotterytypekey= easy_lotteryaudit.lotterytypekey  ORDER BY lotteryauditid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 245 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 246 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T21:47:48+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/index.html?_=1455889668636
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotterytype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_lotterytype` ORDER BY lotterytypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 254 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 255 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 5 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant scoretype - assumed 'scoretype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T21:47:49+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Redpacket/index.html?_=1455889669437
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_redpacket` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_redpacket` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_redpacket` ORDER BY redpacketid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\RedpacketController.class.php 第 245 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\RedpacketController.class.php 第 246 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7365679d37150e714cc7c543aa3890ab.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7365679d37150e714cc7c543aa3890ab.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-19T21:47:51+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Redpacket/add?_=1455889671734
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T21:47:55+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html?_=1455889674952
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 245 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 246 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-02-19T21:47:56+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Score/index.html?_=1455889676734
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_scoretype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_scoretype` ORDER BY typeid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreController.class.php 第 290 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreController.class.php 第 291 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T21:47:59+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html?_=1455889679120
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 245 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 246 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T21:48:21+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Score/index.html?_=1455889701875
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_scoretype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_scoretype` ORDER BY typeid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreController.class.php 第 290 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\ScoreController.class.php 第 291 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\208109520c309d58627b3bfa24792380.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T21:48:34+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Coupontype/index.html?_=1455889714760
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_coupontype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupontype` ORDER BY coupontypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 245 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CoupontypeController.class.php 第 246 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\06753bd0c31b3b4f0cd18b80b1c7650d.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T21:48:36+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Redpacket/index.html?_=1455889716878
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_redpacket` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_redpacket` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_redpacket` ORDER BY redpacketid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\RedpacketController.class.php 第 245 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\RedpacketController.class.php 第 246 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7365679d37150e714cc7c543aa3890ab.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7365679d37150e714cc7c543aa3890ab.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-19T21:48:43+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/index.html?_=1455889722977
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotterytype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotterytype` ORDER BY lotterytypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 254 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 255 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 5 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant scoretype - assumed 'scoretype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T21:48:47+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Redpacket/index.html?_=1455889727377
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_redpacket` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_redpacket` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_redpacket` ORDER BY redpacketid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\RedpacketController.class.php 第 245 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\RedpacketController.class.php 第 246 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7365679d37150e714cc7c543aa3890ab.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7365679d37150e714cc7c543aa3890ab.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T21:48:56+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotteryaudit/index.html?_=1455889736364
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotteryaudit` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_lotteryaudit` INNER JOIN easy_lotterytype on easy_lotterytype.lotterytypekey= easy_lotteryaudit.lotterytypekey  ORDER BY lotteryauditid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 245 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 246 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T23:05:41+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Redpacket/index.html?_=1455894341854
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_redpacket` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_redpacket` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_redpacket` ORDER BY redpacketid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\RedpacketController.class.php 第 245 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\RedpacketController.class.php 第 246 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7365679d37150e714cc7c543aa3890ab.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\7365679d37150e714cc7c543aa3890ab.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-19T23:05:43+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/index.html?_=1455894343583
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotterytype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotterytype` ORDER BY lotterytypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 254 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 255 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 5 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant scoretype - assumed 'scoretype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T23:11:09+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotteryaudit/index.html?_=1455894669604
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotteryaudit` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotteryaudit` INNER JOIN easy_lotterytype on easy_lotterytype.lotterytypekey= easy_lotteryaudit.lotterytypekey  ORDER BY lotteryauditid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 245 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 246 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T23:30:07+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/index.html?_=1455895807141
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotterytype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotterytype` ORDER BY lotterytypeid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 254 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotterytypeController.class.php 第 255 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 5 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant scoretype - assumed 'scoretype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\dd8cb44c681ecda408244a0242247d82.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-19T23:32:41+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotterytype/add?_=1455895961790
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `easy_coupontype` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `easy_redpacket` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_scoretype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_coupontype`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_redpacket`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T23:50:24+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotteryaudit/index.html?_=1455897024799
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotteryaudit` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotteryaudit` INNER JOIN easy_lotterytype on easy_lotterytype.lotterytypekey= easy_lotteryaudit.lotterytypekey  ORDER BY lotteryauditid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 245 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 246 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T23:52:27+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-19T23:52:31+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Lotteryaudit/index.html?_=1455897151072
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_lotteryaudit` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_lotteryaudit` ORDER BY lotteryauditid desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 245 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\LotteryauditController.class.php 第 246 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 14 行.
+NOTIC: [8] Use of undefined constant redpacket - assumed 'redpacket' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 49 行.
+NOTIC: [8] Use of undefined constant coupontype - assumed 'coupontype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 49 行.
+NOTIC: [8] Use of undefined constant scoretype - assumed 'scoretype' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 49 行.
+NOTIC: [8] Undefined index: lotteryvalue D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 51 行.
+NOTIC: [8] Undefined index: lotterycondition D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\9a28fd75a2b948214998553ebc501d50.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T23:57:36+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Memberuser/index.html?_=1455897456290
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `easy_member_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_member_user` ORDER BY userid desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\MemberuserController.class.php 第 483 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\MemberuserController.class.php 第 484 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 5 行.
+NOTIC: [8] Undefined index: keyword D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\45dbf6a18f3e47a1ee3d2b2369ed965f.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-19T23:57:41+08:00 ] ::1 /workspace/simpsons/trunk/server/Admin/Memberuser/coupon/userid/11?_=1455897461655
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Admin\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `easy_coupon` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_coupon` WHERE ( userid= 11 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\c6dd1896df3a5c198e21451d956c9b15.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\c6dd1896df3a5c198e21451d956c9b15.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Admin\c6dd1896df3a5c198e21451d956c9b15.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

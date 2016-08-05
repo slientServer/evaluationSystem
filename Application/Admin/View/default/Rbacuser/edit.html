@@ -1,0 +1,106 @@
+
+<div class="pageContent">
+	<form method="post" action="__URL__/update/navTabId/listusers/callbackType/closeCurrent"  class="pageForm required-validate" 
+		onsubmit="return validateCallback(this,dialogAjaxDone);"><?php  //窗体组件采用这个 iframeCallback(this, navTabAjaxDone); ?>
+		<input type="hidden" name="id" value="<{$vo.id}>"/>
+		<div class="pageFormContent" layoutH="60">
+			<dl>
+				<dl>
+				<dt>用户名：</dt>
+				<dd><input type="text" class="required"  style="width:100%" name="username" value="<{$vo.username}>"/></dd>
+			</dl>
+			<dl>
+				<dt>密码：</dt>
+				<dd><input type="password" class="required"  style="width:100%" name="password"/></dd>
+			</dl>
+			<dl>
+				<dt>显示名字：</dt>
+				<dd><input type="text" class="required"  style="width:100%" name="showname" value="<{$vo.showname}>"/></dd>
+			</dl>
+			<dl>
+				<dt>电话：</dt>
+				<dd><input type="text" class="required"  style="width:100%" name="phone" value="<{$vo.phone}>"/></dd>
+			</dl>			
+			<dl>
+				<dt>职位：</dt>
+				<dd><input type="text" class="required"  style="width:100%" name="position" value="<{$vo.position}>"/></dd>
+			</dl>
+			<dl>
+				<dt>入职时间：</dt>
+				<dd><input type="input" class="date textInput valid" style="width:100%" name="enrolldate" value="<{$vo.enrolldate}>"/></dd>
+			</dl>
+			<dl>
+				<dt>当前部门:</dt>
+				<dd><input type="hidden" name="deptid">
+					<{$vo.deptid}>
+				</dd>
+			</dl>
+			<dl style="width:500px;">
+				<dt>更改部门：</dt>
+				<dd style="width:227px">
+					<select style="width:227px" name="deptid">
+						<option value="<{$vo.deptid}>">请选择部门</option>
+						<foreach name="dept" item="v">
+							<option value="<{$v['id']}>"><{$v.name}>(<{$v.id}>)</option>
+						</foreach>
+					</select>
+					<!-- <span class="add-role">添加角色</span> -->
+				</dd>
+			</dl>
+			<dl>
+				<dt>当前领导:</dt>
+				<dd><input type="hidden" name="directleader">
+					<{$vo.directleader}>
+				</dd>
+			</dl>
+			<dl style="width:500px;">
+				<dt>更改领导：</dt>
+				<dd style="width:227px">
+					<select style="width:227px" name="directleader">
+						<option value="<{$vo.directleader}>">请选择领导</option>
+						<foreach name="user" item="v">
+							<option value="<{$v['id']}>"><{$v.username}>(<{$v.id}>)</option>
+						</foreach>
+					</select>
+					<!-- <span class="add-role">添加角色</span> -->
+				</dd>
+			</dl>
+			<if condition="$vo['username']==C('RBAC_SUPERADMIN')">
+			<dl>
+				<dt>当前角色:</dt>
+				<dd>超级管理员</dd>
+			</dl>
+			<else />
+
+				<dl>
+					<dt>当前角色:</dt>
+					<dd><input type="hidden" name="role_id">
+						<{$name}>
+					</dd>
+				</dl>
+				<dl style="width:500px;">
+					<dt>更改角色:</dt>
+					<dd style="width:300px">
+
+						<select name="role_id" >
+							<option value="">请选择角色</option>
+							<foreach name="role" item="v">
+								<option value="<{$v['id']}>"><{$v.name}></option>
+							</foreach>
+						</select><!-- <span class="add-role">添加角色</span> -->
+					</dd>
+				</dl>
+				<p id="last"></p>
+			</if>
+			
+		</div>
+		
+		<div class="formBar">
+			<ul>
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li>
+				<li><div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div></li>
+			</ul>
+		</div>
+	</form>
+</div>
+

@@ -1,0 +1,284 @@
+[ 2016-06-23T20:56:42+08:00 ] ::1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1466686601' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0050s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 89 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0880s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.269015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.269015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-23T20:56:43+08:00 ] ::1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1466686603' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 89 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.157009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-23T20:56:50+08:00 ] ::1 /workspace/simpsons/trunk/server/Index/WScreen/mainMenu.html?timestampForLoad=1466686610505
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1466686610' WHERE `openid` = ' OPENID' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-23T20:56:50+08:00 ] ::1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1466686610' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 89 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-23T20:56:52+08:00 ] ::1 /workspace/simpsons/trunk/server/Index/WScreen/benefitMain.html?timestampForLoad=1466686612793
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1466686612' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `easy_lotteryaudit` WHERE ( userid= 87 and inserttime>=1466611200 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-23T20:56:53+08:00 ] ::1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1466686613' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0030s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 89 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-23T20:56:59+08:00 ] ::1 /workspace/simpsons/trunk/server/Index/WScreen/benefitResult.html?timestampForLoad=1466686617324
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1466686617' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_lotteryaudit` WHERE ( userid= 87 and inserttime>=1466611200 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `easy_lotterytype` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `easy_lotterytype` WHERE `lotteryratio` >= 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `easy_scoretype` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `easy_scoretype` WHERE `typekey` = '登录' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: couponnumber D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 281 行.
+SQL: SHOW COLUMNS FROM `easy_scoreaudit` [ RunTime:0.0280s ]
+SQL: INSERT INTO `easy_scoreaudit` (`userid`,`typekey`,`typename`,`scorevalue`,`changetype`,`inserttime`,`lastmodifytime`) VALUES ('87','','登录','100','ADD','1466686617','1466686617') [ RunTime:0.0740s ]
+SQL: SELECT `score` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `easy_member_user` SET `score`='202' WHERE ( userid=87 ) [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::updateScore() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 36 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRM() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 45 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::prepareString() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 57 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 58 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::callCRMInterface() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 59 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getURL() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 79 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::logSection() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 60 行.
+NOTIC: [2048] Non-static method Org\CRM\CRMInterface::getLogFile() should not be called statically D:\xampp\htdocs\workspace\simpsons\trunk\server\ThinkPHP\Library\Org\CRM\CRMInterface.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `easy_lotteryaudit` [ RunTime:0.0020s ]
+SQL: INSERT INTO `easy_lotteryaudit` (`userid`,`lotterytype`,`lotterytypekey`,`state`,`listid`,`returndata`,`lotteryvalue`,`lotterycondition`,`inserttime`,`lastmodifytime`) VALUES ('87','scoretype','登录','1','无','无','100','无','1466686619','1466686619') [ RunTime:0.0610s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-23T20:57:05+08:00 ] ::1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1466686625' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0020s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 89 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-23T20:57:06+08:00 ] ::1 /workspace/simpsons/trunk/server/index.php/Index/WScreen/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: 
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `easy_member_user` WHERE `openid` = ' OPENID' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `easy_member_user` SET `photosrc`='http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46',`lastmodifytime`='1466686625' WHERE `openid` = ' OPENID' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 88 行.
+NOTIC: [8] Undefined index: access_token D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WechatController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `easy_member_user` [ RunTime:0.0040s ]
+SQL: SELECT `phonenumber` FROM `easy_member_user` WHERE ( userid=87 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: target D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 89 行.
+NOTIC: [8] Undefined index: parameters D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Index\Controller\WScreenController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `easy_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'title' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `easy_fields` WHERE `field` = 'description' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 316 行.
+NOTIC: [8] Undefined variable: shareMainURL D:\xampp\htdocs\workspace\simpsons\trunk\server\Application\Runtime\Cache\Index\df8432994391e7b536593266112c85ea.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.157009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

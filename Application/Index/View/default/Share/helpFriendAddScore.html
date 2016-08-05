@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height; initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <title>辛普森</title>
+
+    <script src="__INDEXCOMMON__js/framework/jquery-1.11.3.js"></script>
+    <script src="__INDEXCOMMON__js/framework/jquerymobile/jquery.mobile-1.4.5.js"></script>
+    <script src="__INDEXCOMMON__js/customer/ActionArea.js"></script>
+    <script src="__INDEXCOMMON__js/customer/OrientationCheck.js"></script>
+
+<style>
+/*#pageone {
+    background-color: black;
+    background-image : url('__INDEXCOMMON__images/entry.jpg');
+    background-repeat : no-repeat;
+    background-size : 100% 100%;
+}*/
+</style>
+
+<script type="text/javascript">
+var joinTemplate = $("<div></div>").css("background-image","url('__INDEXCOMMON__images/helpFriendAddScoreJoin.png')").css("background-size","100% 100%").css("position","absolute").css("top","0px").css("left","0px").css("z-index","10").css("width","100%").css("height","100%").hide();
+var joinCloseTemplate = $("<div></div>").css("background-image","url('__INDEXCOMMON__images/closeButton.png')").css("background-size","100% 100%").css("position","absolute").css("top","10px").css("right","10px").css("z-index","20").width(40).height(40);
+var joinElement = $(joinTemplate);
+var joinCloseElement = $(joinCloseTemplate);
+
+function join(){
+    joinElement.show();
+}
+var actionAreaList = new Array();
+$(document).ready(function(){
+    $("body").height($(window).height());
+    $("body").width($(window).width());
+    
+    var helpFriendAddScore = new ActionArea(actionAreaList, null,{
+        backgroundWidth : 1080,
+        backgroundHeight : 1752,
+        areaWidth : 656,
+        areaHeight: 306,
+        areaLeft : 221,
+        areaTop : 1233,
+        areaBackgroundImg : '',
+        usingShortCalculate : true,
+        events : {
+        }
+    });
+    var buttonName= <if condition='$isCanAddScore eq 1'>'helpFriendAddScoreAlready.png'<elseif condition='$isCanAddScore eq 2'/>'helpFriendAddScoreFull.png'<elseif condition='$isCanAddScore eq 3'/>'helpFriendAddScore.png'</if>;
+    var template =  '<table style="width:100%;height:100%;text-align:center;">'+
+                    '    <tr>'+
+                    '        <td>'+
+                    '            当前积分: <span id="scorevlaue"><{$score}></span>'+
+                    '        </td>'+
+                    '    </tr>'+
+                    '    <tr>'+
+                    '        <td>'+
+                    '            <img class="addScoreButton" src="__INDEXCOMMON__images/'+buttonName+'" style="width:80%;height:auto;">'+
+                    '        </td>'+
+                    '    </tr>'+
+                    '    <tr>'+
+                    '        <td>'+
+                    '            <a href="javascript:join();" style="color:gray;text-decoration: underline;">我也想要辛普森的福利</a>'+
+                    '        </td>'+
+                    '    </tr>'+
+                    '</table>';
+    $(helpFriendAddScore.theElement).append($(template)).hide();
+
+
+
+    
+    $("body").append(joinElement);
+    $(joinElement).append(joinCloseElement);
+    joinCloseElement.click(function(){
+        joinElement.hide();
+    });
+    setTimeout(function(){
+        var helpFriendAddScoreJoin = new ActionArea(actionAreaList, joinElement,{
+            backgroundWidth : 1080,
+            backgroundHeight : 1752,
+            areaWidth : 566,
+            areaHeight: 566,
+            areaLeft : 258,
+            areaTop : 375,
+            areaBackgroundImg : '', //2d code image
+            usingShortCalculate : true,
+            events : {
+            }
+        });
+        var qrbarImageEle = $("<img>").attr("src", '__INDEXCOMMON__images/qrcode_for_gh_203724136504_258.jpg').css("width", "100%").css("height", "100%");
+        $(helpFriendAddScoreJoin.theElement).append(qrbarImageEle);
+        $(".addScoreButton").click(function(){
+            if(buttonName== 'helpFriendAddScore.png'){
+                $.ajax({url:"<{:U('Share/friendAddScore')}>", data: {'owneropenid': '<{$owneropenid}>', 'friendopenid': '<{$friendopenid}>'}, async:true, success: function(evt){
+                    if(evt!= 'fail'){
+                        $(".addScoreButton").attr('src', '__INDEXCOMMON__images/helpFriendAddScoreAlready.png');
+                        buttonName= 'helpFriendAddScoreAlready.png';
+                        $('#scorevlaue').text(evt);
+                    }else{
+                        alert('加分失败');
+                    }
+                }});
+            }
+        });
+        $(".ui-loader").hide();
+    },10);
+    var currentRequiredOrintation = 0;
+    var wideScreenNotificationEle = $(".wideScreenNotification");
+    var orintationCheck = new OrientationCheck(currentRequiredOrintation, function(){
+
+        setTimeout(function(){
+            wideScreenNotificationEle.hide();
+            $(helpFriendAddScore.theElement).show();
+            $("body").width($(window).width());
+            $("body").height($(window).height());
+            $("#pageone").width($(window).width());
+            $("#pageone").height($(window).height());
+        });
+        /*var lastPopupID = currentID;
+        setTimeout(function(){
+            if(lastPopupID!=null && lastPopupID!="" && lastPopupID!="oriantationNotificationPopup"){
+                dynamicPopupGroup._openPopup(lastPopupID, {forceReload:false});
+            }else{
+                dynamicPopupGroup.closeCurrentPopup();
+            }
+            $("#orientationChangeLayer").css("display","none");
+        },0);*/
+    },function(){
+        wideScreenNotificationEle.show();
+        $(helpFriendAddScore.theElement).hide();
+        $("body").width($(window).width());
+        $("body").height($(window).height());
+        $("#pageone").width($(window).width());
+        $("#pageone").height($(window).height());
+        /*currentID = dynamicPopupGroup.currentPopupID;
+        dynamicPopupGroup.closeCurrentPopup(function(){
+            $("#orientationChangeLayer").height($(window).height()).width($(window).width());
+            $("#orientationChangeLayer").css("display","block");
+        });*/
+    });
+    $(window).on("orientationchange",function(){
+        orintationCheck.setOritationChangeMethod();
+    });
+    $(window).trigger( "orientationchange" ); 
+});
+
+</script>
+</head>
+<body style="background:black;overflow:hidden;margin:0px;overflow:hidden;">
+    <div data-role="page" id="pageone" style="width:100%;height:100%;background-image:url('__INDEXCOMMON__images/helpFriendAddScoreBackground.png');background-size: 100% 100%;position:absolute;top:0xp;left:0px;z-index:1;">
+        <div class="wideScreenNotification" style="width:100%;height:100%;background-image:url('__INDEXCOMMON__images/hscreennotify.png');background-size: 100% 100%;position:absolute;top:0xp;left:0px;z-index:30;display:none;">
+    </div>
+    </div> 
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+easy_coupon:
+
+alter table easy_coupon add couponcode varchar(30) not Null;
+alter table easy_coupon add couponkey varchar(50) not Null;
+alter table easy_coupon add coupontype varchar(50) not Null;
+alter table easy_coupon add couponcomment varchar(500);
+alter table easy_coupon add isupdated int(1) unsigned default 0;
+alter table easy_coupon modify column couponvalue float;
+
+
+easy_coupontype:
+
+alter table easy_coupontype modify column couponvalue float;
+alter table easy_coupontype add couponcomment varchar(500);
+alter table easy_coupontype add coupontype varchar(50) not Null;
+
+easy_member_user:
+
+alter table easy_member_user add enroll int(11);
+
+
