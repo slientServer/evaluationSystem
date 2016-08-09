@@ -84,6 +84,7 @@ class AssessmentController extends CommonController{
 					'remark' => $remark,
 					'isanony' => $isanony,
 					'month' => date('m'),
+					'year' => date('Y'),
 					'inserttime' => time(),
 					'lastmodifytime' => time()
 					);
