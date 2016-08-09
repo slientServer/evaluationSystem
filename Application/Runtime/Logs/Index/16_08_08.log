@@ -1,0 +1,1571 @@
+[ 2016-08-08T21:54:38+08:00 ] ::1 /evaluationSystem/Index/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\380876ff5eecdf3888d6968a913a5ee2.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T21:54:38+08:00 ] ::1 /evaluationSystem/Index/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T21:54:53+08:00 ] ::1 /evaluationSystem/Index/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `es_user` WHERE `username` = 'bhao' LIMIT 1   [ RunTime:0.0230s ]
+SQL: UPDATE `es_user` SET `logintime`='1470664493',`loginip`='0' WHERE `id` = 17 [ RunTime:0.0750s ]
+NOTIC: [8] Undefined index: superadmin D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Org\Util\Rbac.class.php 第 88 行.
+SQL: select node.id,node.name,node.title,node.imgsrc,node.remark from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.1060s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=26 and node.status=1 [ RunTime:0.0020s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=28 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=30 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=31 and node.status=1 [ RunTime:0.0010s ]
+
+[ 2016-08-08T21:54:53+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_fields` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `es_fields` WHERE `field` = 'ad'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T21:54:57+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0270s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T21:54:59+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T21:56:24+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T22:01:46+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T22:03:13+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T22:03:17+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T22:03:25+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T22:03:30+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T22:14:05+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T22:14:29+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17&score=100&remark=fdsafsa&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','100','fdsafsa','0','1470665669') [ RunTime:0.0740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T22:14:30+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17&score=100&remark=fdsafsa&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','100','fdsafsa','0','1470665670') [ RunTime:0.0930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T22:14:31+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17&score=100&remark=fdsafsa&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0040s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','100','fdsafsa','0','1470665671') [ RunTime:0.0550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T22:15:01+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T22:15:04+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=18&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470665704') [ RunTime:0.0870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T22:15:12+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=18&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470665712') [ RunTime:0.0680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T22:31:25+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T22:31:28+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470666688') [ RunTime:0.0800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T22:31:46+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T22:31:49+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=1&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470666709') [ RunTime:0.0570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T22:31:51+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=1&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470666711') [ RunTime:0.0760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T22:31:56+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=1&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470666716') [ RunTime:0.0630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T22:33:12+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T22:33:43+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T22:33:46+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=18&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470666826') [ RunTime:0.0670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T22:33:50+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=18&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470666830') [ RunTime:0.0670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T22:34:15+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T22:34:22+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17&score=1001&remark=11&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','1001','11','0','1470666862') [ RunTime:0.0710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T23:10:59+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17&score=1001&remark=11&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0200s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','1001','11','0','1470669059') [ RunTime:0.0630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:11:09+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:11:13+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470669073') [ RunTime:0.0900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T23:11:15+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0000s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470669075') [ RunTime:0.0624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T23:13:09+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:13:12+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470669191') [ RunTime:0.0580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T23:13:24+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470669204') [ RunTime:0.0810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T23:13:46+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:13:50+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470669230') [ RunTime:0.0610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T23:17:49+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T23:17:55+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470669475') [ RunTime:0.0830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T23:17:59+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=18&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0040s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470669479') [ RunTime:0.0670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:18:17+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:18:20+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T23:18:46+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0040s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:18:47+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T23:18:59+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T23:19:00+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T23:19:40+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:19:43+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=18&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470669583') [ RunTime:0.0810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T23:20:14+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:20:17+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470669617') [ RunTime:0.0630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T23:21:36+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470669696') [ RunTime:0.0750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T23:21:40+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T23:21:44+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470669704') [ RunTime:0.0750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T23:23:17+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:23:22+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470669802') [ RunTime:0.0720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T23:23:28+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016600s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:23:31+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470669811') [ RunTime:0.0660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:26:00+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T23:27:36+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T23:28:22+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T23:29:12+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T23:29:57+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T23:33:00+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:33:22+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:35:39+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:35:42+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0040s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470670542') [ RunTime:0.1030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T23:35:50+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=18&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470670550') [ RunTime:0.0640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:36:36+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=18&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470670596') [ RunTime:0.1240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T23:37:10+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:37:14+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=17&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0040s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470670634') [ RunTime:0.0650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:37:45+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:37:49+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=18&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470670669') [ RunTime:0.0700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T23:38:33+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:38:36+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=18&score=&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','0','','0','1470670716') [ RunTime:0.1160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-08-08T23:43:21+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0040s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0210s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T23:43:51+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:44:18+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:45:34+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T23:46:36+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:46:57+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:47:23+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:49:19+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:50:44+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T23:52:46+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:53:15+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T23:53:29+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=18&score=100&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','100','','0','1470671609') [ RunTime:0.1070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T23:53:44+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T23:53:53+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=18&score=123&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','123','','0','1470671633') [ RunTime:0.1000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:54:07+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:54:19+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=18&score=100&remark=&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','0','100','','0','1470671659') [ RunTime:0.0680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T23:55:43+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0040s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:55:55+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=18&score=100&remark=%E6%B5%8B%E8%AF%95&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`lastmodifytime`) VALUES ('17','18','100','测试','0','1470671755') [ RunTime:0.0600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T23:57:56+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-08T23:58:04+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=18&score=123&remark=1223&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`inserttime`,`lastmodifytime`) VALUES ('17','18','123','1223','0','1470671884','1470671884') [ RunTime:0.0680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-08T23:59:09+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('2','1')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T23:59:15+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=18&score=1231&remark=321&isannoy=on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`inserttime`,`lastmodifytime`) VALUES ('17','18','1231','321','0','1470671955','1470671955') [ RunTime:0.0740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

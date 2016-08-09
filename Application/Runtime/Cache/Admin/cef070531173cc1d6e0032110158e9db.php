@@ -10,7 +10,7 @@
 			</dl>
 			<dl>
 				<dt>显示名称：</dt>
-				<dd><input type="text" class="required"  style="width:100%" name="title"  value="<?php echo ($vo["title"]); ?>"/></dd>
+				<dd><input type="text"  style="width:100%" name="title"  value="<?php echo ($vo["title"]); ?>"/></dd>
 			</dl>
 			<dl>
 				<dt>缩略图名字：</dt>

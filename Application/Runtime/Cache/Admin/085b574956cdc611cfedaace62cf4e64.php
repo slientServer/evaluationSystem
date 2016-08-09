@@ -160,8 +160,18 @@ $(function(){
 								<li><a href="<?php echo U('Plugin/index');?>" target="navTab" rel="listplugin" title="插件列表" >插件列表</a></li>
 							</ul>
 						</div> -->
+						<!--评价小组管理-->
 						<div class="accordionHeader">
-							<h2><span>Folder</span>系统管理</h2>
+							<h2><span>Folder</span>评价小组管理</h2>
+						</div>
+						<div class="accordionContent">
+							<ul class="tree treeFolder">
+								<li><a href="<?php echo U('Assessgroup/index');?>" target="navTab" rel="assessgroup" title="评价小组管理" >评价小组管理</a></li>
+							</ul>
+						</div>
+						<!--系统管理-->
+						<div class="accordionHeader">
+							<h2><span>Folder</span>系统维护</h2>
 						</div>
 						<div class="accordionContent">
 							<ul class="tree treeFolder">
@@ -175,16 +185,6 @@ $(function(){
 								<li><a href="<?php echo U('System/updateTplCache');?>" target="dialog" rel="listsystem" title="更新模版缓存" >更新模版缓存</a></li> -->
 							</ul>
 						</div>
-					<!-- <div class="accordionHeader">
-						<h2><span>Folder</span>权限管理</h2>
-					</div>
-					<div class="accordionContent">
-						<ul class="tree treeFolder">
-							<li><a href="<?php echo U('Rbacuser/index');?>" target="navTab" rel="rbacuser" title="用户管理" >用户管理</a></li>
-							<li><a href="<?php echo U('Rbacrole/index');?>" target="navTab" rel="rbacrole" title="角色管理" >角色管理</a></li>
-							<li><a href="<?php echo U('Rbacnode/index');?>" target="navTab" rel="rbacnode" title="节点管理" >节点管理</a></li>
-						</ul>
-					</div> -->
 				<?php else: ?>
 			<!-- 		<?php if($permission["perm_member"] == 1): ?><div class="accordionHeader">
 							<h2><span>Folder</span>用户管理</h2>

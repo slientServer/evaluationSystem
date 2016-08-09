@@ -1,0 +1,426 @@
+[ 2016-08-06T20:35:59+08:00 ] ::1 /evaluationSystem/index/Login/login?username=&userpwd=&verifycode=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\380876ff5eecdf3888d6968a913a5ee2.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-06T20:35:59+08:00 ] ::1 /evaluationSystem/Index/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-06T20:42:57+08:00 ] ::1 /evaluationSystem/index/Login/login?username=&userpwd=&verifycode=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\380876ff5eecdf3888d6968a913a5ee2.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-06T20:42:57+08:00 ] ::1 /evaluationSystem/Index/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-06T20:43:14+08:00 ] ::1 /evaluationSystem/index/Login/login?username=&userpwd=&verifycode=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\380876ff5eecdf3888d6968a913a5ee2.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-06T20:43:14+08:00 ] ::1 /evaluationSystem/Index/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-06T20:43:23+08:00 ] ::1 /evaluationSystem/Index/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `es_user` WHERE `username` = 'bhao' LIMIT 1   [ RunTime:0.0260s ]
+SQL: UPDATE `es_user` SET `logintime`='1470487403',`loginip`='0' WHERE `id` = 17 [ RunTime:0.1120s ]
+NOTIC: [8] Undefined index: superadmin D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Org\Util\Rbac.class.php 第 88 行.
+SQL: select node.id,node.name,node.title,node.imgsrc,node.remark from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.3050s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=26 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=28 and node.status=1 [ RunTime:0.0010s ]
+
+[ 2016-08-06T20:43:23+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-06T20:43:49+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-06T20:53:03+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+
+[ 2016-08-06T20:53:19+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+
+[ 2016-08-06T20:53:20+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+
+[ 2016-08-06T20:53:39+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+
+[ 2016-08-06T20:53:40+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+
+[ 2016-08-06T20:53:41+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+
+[ 2016-08-06T20:53:41+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+
+[ 2016-08-06T20:53:41+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+
+[ 2016-08-06T20:53:41+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+
+[ 2016-08-06T20:54:24+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+
+[ 2016-08-06T20:54:27+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+
+[ 2016-08-06T20:54:28+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 32 行.
+
+[ 2016-08-06T20:54:52+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 31 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant length - assumed 'length' D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 34 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 34 行.
+
+[ 2016-08-06T20:55:12+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 34 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 34 行.
+
+[ 2016-08-06T20:55:34+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 33 行.
+
+[ 2016-08-06T20:55:47+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 33 行.
+
+[ 2016-08-06T20:55:48+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 33 行.
+
+[ 2016-08-06T20:55:48+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 33 行.
+
+[ 2016-08-06T20:55:49+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 33 行.
+
+[ 2016-08-06T20:56:01+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 35 行.
+
+[ 2016-08-06T20:56:10+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 35 行.
+
+[ 2016-08-06T20:56:11+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 35 行.
+
+[ 2016-08-06T20:56:22+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 35 行.
+
+[ 2016-08-06T20:56:47+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 36 行.
+
+[ 2016-08-06T20:57:13+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 36 行.
+
+[ 2016-08-06T20:57:40+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 36 行.
+
+[ 2016-08-06T21:00:05+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-06T21:00:28+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: idx D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 34 行.
+NOTIC: [8] Undefined variable: idx D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 36 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 36 行.
+
+[ 2016-08-06T21:00:43+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: idx D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 34 行.
+NOTIC: [8] Undefined variable: idx D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 36 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\CommonController.class.php 第 36 行.
+
+[ 2016-08-06T21:01:09+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-06T21:03:00+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-06T21:04:06+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016600s ]
+
+[ 2016-08-06T21:04:06+08:00 ] ::1 /evaluationSystem/Index/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\380876ff5eecdf3888d6968a913a5ee2.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-06T21:04:07+08:00 ] ::1 /evaluationSystem/Index/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-06T21:05:44+08:00 ] ::1 /evaluationSystem/Index/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_user` WHERE `username` = 'bhao' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `es_user` SET `logintime`='1470488744',`loginip`='0' WHERE `id` = 17 [ RunTime:0.1980s ]
+NOTIC: [8] Undefined index: superadmin D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Org\Util\Rbac.class.php 第 88 行.
+SQL: select node.id,node.name,node.title,node.imgsrc,node.remark from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=26 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=28 and node.status=1 [ RunTime:0.0010s ]
+
+[ 2016-08-06T21:05:44+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-06T21:05:58+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `es_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_fields` WHERE `field` = 'ad'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-06T21:06:01+08:00 ] ::1 /evaluationSystem/Index/Employee/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SELECT es_user.username,es_user.phone,es_user.password,es_user.showname,es_user.enrolldate,es_dept.name as deptname,es_user.position,es_user.directleader FROM `es_user` INNER JOIN es_dept ON es_user.deptid= es_dept.id  WHERE es_user.id = '17'  [ RunTime:0.0440s ]
+SQL: SELECT * FROM `es_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-06T21:33:09+08:00 ] ::1 /evaluationSystem/Index/Login/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\380876ff5eecdf3888d6968a913a5ee2.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-06T21:33:09+08:00 ] ::1 /evaluationSystem/Index/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-06T21:33:16+08:00 ] ::1 /evaluationSystem/Index/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `es_user` SET `logintime`='1470490396',`loginip`='0' WHERE `id` = 1 [ RunTime:0.1650s ]
+

@@ -10,7 +10,6 @@ class EmployeeController extends CommonController{
 
 	public function index(){
 		$user=M('User');
-		session('hintMessage', '');
 		$fields= 'es_user.username, es_user.phone, es_user.password, es_user.showname, es_user.enrolldate, es_dept.name as deptname, es_user.position, es_user.directleader';
 		$userInfo= $user->join('es_dept ON es_user.deptid= es_dept.id')->where(array('es_user.id' => session(C('USER_AUTH_KEY'))))->field($fields)->select();
 		$directleader= $user->find($userInfo[0]['directleader']);

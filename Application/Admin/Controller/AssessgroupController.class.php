@@ -1,113 +1,111 @@
 <?php
 /**
- * 后台公共类
- * @author  <[c@easycms.cc]>
+ * RBAC用户管理
+ * @author  <[s@easycms.cc]>
  */
 
-namespace Index\Controller;
+namespace Admin\Controller;
+use Admin\Model;
 
-use Think\Controller;
-use Org\Util\Rbac;
-
-class CommonController extends Controller {
-
-	public function _initialize() {
-		header("Content-Type: text/html; charset=UTF-8");
-
-		$this->theme('default');
-
-		set_theme();
-
-		if (!isset($_SESSION[C('USER_AUTH_KEY')])) {
- 			$this->redirect(C('COMMON_VERIFY_PAGE'));
- 		}
- 		$notAuth=in_array(MODULE_NAME, explode(',', C('NOT_AUTH_MODULE'))) || in_array(CONTROLLER_NAME, explode(',', C('NOT_AUTH_ACTION')));
- 		if (C('USER_AUTH_ON') && !$notAuth) {
- 			
-			Rbac::AccessDecision(GROUP_NAME) || $this->error('没有权限');//分组模式必须加该参数
- 		}
-
- 		if($_SESSION['_ACCESS_LIST']){
- 			$accessList= array();
- 			$accessList[0]= strtoupper('Index');
-			foreach($_SESSION['_ACCESS_LIST'] as $value){
- 				$accessList[]= strtoupper($value['controller']);
- 			}
- 			if(!in_array(strtoupper(CONTROLLER_NAME), $accessList)){
- 				$this->redirect(C('COMMON_VERIFY_PAGE'));
- 			}
- 		}else{
- 			$this->redirect(C('COMMON_VERIFY_PAGE'));
- 		}	
-	}
-
-	//空操作
-	public function _empty(){
-		$this->redirect("Index/Index/index");
-	}
-
+class AssessgroupController extends CommonController{
 	public function index() {
-		//列表过滤器，生成查询Map对象
-		$map = $this->_search();
-		if(method_exists($this, '_filter')) {
-			$this->_filter($map);
-		}
-		//判断采用自定义的Model类
-		if(!empty($_POST["actionName"])){
-			$model = D($_POST["actionName"]);
-		}else{
-			$model = M(CONTROLLER_NAME);
-		}
-
-		if (!empty($model)) {
-			$this->_list($model, $map);
-		}
-
+		$group=D('Assessgroup')->select();
+		$this->assign('list',$group);
 		$this->display();
-		return;
 	}
-	
+
+	//添加搜索方法
+	public function _filter(&$map){
+		//判断是否有搜索条件
+		if(!empty($_REQUEST['keyword'])){
+			$map['username']=array("like","%{$_REQUEST['keyword']}%");
+		}
+		
+	}	
 	
 	public function add() {
 		$this->display('add');
 	}
 	
 	public function insert(){
-		$model = D(CONTROLLER_NAME);
+		//用户信息
+		$model = D('Assessgroup');
 		unset ( $_POST [$model->getPk()] );
 		
 		if (false === $model->create()) {
 			$this->error($model->getError());
 		}
-		//保存当前数据对象
-		if ($result = $model->add()) { //保存成功
-			// 回调接口
-			if (method_exists($this, '_tigger_insert')) {
-				$model->id = $result;
-				$this->_tigger_insert($model);
-			}
-			
-			//成功提示
-			$this->success(L('新增成功'));
-		} else {
-			//失败提示
-			$this->error(L('新增失败').$model->getLastSql());
-		}
+
+		$model->inserttime= time();
+		$model->lastmodifytime= time();
+		if ($model->add()) {
+			$this->success('添加成功');
+		}else{
+			$this->error('添加失败');
+		}	
 	}
-	
+
 	public function edit() {
-		$model = M(CONTROLLER_NAME);
+		$model = D('Assessgroup');
 		$id = $_REQUEST[$model->getPk()];
 		$vo = $model->find($id);
 		$this->assign('vo', $vo);
 		$this->display('edit');
 	}
-	
-	public function update() {
-		$model = D(CONTROLLER_NAME);
+
+	public function memberedit(){
+		$model= M('User');
+		$groupUser= M('group_user');
+		$groupId= I('get.groupid');
+		$users= $model->select();
+		$addedUsers= $groupUser->where(array('groupid' => $groupId))->field('userid')->select();
+		$addedUsersBollean= array();
+		foreach ($addedUsers as $value) {
+			# code...
+			$addedUsersBollean[]= $value['userid'];
+		}
+
+		for($idx=0; $idx<count($users); $idx++){
+			if(in_array($users[$idx]['id'], $addedUsersBollean)){
+				$users[$idx]['isselected']= 1;
+			}else{
+				$users[$idx]['isselected']= 0;
+			}
+		}
+		$this->assign('groupid', $groupId);
+		$this->assign('list', $users);
+		$this->display();
+	}
+
+	public function updatmember(){
+		$model= D('group_user');
+		$groupid= I('groupid');
+		$members= I('members');
+		$dataArr= array();
+		$model->where(array('groupid' => $groupid))->delete();
+		for ($idx=0; $idx < count($members); $idx++) { 
+			$dataArr[]=array('groupid' => $groupid, 'userid'=> $members[$idx]);
+		}
+
+		$result= $model->addAll($dataArr);
+
+		// 保存当前数据对象
+		if ($result) { //保存成功
+			//成功提示
+			$this->success(L('保存成功'));
+		} else {
+			//失败提示
+			$this->error(L('保存失败')->getLastSql());
+		}
+	}
+
+	public function update() {	
+		$model = M('Assessgroup');
+
 		if(false === $model->create()) {
 			$this->error($model->getError());
 		}
+		$model->lastmodifytime= time();
 		// 更新数据
 		if(false !== $model->save()) {
 			// 回调接口
@@ -121,14 +119,24 @@ class CommonController extends Controller {
 			$this->error(L('更新失败'));
 		}
 	}
-	
+
+   public function delAll(){
+    	$name='User';
+		$model = M($name);
+    	$pk=$model->getPk ();  
+		$data[$pk]=array('in', $_POST['ids']);
+		$model->where($data)->delete();
+		$this->success('批量删除成功');
+	}
+
 	public function delete() {
 		//删除指定记录
-		$model = M(CONTROLLER_NAME);
+		$model = D('Assessgroup');
 		if (!empty($model)) {
 			$pk = $model->getPk();
 			$id = $_REQUEST[$pk];
 			if (isset($id)) {
+				//判断是否是超级管理员
 				$condition = array($pk => array('in', explode(',', $id)));
 				if (false !== $model->where($condition)->delete()) {
 					$this->success(L('删除成功'));
@@ -144,7 +152,7 @@ class CommonController extends Controller {
 	//删除状态
 	public function delete_tag(){
 		//删除指定记录
-		$model = M(CONTROLLER_NAME);
+		$model = D('UserRelation');
 		if (!empty($model)) {
 			$pk = $model->getPk();
 			$id = $_REQUEST[$pk];
@@ -170,7 +178,7 @@ class CommonController extends Controller {
 	protected function _search($name='') {
 		//生成查询条件
 		if (empty($name)) {
-			$name = CONTROLLER_NAME;
+			$name = $this->getActionName();
 		}
 		$model = M($name);
 		$map = array();
@@ -229,8 +237,10 @@ class CommonController extends Controller {
 		$_GET['p']=$nowPage;
 		
 		//创建分页对象
-//		import("ORG.Util.Page");
-		$p = new \Think\Page($count, $listRows);
+		import("ORG.Util.Page");
+		$p = new Page($count, $listRows);
+		
+		
 		//分页查询数据
 		$list = $model->where($map)->order($order.' '.$sort)
 						->limit($p->firstRow.','.$p->listRows)
@@ -255,6 +265,7 @@ class CommonController extends Controller {
 		$sortAlt = $sort == 'desc' ? '升序排列' : '倒序排列';   //排序提示
 		$sort = $sort == 'desc' ? 1 : 0;                  //排序方式
 		
+
 		
 		//模板赋值显示
 		$this->assign('list', $list);
@@ -269,24 +280,5 @@ class CommonController extends Controller {
 		$this->assign("totalCount",		$count);			//总条数
 		$this->assign("numPerPage",		$p->listRows);		//每页显多少条
 		$this->assign("currentPage",	$nowPage);			//当前页码
-		
-		
-	}
-	//添加事件信息方法；参数：1：事件类型（参考事件action类属性），2：实际内容
-	protected function addEvent($type,$content,$jsoninfo=""){
-		//获取当前登录者信息
-		$data['cat_id']=$type; //事件类型（参考事件action类属性）
-		$data["content"]=$content;
-		$data["jsoninfo"]=$jsoninfo;
-		$data["source"]=$_SESSION['user']['id'];
-		$data["is_look"]=0;
-		$data["add_time"]=time();
-		//执行添加
-		M("Event")->add($data);
-	}
-
-	protected function _tigger_update($msg, $url, $time){
-		$this->success($msg, $url, $time);
 	}
 }
-?>

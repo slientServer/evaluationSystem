@@ -48,3 +48,15 @@
 .hidden{
 	display: hide;
 }
+
+.verticalAlignCenter{
+	vertical-align: middle !important;
+} 
+
+.success-hint{
+	color: red;
+	display: block;
+	margin: auto;
+	font-weight: bolder;
+	font-size: 30px;
+}
