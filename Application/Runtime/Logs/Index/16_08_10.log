@@ -1,0 +1,1836 @@
+[ 2016-08-10T20:23:50+08:00 ] ::1 /evaluationSystem/Index/Login/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\380876ff5eecdf3888d6968a913a5ee2.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T20:23:50+08:00 ] ::1 /evaluationSystem/Index/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-10T20:37:34+08:00 ] ::1 /evaluationSystem/Index/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `es_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `es_user` SET `logintime`='1470832654',`loginip`='0' WHERE `id` = 1 [ RunTime:0.2200s ]
+
+[ 2016-08-10T20:41:18+08:00 ] ::1 /evaluationSystem/Index/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\380876ff5eecdf3888d6968a913a5ee2.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T20:41:18+08:00 ] ::1 /evaluationSystem/Index/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T20:41:25+08:00 ] ::1 /evaluationSystem/Index/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_user` WHERE `username` = 'bhao' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `es_user` SET `logintime`='1470832885',`loginip`='0' WHERE `id` = 17 [ RunTime:0.1280s ]
+SQL: select node.id,node.name,node.title,node.imgsrc,node.remark from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.0020s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=26 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=28 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=30 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=31 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=33 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=34 and node.status=1 [ RunTime:0.0000s ]
+
+[ 2016-08-10T20:41:25+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_fields` WHERE `field` = 'ad'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T20:41:31+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_assessment` WHERE `fromuser` = 17  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: userInfo D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\AssessmenthistoryController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: currentDay D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\AssessmenthistoryController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T20:42:57+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` WHERE `fromuser` = 17  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: userInfo D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\AssessmenthistoryController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: currentDay D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\AssessmenthistoryController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T20:43:41+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_assessment` WHERE `fromuser` = 17  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: userInfo D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\AssessmenthistoryController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: currentDay D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\AssessmenthistoryController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T20:43:47+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_assessment` WHERE `fromuser` = 17  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: userInfo D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\AssessmenthistoryController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: currentDay D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\AssessmenthistoryController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-10T21:27:45+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+
+[ 2016-08-10T21:29:31+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+
+[ 2016-08-10T21:30:11+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+
+[ 2016-08-10T21:31:23+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+
+[ 2016-08-10T21:31:41+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+
+[ 2016-08-10T21:31:57+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+
+[ 2016-08-10T21:32:10+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+
+[ 2016-08-10T21:33:12+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0040s ]
+
+[ 2016-08-10T21:35:20+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+
+[ 2016-08-10T21:35:48+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+
+[ 2016-08-10T21:35:56+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+
+[ 2016-08-10T21:41:16+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T21:42:11+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T21:42:12+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T21:42:19+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016  [ RunTime:0.0000s ]
+
+[ 2016-08-10T21:42:52+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+
+[ 2016-08-10T21:45:44+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+
+[ 2016-08-10T21:55:35+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T21:56:12+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-10T21:56:16+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T21:56:35+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T21:56:38+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T21:57:13+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-10T21:58:39+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-10T22:01:40+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T22:01:41+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-10T22:01:59+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T22:04:51+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: assessmentHistory D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\AssessmenthistoryController.class.php 第 27 行.
+
+[ 2016-08-10T22:05:07+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+
+[ 2016-08-10T22:10:05+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+
+[ 2016-08-10T22:10:14+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 53 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 54 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 55 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 56 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 57 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-10T22:10:16+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 53 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 54 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 55 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 56 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 57 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-10T22:10:17+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 53 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 54 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 55 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 56 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 57 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T22:11:28+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 53 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 54 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 55 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 56 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 57 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 83 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 84 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 85 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 86 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 87 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 83 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 84 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 85 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 86 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 87 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 83 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 84 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 85 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 86 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 87 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 83 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 84 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 85 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 86 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 87 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 92 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 93 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 94 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 95 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 96 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 83 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 84 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 85 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 86 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 87 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 92 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 93 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 94 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 95 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T22:12:33+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 53 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 54 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 55 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 56 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 57 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 83 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 84 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 85 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 86 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 87 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 83 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 84 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 85 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 86 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 87 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 83 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 84 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 85 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 86 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 87 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 83 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 84 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 85 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 86 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 87 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 92 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 93 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 94 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 95 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 96 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 83 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 84 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 85 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 86 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 87 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 92 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 93 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 94 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 95 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T22:12:35+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 53 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 54 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 55 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 56 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 57 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 83 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 84 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 85 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 86 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 87 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 83 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 84 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 85 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 86 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 87 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 83 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 84 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 85 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 86 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 87 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 83 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 84 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 85 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 86 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 87 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 92 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 93 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 94 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 95 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 96 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 83 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 84 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 85 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 86 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 87 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 92 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 93 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 94 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 95 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T22:13:06+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 83 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 84 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 85 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 86 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 87 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 83 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 84 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 85 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 86 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 87 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 83 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 84 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 85 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 86 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 87 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 83 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 84 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 85 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 86 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 87 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 92 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 93 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 94 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 95 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 96 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 83 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 84 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 85 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 86 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 87 行.
+NOTIC: [8] Undefined index: targetuser D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 92 行.
+NOTIC: [8] Undefined index: score D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 93 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 94 行.
+NOTIC: [8] Undefined index: isanony D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 95 行.
+NOTIC: [8] Undefined index: inserttime D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T22:13:33+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T22:15:30+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 2 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+
+[ 2016-08-10T22:16:19+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 2 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+
+[ 2016-08-10T22:16:54+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 2 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 3 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 4 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 5 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 6 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` WHERE `month` = 7 AND `year` = 2016 AND `fromuser` = 17  [ RunTime:0.0000s ]
+
+[ 2016-08-10T22:17:51+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 2 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+
+[ 2016-08-10T22:18:26+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 2 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+
+[ 2016-08-10T22:18:27+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 2 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+
+[ 2016-08-10T22:18:27+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 2 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+
+[ 2016-08-10T22:18:27+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0040s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 2 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+
+[ 2016-08-10T22:18:28+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 2 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+
+[ 2016-08-10T22:19:53+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 2 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+
+[ 2016-08-10T22:20:06+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 2 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+
+[ 2016-08-10T22:23:10+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 2 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+
+[ 2016-08-10T22:23:22+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 2 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T22:26:05+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 2 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T22:28:25+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 2 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-10T22:28:36+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-10T22:29:00+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: isassessed D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T22:29:20+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=18&score=20&remark=%E8%AF%A5%E5%90%8C%E5%BF%97%E5%B7%A5%E4%BD%9C%E8%AE%A4%E7%9C%9F%E8%B4%9F%E8%B4%A3&isannoy=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`month`,`year`,`inserttime`,`lastmodifytime`) VALUES ('17','18','20','该同志工作认真负责','1','8','2016','1470839360','1470839360') [ RunTime:0.0650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-10T22:29:22+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T22:29:30+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 2 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-10T22:29:59+08:00 ] ::1 /evaluationSystem/Index/Employee/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SELECT es_user.username,es_user.phone,es_user.password,es_user.showname,es_user.enrolldate,es_dept.name as deptname,es_user.position,es_user.directleader FROM `es_user` INNER JOIN es_dept ON es_user.deptid= es_dept.id  WHERE es_user.id = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T22:30:01+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-10T22:30:37+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-10T22:30:41+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T22:30:43+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 2 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T22:32:45+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 2 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T22:33:37+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 2 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T22:35:06+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 8 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-10T22:35:50+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: isassessed D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T22:36:12+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=18&score=100&remark=%E8%AF%A5%E5%90%8C%E5%BF%97%E5%BE%88%E8%AE%A4%E7%9C%9F&isannoy=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`month`,`year`,`inserttime`,`lastmodifytime`) VALUES ('17','18','100','该同志很认真','1','8','2016','1470839772','1470839772') [ RunTime:0.0630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-08-10T22:36:14+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T22:36:16+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 8 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T22:42:05+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0040s ]
+SQL: SELECT es_user.showname,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT es_user.showname,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 8 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 34 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
