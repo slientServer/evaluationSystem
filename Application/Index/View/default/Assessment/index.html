@@ -18,11 +18,12 @@
 <script src="__JS__/jquery-ui/jquery-ui.min.js"></script>
 
 </head>
-<body class="container-fluid noPadding">
+<body class="container-fluid noPadding bg">
 <header>
   <nav class="navbar navbar-inverse navbar-fixed-top noMargin">
+    <a class="navbar-brand welcome-main" href="__INDEX__Index/index">主页</a>
     <foreach name="accessList" item="vo">
-        <a class="navbar-brand" href="__INDEX__<{$vo.controller}>/<{$vo.action}>"><{$vo.appInfo.name}></a>
+        <a class="navbar-brand welcome-main" href="__INDEX__<{$vo.controller}>/<{$vo.action}>"><{$vo.appInfo.name}></a>
     </foreach>
      <a class="navbar-brand navbar-right welcome" href="__INDEX__Login/logout">登出</a>
      <span class="navbar-brand navbar-right welcome" href="#">欢迎你,<{$showname}>！</span>

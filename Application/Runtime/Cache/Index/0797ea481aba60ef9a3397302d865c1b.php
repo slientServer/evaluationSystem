@@ -17,10 +17,11 @@
 <script src="/evaluationSystem/Application/Index/View/default/Public/js/jquery-ui/jquery-ui.min.js"></script>
 
 </head>
-<body class="container-fluid noPadding">
+<body class="container-fluid noPadding bg">
 <header>
   <nav class="navbar navbar-inverse navbar-fixed-top noMargin">
-    <?php if(is_array($accessList)): foreach($accessList as $key=>$vo): ?><a class="navbar-brand" href="/evaluationSystem/Index/<?php echo ($vo["controller"]); ?>/<?php echo ($vo["action"]); ?>"><?php echo ($vo["appInfo"]["name"]); ?></a><?php endforeach; endif; ?>
+    <a class="navbar-brand welcome-main" href="/evaluationSystem/Index/Index/index">主页</a>
+    <?php if(is_array($accessList)): foreach($accessList as $key=>$vo): ?><a class="navbar-brand welcome-main" href="/evaluationSystem/Index/<?php echo ($vo["controller"]); ?>/<?php echo ($vo["action"]); ?>"><?php echo ($vo["appInfo"]["name"]); ?></a><?php endforeach; endif; ?>
      <a class="navbar-brand navbar-right welcome" href="/evaluationSystem/Index/Login/logout">登出</a>
      <span class="navbar-brand navbar-right welcome" href="#">欢迎你,<?php echo ($showname); ?>！</span>
   </nav>

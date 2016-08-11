@@ -35,7 +35,7 @@
 }
 
 .personInfoWidth{
-	width: 50%;
+	width: 90%;
 	margin: auto;
 }
 
@@ -63,4 +63,23 @@
 
 .remark-width{
 	width: 40%;
+}
+
+.welcome-main{
+	font-family: cursive;
+    font-size: x-large;
+    color: white !important;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.employee-icon{
+	width: 80px;
+    margin: 25px;
+}
+
+.employee-font{
+	font-size: 40px;
+    font-family: cursive;
+    font-weight: 600;
 }

@@ -13,6 +13,28 @@ class EmployeeController extends CommonController{
 		$fields= 'es_user.username, es_user.phone, es_user.password, es_user.showname, es_user.enrolldate, es_dept.name as deptname, es_user.position, es_user.directleader';
 		$userInfo= $user->join('es_dept ON es_user.deptid= es_dept.id')->where(array('es_user.id' => session(C('USER_AUTH_KEY'))))->field($fields)->select();
 		$directleader= $user->find($userInfo[0]['directleader']);
+
+		$assessment= M('Assessment');
+		$avgScore= round($assessment->where(array('targetuser' => $_SESSION[C('USER_AUTH_KEY')]))->avg('score'), 1);
+		
+		$userList= $user->field('id')->select();
+		$userScoreList= array();
+		foreach ($userList as $key => $value) {
+			# code...
+			$userScoreList[$value['id']]= round($assessment->where(array('targetuser' => $value['id']))->avg('score'), 1);
+		}
+		arsort($userScoreList);
+		$rank=0;
+		foreach ($userScoreList as $key => $value) {
+			# code...
+			$rank++;
+			if($key== $_SESSION[C('USER_AUTH_KEY')]){
+				break;
+			}
+		}
+
+		$this->assign('avgScore', $avgScore);
+		$this->assign('rank', $rank);
 		$this->assign('accessList', $_SESSION['_ACCESS_LIST']);
 		$this->assign('directName', $directleader['showname']);
 		$this->assign('showname', $_SESSION[C('ADMIN_AUTH_KEY_SHOW_NAME')]);

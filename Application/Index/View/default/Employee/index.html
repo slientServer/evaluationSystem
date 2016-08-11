@@ -15,11 +15,12 @@
 <script src="__JS__/Employee.js"></script>
 
 </head>
-<body class="container-fluid noPadding">
+<body class="container-fluid noPadding bg">
 <header>
   <nav class="navbar navbar-inverse navbar-fixed-top noMargin">
+    <a class="navbar-brand welcome-main" href="__INDEX__Index/index">主页</a>
     <foreach name="accessList" item="vo">
-        <a class="navbar-brand" href="__INDEX__<{$vo.controller}>/<{$vo.action}>"><{$vo.appInfo.name}></a>
+        <a class="navbar-brand welcome-main" href="__INDEX__<{$vo.controller}>/<{$vo.action}>"><{$vo.appInfo.name}></a>
     </foreach>
      <a class="navbar-brand navbar-right welcome" href="__INDEX__Login/logout">登出</a>
      <span class="navbar-brand navbar-right welcome" href="#">欢迎你,<{$showname}>！</span>
@@ -30,54 +31,94 @@
     <h1>个人信息管理</h1>
   </div>
   <form class="form-horizontal personInfoWidth textCenter" method="POST" action="__INDEX__Employee/update">
+
+    <div class="row">
+       <div class="col-lg-6">
+        <image class="employee-icon" src="__IMG__/icon/score.png">
+        <span class="employee-font">累计平均:<{$avgScore}></span>
+       </div>
+       <div class="col-lg-6">
+        <image class="employee-icon" src="__IMG__/icon/rank.png">
+        <span class="employee-font">排名:<{$rank}></span>
+       </div>
+    </div>
+
+    <div class="row">
+    <div class="col-lg-6">
     <div class="form-group">
       <label for="username" class="col-sm-2 control-label">用户名:</label>
       <div class="col-sm-10">
         <input type="input"  class="form-control" id="username" value="<{$userInfo[0].username}>" disabled>
       </div>
     </div>
+    </div>
+    <div class="col-lg-6">
     <div class="form-group">
       <label for="showname" class="col-sm-2 control-label">姓名:</label>
       <div class="col-sm-10">
         <input type="input" name="showname" class="form-control infoInput" id="showname" value="<{$userInfo[0].showname}>" disabled>
       </div>
     </div>
+    </div>
+    </div>
+
+    <div class="row">
+    <div class="col-lg-6">
     <div class="form-group">
       <label for="password" class="col-sm-2 control-label">密码:</label>
       <div class="col-sm-10">
         <input type="password" name="password"  class="form-control infoInput" id="password" value="<{$userInfo[0].password}>" disabled>
       </div>
     </div>
+    </div>
+    <div class="col-lg-6">
     <div class="form-group">
       <label for="phone" class="col-sm-2 control-label">电话:</label>
       <div class="col-sm-10">
         <input type="input" name="phone"  class="form-control infoInput" id="phone" value="<{$userInfo[0].phone}>" disabled>
       </div>
     </div>
+    </div>
+    </div>
+
+    <div class="row">
+    <div class="col-lg-6">
     <div class="form-group">
       <label for="deptid" class="col-sm-2 control-label">部门:</label>
       <div class="col-sm-10">
         <input type="input"  class="form-control" id="deptid" value="<{$userInfo[0].deptname}>" disabled>
       </div>
     </div>
+    </div>
+    <div class="col-lg-6">
     <div class="form-group">
       <label for="position" class="col-sm-2 control-label">职位:</label>
       <div class="col-sm-10">
         <input type="input"  class="form-control" id="position" value="<{$userInfo[0].position}>" disabled>
       </div>
     </div>
+    </div>
+    </div>
+
+    <div class="row">
+    <div class="col-lg-6">  
     <div class="form-group">
       <label for="directleader" class="col-sm-2 control-label">直属领导:</label>
       <div class="col-sm-10">
         <input type="input"  class="form-control" id="directleader" value="<{$directName}>" disabled>
       </div>
     </div>
+    </div>
+    <div class="col-lg-6">
     <div class="form-group">
       <label for="enrolldate" class="col-sm-2 control-label">入职日期:</label>
       <div class="col-sm-10">
         <input type="input"  class="form-control" id="enrolldate" value="<{$userInfo[0].enrolldate}>" disabled>
       </div>
     </div>
+    </div>
+    </div>
+
     <button class="btn btn-default" id="updatePersonalInfo">修改信息</button>
     <button type="submit" class="btn btn-default hidden" id="updatePersonalInfoSave">保存</button>
     <button class="btn btn-default hidden" id="updatePersonalInfoCancel">取消</button>
