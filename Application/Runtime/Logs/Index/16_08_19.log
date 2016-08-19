@@ -1,0 +1,1079 @@
+[ 2016-08-19T21:29:26+08:00 ] ::1 /evaluationSystem/Index/Login/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\380876ff5eecdf3888d6968a913a5ee2.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T21:29:27+08:00 ] ::1 /evaluationSystem/Index/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T21:29:36+08:00 ] ::1 /evaluationSystem/Index/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `es_user` WHERE `username` = 'bhao' LIMIT 1   [ RunTime:0.0430s ]
+SQL: UPDATE `es_user` SET `logintime`='1471613376',`loginip`='0' WHERE `id` = 17 [ RunTime:0.0500s ]
+SQL: select node.id,node.name,node.title,node.imgsrc,node.remark from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.2310s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=26 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=28 and node.status=1 [ RunTime:0.0020s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=30 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=31 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=33 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=34 and node.status=1 [ RunTime:0.0020s ]
+
+[ 2016-08-19T21:29:36+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_fields` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `es_fields` WHERE `field` = 'ad'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T21:31:30+08:00 ] ::1 /evaluationSystem/Index/Login/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\380876ff5eecdf3888d6968a913a5ee2.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T21:31:30+08:00 ] ::1 /evaluationSystem/Index/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-19T21:31:40+08:00 ] ::1 /evaluationSystem/Index/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `es_user` SET `logintime`='1471613500',`loginip`='0' WHERE `id` = 1 [ RunTime:0.1250s ]
+
+[ 2016-08-19T22:27:09+08:00 ] ::1 /evaluationSystem/Index/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\380876ff5eecdf3888d6968a913a5ee2.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:27:09+08:00 ] ::1 /evaluationSystem/Index/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-19T22:27:19+08:00 ] ::1 /evaluationSystem/Index/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_user` WHERE `username` = 'bhao' LIMIT 1   [ RunTime:0.0260s ]
+SQL: UPDATE `es_user` SET `logintime`='1471616839',`loginip`='0' WHERE `id` = 17 [ RunTime:0.2420s ]
+SQL: select node.id,node.name,node.title,node.imgsrc,node.remark from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=26 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=28 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=30 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=31 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=33 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=34 and node.status=1 [ RunTime:0.0010s ]
+
+[ 2016-08-19T22:27:19+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_fields` WHERE `field` = 'ad'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:29:48+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT es_user.showname,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT es_user.showname,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 8 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 36 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 36 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 36 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 36 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 36 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 36 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 43 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 43 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 43 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 43 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 43 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:29:50+08:00 ] ::1 /evaluationSystem/Index/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_fields` WHERE `field` = 'ad'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:29:51+08:00 ] ::1 /evaluationSystem/Index/Employee/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SELECT es_user.username,es_user.phone,es_user.password,es_user.showname,es_user.enrolldate,es_dept.name as deptname,es_user.position,es_user.directleader FROM `es_user` INNER JOIN es_dept ON es_user.deptid= es_dept.id  WHERE es_user.id = '17'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `es_user`  [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 18 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-19T22:29:54+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0010s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: isassessed D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:38:09+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0030s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: startday D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\AssessmentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: startday D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\AssessmentController.class.php 第 20 行.
+
+[ 2016-08-19T22:39:06+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: startday D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\AssessmentController.class.php 第 20 行.
+
+[ 2016-08-19T22:39:25+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'startday' in 'field list'
+ [ SQL语句 ] : SELECT `groupid`,`startday` FROM `es_group_user` WHERE `userid` = 17 
+ERR: 1054:Unknown column 'startday' in 'field list'
+ [ SQL语句 ] : SELECT `groupid`,`startday` FROM `es_group_user` WHERE `userid` = 17 
+
+[ 2016-08-19T22:41:06+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2016-08-19T22:42:50+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+
+[ 2016-08-19T22:44:13+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+
+[ 2016-08-19T22:44:43+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0010s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+
+[ 2016-08-19T22:45:02+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+
+[ 2016-08-19T22:48:41+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0010s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: isstart D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 48 行.
+NOTIC: [8] Undefined index: isassessed D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-19T22:49:22+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: isstart D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 48 行.
+NOTIC: [8] Undefined index: isstart D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:49:57+08:00 ] ::1 /evaluationSystem/Index/Login/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\380876ff5eecdf3888d6968a913a5ee2.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-19T22:49:57+08:00 ] ::1 /evaluationSystem/Index/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:50:13+08:00 ] ::1 /evaluationSystem/Index/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `es_user` SET `logintime`='1471618212',`loginip`='0' WHERE `id` = 1 [ RunTime:0.1290s ]
+
+[ 2016-08-19T22:50:27+08:00 ] ::1 /evaluationSystem/Index/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\380876ff5eecdf3888d6968a913a5ee2.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:50:27+08:00 ] ::1 /evaluationSystem/Index/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:50:35+08:00 ] ::1 /evaluationSystem/Index/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_user` WHERE `username` = 'bhao' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `es_user` SET `logintime`='1471618235',`loginip`='0' WHERE `id` = 17 [ RunTime:0.1240s ]
+SQL: select node.id,node.name,node.title,node.imgsrc,node.remark from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.0020s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=26 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=28 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=30 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=31 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=33 and node.status=1 [ RunTime:0.0020s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=34 and node.status=1 [ RunTime:0.0010s ]
+
+[ 2016-08-19T22:50:35+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_fields` WHERE `field` = 'ad'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:50:38+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: isstart D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 48 行.
+NOTIC: [8] Undefined index: isstart D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:51:50+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: isstart D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 48 行.
+NOTIC: [8] Undefined index: isstart D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 62 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:51:52+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0010s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: isstart D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 48 行.
+NOTIC: [8] Undefined index: isstart D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 62 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:52:23+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+
+[ 2016-08-19T22:52:53+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0010s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0010s ]
+
+[ 2016-08-19T22:53:07+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0010s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0010s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+
+[ 2016-08-19T22:53:35+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+
+[ 2016-08-19T22:53:44+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0010s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: isstart D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 48 行.
+NOTIC: [8] Undefined index: isstart D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:53:51+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: isstart D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 48 行.
+NOTIC: [8] Undefined index: isstart D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:53:52+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: isstart D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 48 行.
+NOTIC: [8] Undefined index: isstart D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-19T22:54:09+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0010s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: isstart D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 48 行.
+NOTIC: [8] Undefined index: isassessed D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:54:40+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: isassessed D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:54:43+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: isassessed D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:55:03+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:55:21+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-19T22:55:41+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 48 行.
+NOTIC: [8] Undefined index: isassessed D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:55:54+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:56:18+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 48 行.
+NOTIC: [8] Undefined index: isassessed D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:56:32+08:00 ] ::1 /evaluationSystem/Index/assessment/assessExecution?userid=1&score=89&remark=&isannoy=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: INSERT INTO `es_assessment` (`fromuser`,`targetuser`,`score`,`remark`,`isanony`,`month`,`year`,`inserttime`,`lastmodifytime`) VALUES ('17','1','89','','1','8','2016','1471618592','1471618592') [ RunTime:0.0650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-19T22:56:34+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0040s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-19T22:56:37+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:56:51+08:00 ] ::1 /evaluationSystem/Index/assessment/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_group_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessgroup` [ RunTime:0.0020s ]
+SQL: SELECT `groupid` FROM `es_group_user` WHERE `userid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`startday` FROM `es_assessgroup` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  es_user.id,es_user.username,es_user.phone,es_user.showname,es_user.position FROM `es_group_user` INNER JOIN es_user ON es_group_user.userid= es_user.id  WHERE `groupid` IN ('1','2','3') AND es_group_user.userid <> '17'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT `targetuser` FROM `es_assessment` WHERE `targetuser` IN ('18','1') AND `fromuser` = '17' AND `month` = '08'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\963f32aa8424c4f5fc1f2b6964f0e27d.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-19T22:57:03+08:00 ] ::1 /evaluationSystem/Index/assessmenthistory/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SELECT es_user.showname,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT es_user.showname,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+SQL: SELECT es_user.showname,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 8 AND `year` = '2016' AND `fromuser` = '17'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 36 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 36 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 36 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 36 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 36 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 36 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 43 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 43 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 43 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 43 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 43 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\0797ea481aba60ef9a3397302d865c1b.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-19T22:57:07+08:00 ] ::1 /evaluationSystem/Index/Employee/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SELECT es_user.username,es_user.phone,es_user.password,es_user.showname,es_user.enrolldate,es_dept.name as deptname,es_user.position,es_user.directleader FROM `es_user` INNER JOIN es_dept ON es_user.deptid= es_dept.id  WHERE es_user.id = '17'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `es_user`  [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 18 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

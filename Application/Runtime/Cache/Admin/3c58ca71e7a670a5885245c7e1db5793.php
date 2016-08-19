@@ -17,14 +17,6 @@
 				</dd>
 			</dl>
 			<dl>
-				<dt>开始日期：</dt>
-				<dd><input type="number" value="<?php echo ($vo["startday"]); ?>"  style="width:30%" name="startday"/>日</dd>
-			</dl>
-			<dl>
-				<dt>结束日期：</dt>
-				<dd><input type="number" value="<?php echo ($vo["endday"]); ?>" style="width:30%" name="endday"/>日</dd>
-			</dl>
-			<dl>
 				<dt>评价小组描述：</dt>
 				<dd><textarea rows='10'  style="width:100%" name="groupremark"><?php echo ($vo["groupremark"]); ?></textarea></dd>
 			</dl>

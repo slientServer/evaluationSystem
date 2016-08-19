@@ -13,6 +13,7 @@ class AssessmentController extends CommonController{
 		$groupUser= M('group_user');
 		$assessGroup= M('Assessgroup');
 		$currentDay= date("d");
+		$groupStartDay=1;
 		$relatedGroups= $groupUser->where(array('userid' => session(C('USER_AUTH_KEY'))))->field('groupid')->select();
 		$condition= '';
 		foreach ($relatedGroups as $key=>$value) {
@@ -25,16 +26,17 @@ class AssessmentController extends CommonController{
 		 } 
 		$map['groupid']= array('in' , $condition);
 		$map['status']= array('eq' , 1);
-		$validRelatedGroups= $assessGroup->where($map)->field('id')->select();
+		$validRelatedGroups= $assessGroup->where($map)->field('id, startday')->select();
 		$validCondition= '';
 		foreach ($validRelatedGroups as $key=>$value) {
+			$groupStartDay= $validRelatedGroups[$key]['startday'];
 		 	# code...
 		 	if($key== count($validRelatedGroups)-1){
 				$validCondition= $validCondition.$value['id'];
 		 	}else{
 		 		$validCondition= $validCondition.$value['id'].',';
 		 	}
-		 } 
+		} 
 		$validMap['groupid']= array('in' , $validCondition);
 		$validMap['es_group_user.userid']= array('neq' , session(C('USER_AUTH_KEY')));
 		$userInfo= $groupUser->join('es_user ON es_group_user.userid= es_user.id')->distinct('id')->where($validMap)->field('es_user.id, es_user.username, es_user.phone, es_user.showname, es_user.position')->select();	
@@ -63,6 +65,9 @@ class AssessmentController extends CommonController{
 				$userInfo[$idx]['isassessed']= 1;
 			}
 		}
+		$isstart= date('d')>= $groupStartDay? 'start': 'unstart';
+		$this->assign('isstart', $isstart);
+		$this->assign('groupStartDay', $groupStartDay);
 		$this->assign('accessList', $_SESSION['_ACCESS_LIST']);
 		$this->assign('showname', $_SESSION[C('ADMIN_AUTH_KEY_SHOW_NAME')]);
 		$this->assign('userInfo', $userInfo);

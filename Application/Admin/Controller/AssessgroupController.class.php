@@ -53,6 +53,36 @@ class AssessgroupController extends CommonController{
 		$this->display('edit');
 	}
 
+	public function setDay(){
+		$model= D('Assessgroup');
+		$startDay= $model->field('startday')->find();
+		$this->assign('startDay', $startDay);
+		$this->display('setday');
+	}
+
+	public function saveStartDay(){
+		$model= D('Assessgroup');
+		$groupList= $model->field('id')->select();
+		$data['startday']= I('startday');
+
+		foreach ($groupList as $key => $value) {
+			# code...
+			$res= $model->where(array('id' => $groupList[$key]['id']))->save($data);
+		}
+		// 更新数据
+		if(false !== $res) {
+			// 回调接口
+			if (method_exists($this, '_tigger_update')) {
+				$this->_tigger_update($model);
+			}
+			//成功提示
+			$this->success(L('更新成功'));
+		} else {
+			//错误提示
+			$this->error(L('更新失败'));
+		}
+	}
+
 	public function memberedit(){
 		$model= M('User');
 		$groupUser= M('group_user');

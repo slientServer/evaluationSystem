@@ -45,9 +45,11 @@
           <td class="textCenter verticalAlignCenter"><?php echo ($vo["phone"]); ?></td>
           <td class="textCenter verticalAlignCenter"><?php echo ($vo["position"]); ?></td>
           <td class="textCenter">
-            <?php if($vo["isassessed"] != 1): ?><button type="button" data-toggle="modal" userid="<?php echo ($vo["id"]); ?>" data-target="#myModal" class="btn btn-link assess-button">打分</button>
+            <?php if($isstart == start): if($vo["isassessed"] != 1): ?><button type="button" data-toggle="modal" userid="<?php echo ($vo["id"]); ?>" data-target="#myModal" class="btn btn-link assess-button">打分</button>
+                <?php else: ?>
+                    <span style="font-size:14px; color:gray;">已打分</span><?php endif; ?>
             <?php else: ?>
-                <span style="font-size:14px; color:gray;">已打分</span><?php endif; ?>
+                <span style="font-size:14px; color:gray;">打分将于<?php echo ($groupStartDay); ?>日开启</span><?php endif; ?>
            </td>
         </tr>
       <?php else: ?>
@@ -57,9 +59,11 @@
           <td class="textCenter verticalAlignCenter"><?php echo ($vo["phone"]); ?></td>
           <td class="textCenter verticalAlignCenter"><?php echo ($vo["position"]); ?></td>
           <td class="textCenter">
-            <?php if($vo["isassessed"] != 1): ?><button type="button" data-toggle="modal" userid="<?php echo ($vo["id"]); ?>" data-target="#myModal" class="btn btn-link assess-button">打分</button>
+            <?php if($isstart == 'start'): if($vo["isassessed"] != 1): ?><button type="button" data-toggle="modal" userid="<?php echo ($vo["id"]); ?>" data-target="#myModal" class="btn btn-link assess-button">打分</button>
+                <?php else: ?>
+                    <span style="font-size:14px; color:gray;">已打分</span><?php endif; ?>
             <?php else: ?>
-                <span style="font-size:14px; color:gray;">已打分</span><?php endif; ?>
+                <span style="font-size:14px; color:gray;">打分将于<?php echo ($groupStartDay); ?>日开启</span><?php endif; ?>
           </td>
         </tr><?php endif; endforeach; endif; ?>
   </table>

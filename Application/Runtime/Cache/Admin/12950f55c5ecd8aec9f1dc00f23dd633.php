@@ -25,7 +25,7 @@
 		onsubmit="return validateCallback(this,dialogAjaxDone);"><?php  ?>
 		<div class="pageFormContent" width="100%" layoutH="60">
 			<dl>
-				<dt>用户名：</dt>
+				<dt>登录用户名(字母)：</dt>
 				<dd><input type="text" class="required"  style="width:100%" name="username"/></dd>
 			</dl>
 			<dl>

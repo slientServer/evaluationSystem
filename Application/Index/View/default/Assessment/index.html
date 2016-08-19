@@ -49,10 +49,14 @@
           <td class="textCenter verticalAlignCenter"><{$vo.phone}></td>
           <td class="textCenter verticalAlignCenter"><{$vo.position}></td>
           <td class="textCenter">
-            <if condition="$vo.isassessed neq 1">
-                <button type="button" data-toggle="modal" userid="<{$vo.id}>" data-target="#myModal" class="btn btn-link assess-button">打分</button>
+            <if condition="$isstart eq start">
+                <if condition="$vo.isassessed neq 1">
+                    <button type="button" data-toggle="modal" userid="<{$vo.id}>" data-target="#myModal" class="btn btn-link assess-button">打分</button>
+                <else/>
+                    <span style="font-size:14px; color:gray;">已打分</span>
+                </if>
             <else/>
-                <span style="font-size:14px; color:gray;">已打分</span>
+                <span style="font-size:14px; color:gray;">打分将于<{$groupStartDay}>日开启</span>
             </if>
            </td>
         </tr>
@@ -63,10 +67,14 @@
           <td class="textCenter verticalAlignCenter"><{$vo.phone}></td>
           <td class="textCenter verticalAlignCenter"><{$vo.position}></td>
           <td class="textCenter">
-            <if condition="$vo.isassessed neq 1">
-                <button type="button" data-toggle="modal" userid="<{$vo.id}>" data-target="#myModal" class="btn btn-link assess-button">打分</button>
+            <if condition="$isstart eq 'start'">
+                <if condition="$vo.isassessed neq 1">
+                    <button type="button" data-toggle="modal" userid="<{$vo.id}>" data-target="#myModal" class="btn btn-link assess-button">打分</button>
+                <else/>
+                    <span style="font-size:14px; color:gray;">已打分</span>
+                </if>
             <else/>
-                <span style="font-size:14px; color:gray;">已打分</span>
+                <span style="font-size:14px; color:gray;">打分将于<{$groupStartDay}>日开启</span>
             </if>
           </td>
         </tr>
