@@ -74,3 +74,388 @@ INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 
+[ 2016-08-22T22:17:34+08:00 ] ::1 /evaluationSystem/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T22:17:38+08:00 ] ::1 /evaluationSystem/Admin/Rbacuser/index.html?_=1471875458353
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`phone`,`position`,`showname`,`directleader`,`deptid`,`enrolldate`,`islock`,`logintime`,`loginip`,`inserttime`,`lastmodifytime` FROM `es_user`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_role` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: mapping_order D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,remark FROM es_role_user AS a, es_role AS b WHERE a.role_id = b.id AND a. user_id='1' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,remark FROM es_role_user AS a, es_role AS b WHERE a.role_id = b.id AND a. user_id='17' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,remark FROM es_role_user AS a, es_role AS b WHERE a.role_id = b.id AND a. user_id='18' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,remark FROM es_role_user AS a, es_role AS b WHERE a.role_id = b.id AND a. user_id='19' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 5 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 68 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 68 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 68 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 68 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 79 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 80 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 81 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 82 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 83 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 85 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 87 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 87 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\22e12eaff75c3165acdc65ab8338079c.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T22:17:42+08:00 ] ::1 /evaluationSystem/Admin/Rbacnode/index.html?_=1471875462019
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_node` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `es_node` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_node` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_node` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_node` ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\evaluationSystem\Application\Admin\Controller\RbacnodeController.class.php 第 307 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\evaluationSystem\Application\Admin\Controller\RbacnodeController.class.php 第 308 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 5 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T22:17:44+08:00 ] ::1 /evaluationSystem/Admin/Rbacnode/add/level/1?_=1471875464373
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: pid D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\e44c9def3d26565592849052e57b91cb.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T22:18:51+08:00 ] ::1 /evaluationSystem/Admin/Rbacnode/edit/id/30?_=1471875531809
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_node` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `es_node` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T22:21:06+08:00 ] ::1 /evaluationSystem/Admin/Rbacnode/add/level/1?_=1471875665949
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: pid D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\e44c9def3d26565592849052e57b91cb.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T22:22:00+08:00 ] ::1 /evaluationSystem/Admin/Rbacnode/insert/navTabId/listnodes/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_node` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `es_node` (`pid`,`level`,`name`,`title`,`imgsrc`,`status`,`remark`) VALUES ('0','1','员工评价分析','员工评价分析','analysis.png','1','可以查看员工评价图表分析') [ RunTime:0.0260s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-08-22T22:22:01+08:00 ] ::1 /evaluationSystem/Admin/Rbacnode/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_node` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `es_node` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_node` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_node` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_node` ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\evaluationSystem\Application\Admin\Controller\RbacnodeController.class.php 第 307 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\evaluationSystem\Application\Admin\Controller\RbacnodeController.class.php 第 308 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T22:22:04+08:00 ] ::1 /evaluationSystem/Admin/Rbacnode/add/pid/40/level/2?_=1471875724736
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T22:22:24+08:00 ] ::1 /evaluationSystem/Admin/Rbacnode/insert/navTabId/listnodes/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_node` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `es_node` (`pid`,`level`,`name`,`title`,`imgsrc`,`status`,`remark`) VALUES ('40','2','assessmentanalysis','assessmentanalysis','','1','') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-08-22T22:22:24+08:00 ] ::1 /evaluationSystem/Admin/Rbacnode/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_node` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `es_node` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_node` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_node` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_node` ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\evaluationSystem\Application\Admin\Controller\RbacnodeController.class.php 第 307 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\evaluationSystem\Application\Admin\Controller\RbacnodeController.class.php 第 308 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-22T22:22:28+08:00 ] ::1 /evaluationSystem/Admin/Rbacnode/add/pid/41/level/3?_=1471875748877
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T22:22:36+08:00 ] ::1 /evaluationSystem/Admin/Rbacnode/insert/navTabId/listnodes/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_node` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `es_node` (`pid`,`level`,`name`,`title`,`imgsrc`,`status`,`remark`) VALUES ('41','3','index','index','','1','') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-08-22T22:22:36+08:00 ] ::1 /evaluationSystem/Admin/Rbacnode/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_node` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `es_node` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_node` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `es_node` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `es_node` ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\evaluationSystem\Application\Admin\Controller\RbacnodeController.class.php 第 307 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\evaluationSystem\Application\Admin\Controller\RbacnodeController.class.php 第 308 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\b1d0ea9fd04a9b1a6ee5cc7e9bdc1e1b.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-08-22T22:22:37+08:00 ] ::1 /evaluationSystem/Admin/Rbacrole/index.html?_=1471875757730
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_role` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `es_role` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_role` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: search D:\xampp\htdocs\evaluationSystem\Application\Admin\Controller\RbacroleController.class.php 第 270 行.
+NOTIC: [8] Undefined index: values D:\xampp\htdocs\evaluationSystem\Application\Admin\Controller\RbacroleController.class.php 第 271 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\9fcfc2dc1fe33575c952d146d6824da5.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\9fcfc2dc1fe33575c952d146d6824da5.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T22:22:39+08:00 ] ::1 /evaluationSystem/Admin/Rbacaccess/edit/role_id/9.html?_=1471875759713
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_node` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `es_node` ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_access` [ RunTime:0.0030s ]
+SQL: SELECT `node_id` FROM `es_access` WHERE `role_id` = 9  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T22:22:46+08:00 ] ::1 /evaluationSystem/Admin/Rbacaccess/update/navTabId/rbacaccess/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_access` [ RunTime:0.0030s ]
+SQL: DELETE FROM `es_access` WHERE `role_id` = 9 [ RunTime:0.0170s ]
+SQL: INSERT INTO `es_access` (`role_id`,`node_id`,`level`) VALUES ('9','33','1'),('9','34','2'),('9','36','3'),('9','37','1'),('9','38','2'),('9','39','3'),('9','40','1'),('9','41','2'),('9','42','3'),('9','30','1'),('9','31','2'),('9','32','3'),('9','26','1'),('9','28','2'),('9','29','3') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-08-22T22:22:50+08:00 ] ::1 /evaluationSystem/admin/Login/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

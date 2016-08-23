@@ -17,7 +17,7 @@ $(document).ready(function(){
 								$('.success-hint').fadeOut("slow");
 								$('#myModal').modal('hide');
 								window.location.reload();
-							}, 2000);
+							}, 1000);
 						}else{
 							$('.success-hint').text('保存失败');
 							$('.success-hint').fadeIn("slow");

@@ -1760,3 +1760,342 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2016-08-22T22:17:26+08:00 ] ::1 /evaluationSystem/Index/Login/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\380876ff5eecdf3888d6968a913a5ee2.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T22:17:26+08:00 ] ::1 /evaluationSystem/Index/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T22:17:33+08:00 ] ::1 /evaluationSystem/Index/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `es_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `es_user` SET `logintime`='1471875453',`loginip`='0' WHERE `id` = 1 [ RunTime:0.2180s ]
+
+[ 2016-08-22T22:22:50+08:00 ] ::1 /evaluationSystem/Index/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\380876ff5eecdf3888d6968a913a5ee2.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-22T22:22:50+08:00 ] ::1 /evaluationSystem/Index/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T22:22:56+08:00 ] ::1 /evaluationSystem/Index/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_user` WHERE `username` = 'bhao' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `es_user` SET `logintime`='1471875776',`loginip`='0' WHERE `id` = 17 [ RunTime:0.2820s ]
+SQL: select node.id,node.name,node.title,node.imgsrc,node.remark from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.0020s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=26 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=28 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=30 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=31 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=33 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=34 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=37 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=38 and node.status=1 [ RunTime:0.0010s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=40 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=41 and node.status=1 [ RunTime:0.0010s ]
+
+[ 2016-08-22T22:22:56+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_fields` WHERE `field` = 'ad'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T22:22:58+08:00 ] ::1 /evaluationSystem/Index/assessmentanalysis/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SELECT es_user.showname,es_assessment.fromuser,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 3 AND `year` = '2016'  [ RunTime:0.0000s ]
+SQL: SELECT `showname` FROM `es_user` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname,es_assessment.fromuser,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 4 AND `year` = '2016'  [ RunTime:0.0000s ]
+SQL: SELECT `showname` FROM `es_user` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT es_user.showname,es_assessment.fromuser,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 5 AND `year` = '2016'  [ RunTime:0.0000s ]
+SQL: SELECT `showname` FROM `es_user` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname,es_assessment.fromuser,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 6 AND `year` = '2016'  [ RunTime:0.0000s ]
+SQL: SELECT `showname` FROM `es_user` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `showname` FROM `es_user` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname,es_assessment.fromuser,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 7 AND `year` = '2016'  [ RunTime:0.0000s ]
+SQL: SELECT `showname` FROM `es_user` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `showname` FROM `es_user` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT es_user.showname,es_assessment.fromuser,es_assessment.score,es_assessment.remark,es_assessment.isanony,es_assessment.inserttime FROM `es_assessment` INNER JOIN es_user ON es_assessment.targetuser= es_user.id  WHERE `month` = 8 AND `year` = '2016'  [ RunTime:0.0000s ]
+SQL: SELECT `showname` FROM `es_user` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `showname` FROM `es_user` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `showname` FROM `es_user` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `showname` FROM `es_user` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `showname` FROM `es_user` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\7732b0b8b16a816196f95b64631137fe.php 第 36 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\7732b0b8b16a816196f95b64631137fe.php 第 36 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\7732b0b8b16a816196f95b64631137fe.php 第 36 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\7732b0b8b16a816196f95b64631137fe.php 第 36 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\7732b0b8b16a816196f95b64631137fe.php 第 36 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\7732b0b8b16a816196f95b64631137fe.php 第 36 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\7732b0b8b16a816196f95b64631137fe.php 第 43 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\7732b0b8b16a816196f95b64631137fe.php 第 43 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\7732b0b8b16a816196f95b64631137fe.php 第 43 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\7732b0b8b16a816196f95b64631137fe.php 第 43 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\7732b0b8b16a816196f95b64631137fe.php 第 43 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\7732b0b8b16a816196f95b64631137fe.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T22:44:42+08:00 ] ::1 /evaluationSystem/Index/assessmentanalysis/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`showname` FROM `es_user`  [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 18 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T22:44:44+08:00 ] ::1 /evaluationSystem/Index/assessmentanalysis/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`showname` FROM `es_user`  [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 18 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T22:44:45+08:00 ] ::1 /evaluationSystem/Index/assessmentanalysis/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`showname` FROM `es_user`  [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 18 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 19 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-22T22:45:45+08:00 ] ::1 /evaluationSystem/Index/assessmentanalysis/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`showname` FROM `es_user`  [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 18 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T22:45:47+08:00 ] ::1 /evaluationSystem/Index/assessmentanalysis/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`showname` FROM `es_user`  [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 18 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T22:46:14+08:00 ] ::1 /evaluationSystem/Index/assessmentanalysis/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`showname` FROM `es_user`  [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 18 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T22:46:16+08:00 ] ::1 /evaluationSystem/Index/assessmentanalysis/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`showname` FROM `es_user`  [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 18 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T22:48:28+08:00 ] ::1 /evaluationSystem/Index/assessmentanalysis/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_assessment` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`showname` FROM `es_user`  [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 18 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `es_assessment` WHERE `targetuser` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

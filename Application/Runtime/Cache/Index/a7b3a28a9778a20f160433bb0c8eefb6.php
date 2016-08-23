@@ -29,7 +29,7 @@
 </header>
 <section>
   <div class="page-header siglePageHeader">
-    <h1>评价历史</h1>
+    <h1>评价分析</h1>
   </div>
   <ul class="nav nav-tabs" role="tablist">
     <?php if(is_array($passedSixMonth)): foreach($passedSixMonth as $key=>$vo): ?><!-- Nav tabs -->
