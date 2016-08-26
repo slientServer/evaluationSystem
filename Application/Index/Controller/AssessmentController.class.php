@@ -79,7 +79,7 @@ class AssessmentController extends CommonController{
 		$model= M('Assessment');
 		$fromuserid= session(C('USER_AUTH_KEY'));
 		$targetuserid= I('userid');
-		$score= I('score');
+		$score= I('score')> 100? 0: I('score');
 		$remark= I('remark');
 		$isanony= I('isannoy');
 

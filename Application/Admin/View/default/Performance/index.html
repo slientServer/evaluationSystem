@@ -1,0 +1,57 @@
+<include file="Public:pagerForm" />
+
+<div class="pageContent">
+	<div class="panelBar">
+		<ul class="toolBar">
+			<li><a class="add" href="__URL__/add" target="dialog" width="550" height="380" rel="user_msg" title="添加部门"><span>添加</span></a></li>
+			<li><a class="delete" href="__URL__/delete/id/{item_id}/navTabId/assessgroup" target="ajaxTodo" title="确定要删除吗?"><span>删除</span></a></li>
+			<li><a class="edit" href="__URL__/edit/id/{item_id}"  width="550" height="380" target="dialog"><span>修改信息</span></a></li>	
+			<li><a class="edit" href="__URL__/setLeader"  width="550" height="380" target="dialog"><span>考核主管配置</span></a></li>	
+			<li><a class="edit" href="__URL__/setDay"  width="550" height="380" target="dialog"><span>设置评价开始日期</span></a></li>	
+			<li class="line">line</li>
+			<li><a class="icon"  href="javascript:navTabPageBreak();"><span>刷新</span></a></li>	
+		</ul>
+	</div>
+	<table class="table" width="100%" layoutH="75">
+		<thead>
+			<tr>
+				<th width="10">ID</th>
+				<th width="30">考核小组名字</th>
+				<th width="40">考核小组描述</th>
+				<th width="40">小组状态</th>
+				<th width="40">成员配置</th>
+				<th width="40">评价表单</th>
+				<th width="40">创建时间</th>
+				<th width="40">修改时间</th>
+			</tr>
+		</thead>
+		<tbody>
+			<foreach name="list" item="vo">
+				<tr target="item_id" rel="<{$vo.id}>" >
+					<td><{$vo.id}></td>
+					<td><{$vo.groupname}></td>
+					<td><{$vo.groupdescription}></td>
+					<td><if condition="$vo['status'] eq 1">开启<else/>关闭</if></td>
+					<td><a class="edit" width="750" height="580" rel="accessgroup" href="<{:U('Admin/Assessgroup/memberedit/',array('groupid'=>$vo['id']))}>"  width="550" height="380" target="dialog">配置成员</a></td>
+					<td>表单名字</td>
+					<td><{$vo.inserttime|date="Y-m-d H:i:s",###}></td>
+					<td><{$vo.lastmodifytime|date="Y-m-d H:i:s",###}></td>
+				</tr>
+			</foreach>
+		</tbody>
+	</table>
+	<div class="panelBar">
+		<div class="pages">
+			<span>显示</span>
+			<select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+				<option value="10" <if condition="$numPerPage eq 10 ">selected</if>>10</option>
+				<option value="15" <if condition="$numPerPage eq 15 ">selected</if>>15</option>
+				<option value="20" <if condition="$numPerPage eq 20 ">selected</if>>20</option>
+				<option value="25" <if condition="$numPerPage eq 25 ">selected</if>>25</option>
+				<option value="30" <if condition="$numPerPage eq 30 ">selected</if>>30</option>
+			</select>
+			<span>共<{$totalCount}>条</span>
+		</div>
+		<div class="pagination" targetType="navTab" totalCount="<{$totalCount}>" numPerPage="<{$numPerPage}>" pageNumShown="10" currentPage="<{$currentPage}>"></div>
+	</div>
+</div>

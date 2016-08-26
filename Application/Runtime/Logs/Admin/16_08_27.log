@@ -1,0 +1,1920 @@
+[ 2016-08-27T00:07:23+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/add?_=1472227643872
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:08:01+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html?_=1472227680986
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 5 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-27T00:08:02+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/add?_=1472227682373
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-27T00:08:12+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html?_=1472227692780
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 5 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:08:19+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/12?_=1472227699104
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: parentList D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:08:50+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/12?_=1472227730588
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: parentList D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Undefined index: questiontypel D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:09:27+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/12?_=1472227767904
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: parentList D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-27T00:09:32+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html?_=1472227772019
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0010s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 5 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:09:37+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/delete/id/11/navTabId/performancequestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: DELETE FROM `es_pmquestion` WHERE `id` IN ('11') [ RunTime:0.0780s ]
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-08-27T00:09:37+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html?pageNum=1&numPerPage=&_order=&_sort=&_=1472227777093
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:09:40+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/delete/id/12/navTabId/performancequestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: DELETE FROM `es_pmquestion` WHERE `id` IN ('12') [ RunTime:0.0510s ]
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-08-27T00:09:41+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html?pageNum=1&numPerPage=&_order=&_sort=&_=1472227780954
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0010s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-27T00:09:44+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/delete/id/13/navTabId/performancequestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: DELETE FROM `es_pmquestion` WHERE `id` IN ('13') [ RunTime:0.1040s ]
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-08-27T00:09:44+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html?pageNum=1&numPerPage=&_order=&_sort=&_=1472227784721
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-27T00:09:47+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/delete/id/14/navTabId/performancequestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: DELETE FROM `es_pmquestion` WHERE `id` IN ('14') [ RunTime:0.0590s ]
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-08-27T00:09:47+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html?pageNum=1&numPerPage=&_order=&_sort=&_=1472227787731
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:09:48+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/add?_=1472227788835
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:10:01+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/insert/navTabId/performancequestion/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `es_pmquestion` (`questiontext`,`questionlevel`,`questionparent`,`questiontype`) VALUES ('小组1','0','0','nan') [ RunTime:0.0840s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-08-27T00:10:01+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-27T00:10:06+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/add?_=1472227806343
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:10:19+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/insert/navTabId/performancequestion/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `es_pmquestion` (`questiontext`,`questionlevel`,`questionparent`,`questiontype`) VALUES ('小组1-1','1','15','number') [ RunTime:0.0670s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-08-27T00:10:20+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0010s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:10:22+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/add?_=1472227822661
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:10:34+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/insert/navTabId/performancequestion/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `es_pmquestion` (`questiontext`,`questionlevel`,`questionparent`,`questiontype`) VALUES ('小组1-2','1','15','number') [ RunTime:0.0550s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-08-27T00:10:34+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:10:39+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/15?_=1472227839700
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: parentList D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:10:52+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/16?_=1472227852682
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: parentList D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:11:01+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/17?_=1472227861899
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: parentList D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:11:55+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/17?_=1472227915488
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: parentList D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:12:07+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/16?_=1472227927364
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: parentList D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-27T00:12:37+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html?_=1472227957060
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0010s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 5 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:12:39+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/16?_=1472227959036
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: parentList D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:14:06+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html?_=1472228046820
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0010s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 5 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-27T00:14:08+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/16?_=1472228048444
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: question D:\xampp\htdocs\evaluationSystem\Application\Admin\Controller\PerformancequestionController.class.php 第 63 行.
+
+[ 2016-08-27T00:14:15+08:00 ] ::1 /evaluationSystem/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:14:18+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html?_=1472228058690
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 5 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:14:36+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/17?_=1472228075993
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant v - assumed 'v' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-27T00:14:44+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/15?_=1472228084108
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant v - assumed 'v' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:14:49+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/16?_=1472228089324
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant v - assumed 'v' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:14:56+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/15?_=1472228096228
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant v - assumed 'v' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-27T00:14:59+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/17?_=1472228099227
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant v - assumed 'v' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-27T00:16:14+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/17?_=1472228174174
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant v - assumed 'v' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-27T00:16:20+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/update/navTabId/performancequestion/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `es_pmquestion` SET `questiontext`='小组1-2',`questionlevel`='1',`questionparent`='0',`questiontype`='number' WHERE `id` = 17 [ RunTime:0.0590s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-08-27T00:16:20+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:16:24+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/17?_=1472228184110
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant v - assumed 'v' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-27T00:16:27+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/update/navTabId/performancequestion/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `es_pmquestion` SET `questiontext`='小组1-2',`questionlevel`='1',`questionparent`='15',`questiontype`='number' WHERE `id` = 17 [ RunTime:0.0640s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-08-27T00:16:27+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-27T00:16:32+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/16?_=1472228192363
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant v - assumed 'v' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:16:49+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/update/navTabId/performancequestion/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `es_pmquestion` SET `questiontext`='小组1-1test',`questionlevel`='0',`questionparent`='0',`questiontype`='nan' WHERE `id` = 16 [ RunTime:0.0480s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-08-27T00:16:49+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:16:53+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/16?_=1472228213802
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant v - assumed 'v' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant v - assumed 'v' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:17:26+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-27T00:18:03+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/16?_=1472228282996
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant v - assumed 'v' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant v - assumed 'v' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:18:55+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html?_=1472228335117
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 5 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-27T00:18:58+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/17?_=1472228338689
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:19:07+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html?_=1472228347924
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 5 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:19:12+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/17?_=1472228352734
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:19:28+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html?_=1472228368169
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 5 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:19:30+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/17?_=1472228370096
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant v - assumed 'v' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [2] Illegal string offset 'id' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant v - assumed 'v' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [2] Illegal string offset 'id' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:20:04+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/17?_=1472228404735
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [2] Illegal string offset 'questionparent' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [2] Illegal string offset 'questionparent' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:20:49+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html?_=1472228449649
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0010s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 5 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-27T00:20:51+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/17?_=1472228451384
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant questionparent - assumed 'questionparent' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant questionparent - assumed 'questionparent' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:21:26+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/17?_=1472228486697
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant questionparent - assumed 'questionparent' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant questionparent - assumed 'questionparent' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-27T00:22:32+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html?_=1472228552830
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0010s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 5 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-27T00:22:34+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/17?_=1472228554808
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant questionparent - assumed 'questionparent' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant questionparent - assumed 'questionparent' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:22:37+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/update/navTabId/performancequestion/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `es_pmquestion` SET `questiontext`='小组1-2',`questionlevel`='1',`questionparent`='15',`questiontype`='number' WHERE `id` = 17 [ RunTime:0.0540s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-08-27T00:22:38+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0010s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:22:41+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/16?_=1472228561507
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant questionparent - assumed 'questionparent' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant questionparent - assumed 'questionparent' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:22:44+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/update/navTabId/performancequestion/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `es_pmquestion` SET `questiontext`='小组1-1test',`questionlevel`='0',`questionparent`='16',`questiontype`='nan' WHERE `id` = 16 [ RunTime:0.0500s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-08-27T00:22:44+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0010s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:22:48+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/edit/id/15?_=1472228568325
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `questionlevel` = '0'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant questionparent - assumed 'questionparent' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant questionparent - assumed 'questionparent' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 25 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 34 行.
+NOTIC: [8] Use of undefined constant nan - assumed 'nan' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\a8d3e7a29ff5178a0a7c4561a2aee786.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:22:50+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/update/navTabId/performancequestion/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `es_pmquestion` SET `questiontext`='小组1',`questionlevel`='0',`questionparent`='16',`questiontype`='nan' WHERE `id` = 15 [ RunTime:0.0620s ]
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-08-27T00:22:51+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-27T00:23:06+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html?_=1472228586278
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Undefined index: _order D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 4 行.
+NOTIC: [8] Undefined index: _sort D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 5 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-27T00:23:12+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/delete/id/15/navTabId/performancequestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: DELETE FROM `es_pmquestion` WHERE `id` IN ('15') [ RunTime:0.0600s ]
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-08-27T00:23:12+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html?pageNum=1&numPerPage=&_order=&_sort=&_=1472228592057
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-27T00:23:17+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/delete/id/16/navTabId/performancequestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0030s ]
+SQL: DELETE FROM `es_pmquestion` WHERE `id` IN ('16') [ RunTime:0.1190s ]
+NOTIC: [8] Undefined index: callbackType D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 219 行.
+NOTIC: [8] Undefined index: forwardUrl D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2016-08-27T00:23:17+08:00 ] ::1 /evaluationSystem/Admin/Performancequestion/index.html?pageNum=1&numPerPage=&_order=&_sort=&_=1472228597396
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `es_pmquestion`  [ RunTime:0.0000s ]
+SQL: SELECT `questiontext` FROM `es_pmquestion` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 3 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 43 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 54 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 55 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 56 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 57 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 58 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 60 行.
+NOTIC: [8] Undefined variable: totalCount D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: numPerPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+NOTIC: [8] Undefined variable: currentPage D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Admin\d6f2814b63b09901f923f40417abb1ea.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

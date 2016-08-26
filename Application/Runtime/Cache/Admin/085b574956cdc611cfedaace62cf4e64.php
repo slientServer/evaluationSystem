@@ -76,7 +76,29 @@ $(function(){
 			<div id="sidebar">
 				<div class="toggleCollapse"><h2>主菜单</h2><div>收缩</div></div>
 				<div class="accordion" fillSpace="sidebar">
-					<?php if($permission["username"] == C("RBAC_SUPERADMIN")): ?><div class="accordionHeader">
+					<?php if($permission["username"] == C("RBAC_SUPERADMIN")): ?><!--评价小组管理-->
+						<div class="accordionHeader">
+							<h2><span>Folder</span>评价小组管理</h2>
+						</div>
+						<div class="accordionContent">
+							<ul class="tree treeFolder">
+								<li><a href="<?php echo U('Assessgroup/index');?>" target="navTab" rel="assessgroup" title="评价小组管理" >评价小组管理</a></li>
+							</ul>
+						</div>
+
+						<!--绩效考核管理-->
+						<div class="accordionHeader">
+							<h2><span>Folder</span>绩效考核管理</h2>
+						</div>
+						<div class="accordionContent">
+							<ul class="tree treeFolder">
+								<li><a href="<?php echo U('Performance/index');?>" target="navTab" rel="performance" title="考核小组管理" >考核小组配置</a></li>
+								<li><a href="<?php echo U('Performanceform/index');?>" target="navTab" rel="performanceform" title="考核表单管理" >考核表单配置</a></li>
+								<li><a href="<?php echo U('Performancequestion/index');?>" target="navTab" rel="performancequestion" title="考核项目配置" >考核项目配置</a></li>
+							</ul>
+						</div>
+
+						<div class="accordionHeader">
 							<h2><span>Folder</span>系统管理</h2>
 						</div>
 						<div class="accordionContent">
@@ -160,15 +182,7 @@ $(function(){
 								<li><a href="<?php echo U('Plugin/index');?>" target="navTab" rel="listplugin" title="插件列表" >插件列表</a></li>
 							</ul>
 						</div> -->
-						<!--评价小组管理-->
-						<div class="accordionHeader">
-							<h2><span>Folder</span>评价小组管理</h2>
-						</div>
-						<div class="accordionContent">
-							<ul class="tree treeFolder">
-								<li><a href="<?php echo U('Assessgroup/index');?>" target="navTab" rel="assessgroup" title="评价小组管理" >评价小组管理</a></li>
-							</ul>
-						</div>
+
 						<!--系统管理-->
 						<div class="accordionHeader">
 							<h2><span>Folder</span>系统维护</h2>

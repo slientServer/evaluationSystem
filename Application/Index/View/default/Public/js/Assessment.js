@@ -11,7 +11,7 @@ $(document).ready(function(){
 				if(0<$('#score').val()&& $('#score').val()<= 100){
 					$.ajax({url:"assessExecution",async:false, success: function(evt){
 						if(evt){
-							$('.success-hint').text('保存成功,3秒后自动关闭');
+							$('.success-hint').text('保存成功,1秒后自动关闭');
 							$('.success-hint').fadeIn("slow");
 							setTimeout(function(){
 								$('.success-hint').fadeOut("slow");
@@ -23,7 +23,7 @@ $(document).ready(function(){
 							$('.success-hint').fadeIn("slow");
 							setTimeout(function(){
 								$('.success-hint').fadeOut("slow");
-							}, 2000);
+							}, 1000);
 						}				
 					},
 					data: {'userid': currentUserId, 'score': $('#score').val(), 'remark': $('#remark').val(), 'isannoy': ($('#anony').is(':checked')? 1: 0)}
