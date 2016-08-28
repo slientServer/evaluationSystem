@@ -32,7 +32,7 @@ class PerformanceController extends CommonController{
 	
 	public function insert(){
 		//用户信息
-		$model = D('Assessgroup');
+		$model = D('Pmgroup');
 		unset ( $_POST [$model->getPk()] );
 		
 		if (false === $model->create()) {
@@ -49,22 +49,25 @@ class PerformanceController extends CommonController{
 	}
 
 	public function edit() {
-		$model = D('Assessgroup');
+		$model = D('Pmgroup');
+		$form= D('pmform');
 		$id = $_REQUEST[$model->getPk()];
 		$vo = $model->find($id);
+		$formList= $form->select();
+		$this->assign('formList', $formList);
 		$this->assign('vo', $vo);
 		$this->display('edit');
 	}
 
 	public function setDay(){
-		$model= D('Assessgroup');
+		$model= D('Pmgroup');
 		$startDay= $model->field('startday')->find();
 		$this->assign('startDay', $startDay);
 		$this->display('setday');
 	}
 
 	public function saveStartDay(){
-		$model= D('Assessgroup');
+		$model= D('Pmgroup');
 		$groupList= $model->field('id')->select();
 		$data['startday']= I('startday');
 
@@ -88,16 +91,18 @@ class PerformanceController extends CommonController{
 
 	public function memberedit(){
 		$model= M('User');
-		$groupUser= M('group_user');
-		$groupId= I('get.groupid');
 		$users= $model->select();
-		$addedUsers= $groupUser->where(array('groupid' => $groupId))->field('userid')->select();
-		$addedUsersBollean= array();
-		foreach ($addedUsers as $value) {
-			# code...
-			$addedUsersBollean[]= $value['userid'];
+		$addedUsersStr= M('Pmgroup')->where(array('id' => $_REQUEST['groupid']))->field('employees')->find();
+		if(empty($addedUsersStr)){
+			$addedUsers=array();
+		}else{
+			$addedUsers= explode('|', $addedUsersStr['employees']);
 		}
-
+		$addedUsersBollean= array();
+		for($idx=0; $idx< count($addedUsers); $idx++) {
+			# code...
+			$addedUsersBollean[]= $addedUsers[$idx];
+		}
 		for($idx=0; $idx<count($users); $idx++){
 			if(in_array($users[$idx]['id'], $addedUsersBollean)){
 				$users[$idx]['isselected']= 1;
@@ -105,22 +110,74 @@ class PerformanceController extends CommonController{
 				$users[$idx]['isselected']= 0;
 			}
 		}
-		$this->assign('groupid', $groupId);
+		$this->assign('groupid', $_REQUEST['groupid']);
 		$this->assign('list', $users);
 		$this->display();
 	}
 
 	public function updatmember(){
-		$model= D('group_user');
+		$model= D('Pmgroup');
 		$groupid= I('groupid');
 		$members= I('members');
 		$dataArr= array();
-		$model->where(array('groupid' => $groupid))->delete();
-		for ($idx=0; $idx < count($members); $idx++) { 
-			$dataArr[]=array('groupid' => $groupid, 'userid'=> $members[$idx]);
+		$dataArr['id']= $groupid;
+		if(empty($members)){
+			$dataArr['employees']= '';	
+		}else{
+			$dataArr['employees']= implode('|',$members);
 		}
 
-		$result= $model->addAll($dataArr);
+		$result= $model->save($dataArr);
+
+		// 保存当前数据对象
+		if ($result) { //保存成功
+			//成功提示
+			$this->success(L('保存成功'));
+		} else {
+			//失败提示
+			$this->error(L('保存失败')->getLastSql());
+		}
+	}
+
+	public function setLeader(){
+		$model= M('User');
+		$users= $model->select();
+		$addedUsersStr= M('Pmgroup')->where(array('id' => $_REQUEST['id']))->field('leaders')->find();
+		if(empty($addedUsersStr)){
+			$addedUsers=array();
+		}else{
+			$addedUsers= explode('|', $addedUsersStr['leaders']);
+		}
+		$addedUsersBollean= array();
+		for($idx=0; $idx< count($addedUsers); $idx++) {
+			# code...
+			$addedUsersBollean[]= $addedUsers[$idx];
+		}
+		for($idx=0; $idx<count($users); $idx++){
+			if(in_array($users[$idx]['id'], $addedUsersBollean)){
+				$users[$idx]['isselected']= 1;
+			}else{
+				$users[$idx]['isselected']= 0;
+			}
+		}
+		$this->assign('groupid', $_REQUEST['id']);
+		$this->assign('list', $users);
+		$this->display();
+	}
+
+	public function updatleaders(){
+		$model= D('Pmgroup');
+		$groupid= I('groupid');
+		$members= I('members');
+		$dataArr= array();
+		$dataArr['id']= $groupid;
+		if(empty($members)){
+			$dataArr['leaders']= '';	
+		}else{
+			$dataArr['leaders']= implode('|',$members);
+		}
+
+		$result= $model->save($dataArr);
 
 		// 保存当前数据对象
 		if ($result) { //保存成功
@@ -133,7 +190,7 @@ class PerformanceController extends CommonController{
 	}
 
 	public function update() {	
-		$model = M('Assessgroup');
+		$model = M('Pmgroup');
 
 		if(false === $model->create()) {
 			$this->error($model->getError());
@@ -164,7 +221,7 @@ class PerformanceController extends CommonController{
 
 	public function delete() {
 		//删除指定记录
-		$model = D('Assessgroup');
+		$model = D('Pmgroup');
 		if (!empty($model)) {
 			$pk = $model->getPk();
 			$id = $_REQUEST[$pk];

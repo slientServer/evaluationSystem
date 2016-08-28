@@ -25,14 +25,94 @@ class PerformanceformController extends CommonController{
 	
 	public function add() {
 		$form= M('pmform');
-		$formList= $form->select();
-		$this->assign('formList', $formList);
 		$this->display('add');
 	}
+
+	public function addQuestion() {
+		$questionArr= M('Pmquestion');
+		$pmform= M('Pmform');
+		$allQuestions= $questionArr->where(array('questionlevel' => '0'))->select();
+		$selectedQuestionsStr= $pmform->where(array('id' => $_REQUEST['id']))->field('questionarr')->find();
+		$selectedQuestionsArr= explode('|', $selectedQuestionsStr['questionarr']);
+		$avaliableQuestions= array();
+		foreach ($allQuestions as $key => $value) {
+			# code...
+			if(!in_array($allQuestions[$key]['id'], $selectedQuestionsArr)){
+				$avaliableQuestions[]= $allQuestions[$key];
+			}
+		}
+		$this->assign('id', $_REQUEST['id']);
+		$this->assign('questionarr', $avaliableQuestions);
+		$this->display('addQuestion');
+	}
+
+	public function insertQuestion(){
+		$model = D('Pmform');
+		$addedQusetions= I('questionArr');
+		$selectedQuestionsStr= $model->where(array('id' => $_REQUEST['id']))->field('questionarr')->find();
+		$data= array();
+		if(!empty($addedQusetions)){
+			$data['id']= $_REQUEST['id'];
+			$data['questionarr']= $selectedQuestionsStr['questionarr'].'|'.implode('|',$addedQusetions);
+			// 更新数据
+			if(false !== $model->save($data)) {
+				// 回调接口
+				if (method_exists($this, '_tigger_update')) {
+					$this->_tigger_update($model);
+				}
+				//成功提示
+				$this->success(L('更新成功'));
+			} else {
+				//错误提示
+				$this->error(L('更新失败'));
+			}	
+		}else{
+			//成功提示
+			$this->success(L('更新成功'));
+		}
+	}
 	
+	public function deleteQuestion() {
+		$questionArr= M('Pmquestion');
+		$pmform= M('Pmform');
+		$allQuestions= $questionArr->where(array('questionlevel' => '0'))->select();
+		$selectedQuestionsStr= $pmform->where(array('id' => $_REQUEST['id']))->field('questionarr')->find();
+		$selectedQuestionsArr= explode('|', $selectedQuestionsStr['questionarr']);
+		$avaliableQuestions= array();
+		foreach ($allQuestions as $key => $value) {
+			# code...
+			if(in_array($allQuestions[$key]['id'], $selectedQuestionsArr)){
+				$avaliableQuestions[]= $allQuestions[$key];
+			}
+		}
+		$this->assign('id', $_REQUEST['id']);
+		$this->assign('questionarr', $avaliableQuestions);
+		$this->display('deleteQuestion');
+	}
+
+	public function deleteQuestionExec() {
+		$model = D('Pmform');
+		$addedQusetions= I('questionArr');
+		$data= array();
+		$data['id']= $_REQUEST['id'];
+		$data['questionarr']=implode('|',$addedQusetions);
+		// 更新数据
+		if(false !== $model->save($data)) {
+			// 回调接口
+			if (method_exists($this, '_tigger_update')) {
+				$this->_tigger_update($model);
+			}
+			//成功提示
+			$this->success(L('删除成功'));
+		} else {
+			//错误提示
+			$this->error(L('删除失败'));
+		}
+	}
+
 	public function insert(){
 		//用户信息
-		$model = D('Assessgroup');
+		$model = D('Pmform');
 		unset ( $_POST [$model->getPk()] );
 		
 		if (false === $model->create()) {
@@ -49,91 +129,15 @@ class PerformanceformController extends CommonController{
 	}
 
 	public function edit() {
-		$model = D('Assessgroup');
+		$model = D('Pmform');
 		$id = $_REQUEST[$model->getPk()];
 		$vo = $model->find($id);
 		$this->assign('vo', $vo);
 		$this->display('edit');
 	}
 
-	public function setDay(){
-		$model= D('Assessgroup');
-		$startDay= $model->field('startday')->find();
-		$this->assign('startDay', $startDay);
-		$this->display('setday');
-	}
-
-	public function saveStartDay(){
-		$model= D('Assessgroup');
-		$groupList= $model->field('id')->select();
-		$data['startday']= I('startday');
-
-		foreach ($groupList as $key => $value) {
-			# code...
-			$res= $model->where(array('id' => $groupList[$key]['id']))->save($data);
-		}
-		// 更新数据
-		if(false !== $res) {
-			// 回调接口
-			if (method_exists($this, '_tigger_update')) {
-				$this->_tigger_update($model);
-			}
-			//成功提示
-			$this->success(L('更新成功'));
-		} else {
-			//错误提示
-			$this->error(L('更新失败'));
-		}
-	}
-
-	public function memberedit(){
-		$model= M('User');
-		$groupUser= M('group_user');
-		$groupId= I('get.groupid');
-		$users= $model->select();
-		$addedUsers= $groupUser->where(array('groupid' => $groupId))->field('userid')->select();
-		$addedUsersBollean= array();
-		foreach ($addedUsers as $value) {
-			# code...
-			$addedUsersBollean[]= $value['userid'];
-		}
-
-		for($idx=0; $idx<count($users); $idx++){
-			if(in_array($users[$idx]['id'], $addedUsersBollean)){
-				$users[$idx]['isselected']= 1;
-			}else{
-				$users[$idx]['isselected']= 0;
-			}
-		}
-		$this->assign('groupid', $groupId);
-		$this->assign('list', $users);
-		$this->display();
-	}
-
-	public function updatmember(){
-		$model= D('group_user');
-		$groupid= I('groupid');
-		$members= I('members');
-		$dataArr= array();
-		$model->where(array('groupid' => $groupid))->delete();
-		for ($idx=0; $idx < count($members); $idx++) { 
-			$dataArr[]=array('groupid' => $groupid, 'userid'=> $members[$idx]);
-		}
-
-		$result= $model->addAll($dataArr);
-
-		// 保存当前数据对象
-		if ($result) { //保存成功
-			//成功提示
-			$this->success(L('保存成功'));
-		} else {
-			//失败提示
-			$this->error(L('保存失败')->getLastSql());
-		}
-	}
-
 	public function update() {	
-		$model = M('Assessgroup');
+		$model = M('Pmform');
 
 		if(false === $model->create()) {
 			$this->error($model->getError());
@@ -164,7 +168,7 @@ class PerformanceformController extends CommonController{
 
 	public function delete() {
 		//删除指定记录
-		$model = D('Assessgroup');
+		$model = D('Pmform');
 		if (!empty($model)) {
 			$pk = $model->getPk();
 			$id = $_REQUEST[$pk];

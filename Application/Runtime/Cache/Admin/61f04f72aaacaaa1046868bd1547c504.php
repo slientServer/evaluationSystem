@@ -9,8 +9,10 @@
 	<div class="panelBar">
 		<ul class="toolBar">
 			<li><a class="add" href="/evaluationSystem/Admin/Performanceform/add" target="dialog" width="550" height="380" rel="user_msg" title="添加部门"><span>添加</span></a></li>
-			<li><a class="delete" href="/evaluationSystem/Admin/Performanceform/delete/id/{item_id}/navTabId/assessgroup" target="ajaxTodo" title="确定要删除吗?"><span>删除</span></a></li>
-			<li><a class="edit" href="/evaluationSystem/Admin/Performanceform/edit/id/{item_id}"  width="550" height="380" target="dialog"><span>修改信息</span></a></li>		
+			<li><a class="delete" href="/evaluationSystem/Admin/Performanceform/delete/id/{item_id}/navTabId/performanceform" target="ajaxTodo" title="确定要删除吗?"><span>删除</span></a></li>
+			<li><a class="edit" href="/evaluationSystem/Admin/Performanceform/edit/id/{item_id}"  width="550" height="380" target="dialog"><span>修改信息</span></a></li>	
+			<li><a class="add" href="/evaluationSystem/Admin/Performanceform/addQuestion/id/{item_id}" target="dialog" width="550" height="380" rel="user_msg" title="添加问题组"><span>添加问题组</span></a></li>
+			<li><a class="delete" href="/evaluationSystem/Admin/Performanceform/deleteQuestion/id/{item_id}" target="dialog" width="550" height="380" rel="user_msg" title="删除问题组"><span>管理已添加问题组</span></a></li>	
 			<li class="line">line</li>
 			<li><a class="icon"  href="javascript:navTabPageBreak();"><span>刷新</span></a></li>	
 		</ul>
@@ -21,7 +23,7 @@
 				<th width="10">ID</th>
 				<th width="30">考核表单名字</th>
 				<th width="40">考核表单描述</th>
-				<th width="40">考核问题</th>
+				<th width="40">考核问题组</th>
 				<th width="40">创建时间</th>
 				<th width="40">修改时间</th>
 			</tr>
@@ -31,7 +33,7 @@
 					<td><?php echo ($vo["id"]); ?></td>
 					<td><?php echo ($vo["formname"]); ?></td>
 					<td><?php echo ($vo["formdescription"]); ?></td>
-					<td><?php echo ($vo["question"]); ?></td>
+					<td><?php echo ($vo["questionarr"]); ?></td>
 					<td><?php echo (date("Y-m-d H:i:s",$vo["inserttime"])); ?></td>
 					<td><?php echo (date("Y-m-d H:i:s",$vo["lastmodifytime"])); ?></td>
 				</tr><?php endforeach; endif; ?>

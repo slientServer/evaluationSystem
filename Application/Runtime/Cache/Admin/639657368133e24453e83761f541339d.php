@@ -11,10 +11,11 @@
 			<li><a class="add" href="/evaluationSystem/Admin/Performance/add" target="dialog" width="550" height="380" rel="user_msg" title="添加部门"><span>添加</span></a></li>
 			<li><a class="delete" href="/evaluationSystem/Admin/Performance/delete/id/{item_id}/navTabId/assessgroup" target="ajaxTodo" title="确定要删除吗?"><span>删除</span></a></li>
 			<li><a class="edit" href="/evaluationSystem/Admin/Performance/edit/id/{item_id}"  width="550" height="380" target="dialog"><span>修改信息</span></a></li>	
-			<li><a class="edit" href="/evaluationSystem/Admin/Performance/setLeader"  width="550" height="380" target="dialog"><span>考核主管配置</span></a></li>	
+			<li><a class="edit" href="/evaluationSystem/Admin/Performance/setLeader/id/{item_id}"  width="550" height="380" target="dialog"><span>考核主管配置</span></a></li>
+			<li><a class="edit" href="/evaluationSystem/Admin/Performance/memberedit/groupid/{item_id}"  width="550" height="380" target="dialog"><span>考核成员配置</span></a></li>
 			<li><a class="edit" href="/evaluationSystem/Admin/Performance/setDay"  width="550" height="380" target="dialog"><span>设置评价开始日期</span></a></li>	
-			<li class="line">line</li>
-			<li><a class="icon"  href="javascript:navTabPageBreak();"><span>刷新</span></a></li>	
+<!-- 			<li class="line">line</li>
+			<li><a class="icon"  href="javascript:navTabPageBreak();"><span>刷新</span></a></li>	 -->
 		</ul>
 	</div>
 	<table class="table" width="100%" layoutH="75">
@@ -24,8 +25,8 @@
 				<th width="30">考核小组名字</th>
 				<th width="40">考核小组描述</th>
 				<th width="40">小组状态</th>
-				<th width="40">成员配置</th>
 				<th width="40">评价表单</th>
+				<th width="40">考核开放日期</th>
 				<th width="40">创建时间</th>
 				<th width="40">修改时间</th>
 			</tr>
@@ -36,8 +37,8 @@
 					<td><?php echo ($vo["groupname"]); ?></td>
 					<td><?php echo ($vo["groupdescription"]); ?></td>
 					<td><?php if($vo['status'] == 1): ?>开启<?php else: ?>关闭<?php endif; ?></td>
-					<td><a class="edit" width="750" height="580" rel="accessgroup" href="<?php echo U('Admin/Assessgroup/memberedit/',array('groupid'=>$vo['id']));?>"  width="550" height="380" target="dialog">配置成员</a></td>
-					<td>表单名字</td>
+					<td><?php echo ($vo["pmformid"]); ?></td>
+					<td>每月<?php echo ($vo["startday"]); ?>日至月底</td>
 					<td><?php echo (date("Y-m-d H:i:s",$vo["inserttime"])); ?></td>
 					<td><?php echo (date("Y-m-d H:i:s",$vo["lastmodifytime"])); ?></td>
 				</tr><?php endforeach; endif; ?>

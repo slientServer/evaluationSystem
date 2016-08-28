@@ -1,5 +1,5 @@
 <?php if (!defined('THINK_PATH')) exit();?><div class="pageContent">
-	<form method="post" action="/evaluationSystem/Admin/Performance/insert/navTabId/assessgroup/callbackType/closeCurrent"  class="pageForm required-validate" 
+	<form method="post" action="/evaluationSystem/Admin/Performance/insert/navTabId/performance/callbackType/closeCurrent"  class="pageForm required-validate" 
 		onsubmit="return validateCallback(this,dialogAjaxDone);"><?php  ?>
 		<div class="pageFormContent" width="100%" layoutH="60">
 			<dl>

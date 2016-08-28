@@ -1,31 +1,14 @@
 <?php if (!defined('THINK_PATH')) exit();?><div class="pageContent">
-	<form method="post" action="/evaluationSystem/Admin/Performanceform/insert/navTabId/assessgroup/callbackType/closeCurrent"  class="pageForm required-validate" 
+	<form method="post" action="/evaluationSystem/Admin/Performanceform/insert/navTabId/performanceform/callbackType/closeCurrent"  class="pageForm required-validate" 
 		onsubmit="return validateCallback(this,dialogAjaxDone);"><?php  ?>
 		<div class="pageFormContent" width="100%" layoutH="60">
 			<dl>
-				<dt>考核小组名字：</dt>
-				<dd><input type="text" class="required"  style="width:100%" name="groupname"/></dd>
+				<dt>表单标题：</dt>
+				<dd><input type="text" class="required"  style="width:100%" name="formname"/></dd>
 			</dl>
 			<dl>
-				<dt>状　　态:</dt>
-				<dd>
-					开启&nbsp;&nbsp;<input type="radio" class="required"  name="status" value="1" checked/>&nbsp;&nbsp;&nbsp;
-					关闭&nbsp;&nbsp;<input type="radio" class="required"  name="status" value="0"/>
-				</dd>
-			</dl>
-			<dl style="width:500px;">
-				<dt>表单：</dt>
-				<dd style="width:227px">
-					<select style="width:227px" name="pmformid">
-						<option value="">请选择表单</option>
-						<?php if(is_array($formList)): foreach($formList as $key=>$v): ?><option value="<?php echo ($v['id']); ?>"><?php echo ($v["formname"]); ?>(<?php echo ($v["id"]); ?>)</option><?php endforeach; endif; ?>
-					</select>
-					<!-- <span class="add-role">添加角色</span> -->
-				</dd>
-			</dl>
-			<dl>
-				<dt>考核小组描述：</dt>
-				<dd><textarea rows='10'  style="width:100%" name="groupdescription"></textarea></dd>
+				<dt>表单描述：</dt>
+				<dd><textarea rows='10'  style="width:100%" name="formdescription"></textarea></dd>
 			</dl>
 		</div>
 		

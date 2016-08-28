@@ -1,13 +1,12 @@
 
 <div class="pageContent">
-	<form method="post" action="__URL__/saveStartDay/navTabId/performance/callbackType/closeCurrent"  class="pageForm required-validate" 
+	<form method="post" action="__URL__/updatleaders/navTabId/performance/callbackType/closeCurrent"  class="pageForm required-validate" 
 		onsubmit="return validateCallback(this,dialogAjaxDone);"><?php  //窗体组件采用这个 iframeCallback(this, navTabAjaxDone); ?>
 		<div class="pageFormContent" layoutH="60">
-			<dl>
-				<dl>
-				<dt>每月评价开始日期：</dt>
-				<dd><input type="number" style="width:90%" name="startday" value="<{$startDay.startday}>"/> 日</dd>
-			</dl>
+			<input type="hidden" name="groupid" value="<{$groupid}>"/>
+			<foreach name="list" item="vo">
+				<label><input type="checkbox" name="members[]" value="<{$vo.id}>" <if condition="$vo.isselected eq 1">checked</if>/><{$vo.showname}>(<{$vo.username}>)</label>
+			</foreach>
 		</div>
 		
 		<div class="formBar">

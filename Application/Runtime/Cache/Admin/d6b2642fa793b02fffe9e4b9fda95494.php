@@ -1,6 +1,6 @@
 <?php if (!defined('THINK_PATH')) exit();?>
 <div class="pageContent">
-	<form method="post" action="/evaluationSystem/Admin/Performance/saveStartDay/navTabId/assessgroup/callbackType/closeCurrent"  class="pageForm required-validate" 
+	<form method="post" action="/evaluationSystem/Admin/Performance/saveStartDay/navTabId/performance/callbackType/closeCurrent"  class="pageForm required-validate" 
 		onsubmit="return validateCallback(this,dialogAjaxDone);"><?php  ?>
 		<div class="pageFormContent" layoutH="60">
 			<dl>
