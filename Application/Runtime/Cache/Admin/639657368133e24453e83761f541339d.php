@@ -9,7 +9,7 @@
 	<div class="panelBar">
 		<ul class="toolBar">
 			<li><a class="add" href="/evaluationSystem/Admin/Performance/add" target="dialog" width="550" height="380" rel="user_msg" title="添加部门"><span>添加</span></a></li>
-			<li><a class="delete" href="/evaluationSystem/Admin/Performance/delete/id/{item_id}/navTabId/assessgroup" target="ajaxTodo" title="确定要删除吗?"><span>删除</span></a></li>
+			<li><a class="delete" href="/evaluationSystem/Admin/Performance/delete/id/{item_id}/navTabId/performance" target="ajaxTodo" title="确定要删除吗?"><span>删除</span></a></li>
 			<li><a class="edit" href="/evaluationSystem/Admin/Performance/edit/id/{item_id}"  width="550" height="380" target="dialog"><span>修改信息</span></a></li>	
 			<li><a class="edit" href="/evaluationSystem/Admin/Performance/setLeader/id/{item_id}"  width="550" height="380" target="dialog"><span>考核主管配置</span></a></li>
 			<li><a class="edit" href="/evaluationSystem/Admin/Performance/memberedit/groupid/{item_id}"  width="550" height="380" target="dialog"><span>考核成员配置</span></a></li>

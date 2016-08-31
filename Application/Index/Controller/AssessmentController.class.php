@@ -96,7 +96,7 @@ class AssessmentController extends CommonController{
 
 		if ($result = $model->add($data)) { //保存成功
 			// 回调接口
-			echo 1;
+			echo 'success';
 		} else {
 			//失败提示
 			echo 0;

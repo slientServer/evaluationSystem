@@ -10,7 +10,7 @@ $(document).ready(function(){
 			if($('#score').val()){
 				if(0<$('#score').val()&& $('#score').val()<= 100){
 					$.ajax({url:"assessExecution",async:false, success: function(evt){
-						if(evt){
+						if(evt== 'success'){
 							$('.success-hint').text('保存成功,1秒后自动关闭');
 							$('.success-hint').fadeIn("slow");
 							setTimeout(function(){
