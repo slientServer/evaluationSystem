@@ -6,7 +6,7 @@
 
 namespace Index\Controller;
 
-class PerformanceController extends CommonController{
+class PerformanceresultController extends CommonController{
 
 	public function index(){
 		$user=M('User');
@@ -15,34 +15,39 @@ class PerformanceController extends CommonController{
 		$relatedGroupId= '';
 		foreach ($groupList as $key => $value) {
 			# code...
-			if(in_array(session(C('USER_AUTH_KEY')), explode('|', $groupList[$key]['leaders']))){
-			 	$relatedGroups= $relatedGroups.$groupList[$key]['id'].',';
-			}
+			 $relatedGroups= $relatedGroups.$groupList[$key]['id'].',';
 		}
 		
 		$condition['es_pmgroup.id']= array('in', $relatedGroups);
 		$condition['status']= array('eq', 1);
-		$avaliableGroup= $pmgroup->join('es_pmform ON es_pmgroup.pmformid= es_pmform.id')->where($condition)->field('es_pmgroup.id as groupId, groupname, groupdescription, employees, startday, formname, formdescription, questionarr')->select();
+		$avaliableGroup= $pmgroup->join('es_pmform ON es_pmgroup.pmformid= es_pmform.id')->where($condition)->field('es_pmgroup.id as groupId, groupname, leaders, groupdescription, employees, startday, formname, formdescription, questionarr')->select();
 		foreach ($avaliableGroup as $key => $value) {
 			# code...
 			$avaliableGroup[$key]['fromuser']= session(C('USER_AUTH_KEY'));
 			$avaliableGroup[$key]['targetuser']= $this->getAllUserInfo($avaliableGroup[$key]['employees']);
+			$avaliableGroup[$key]['leaders']= $this->getAllUserInfo($avaliableGroup[$key]['leaders']);
 			foreach ($avaliableGroup[$key]['targetuser'] as $key2 => $value2) {
 				# code...
 				$avaliableGroup[$key]['targetuser'][$key2]['isexeced']= $this->isPmExeced($avaliableGroup[$key]['targetuser'][$key2]['id'], $avaliableGroup[$key]['groupid']);
-				if($this->isPmExeced($avaliableGroup[$key]['targetuser'][$key2]['id'], $avaliableGroup[$key]['groupid'])){
-					$pmcondition['fromuser']= session(C('USER_AUTH_KEY'));
+				if(1){
 					$pmcondition['targetuser']= $avaliableGroup[$key]['targetuser'][$key2]['id'];
-					$pmcondition['month']= date('m');
-					$pmcondition['year']= date('Y');
+					if(date('m')>1){
+						$pmcondition['month']= date('m')-1;
+						$pmcondition['year']= date('Y');
+					}else{
+						$pmcondition['month']= 12;
+						$pmcondition['year']= date('Y')-1;
+					}
 					$pmcondition['groupid']= $avaliableGroup[$key]['groupid'];
 					$avaliableGroup[$key]['targetuser'][$key2]['avgscore']= round(M('Pmresult')->where($pmcondition)->avg('score'), 1);
+					$avaliableGroup[$key]['targetuser'][$key2]['year']= $pmcondition['year'];
+					$avaliableGroup[$key]['targetuser'][$key2]['month']= $pmcondition['month'];
+					$avaliableGroup[$key]['targetuser'][$key2]['unpmusers']= $this->getAllUnPmUsers($avaliableGroup[$key]['leaders'], $pmcondition);
 				}
 			}
 			$avaliableGroup[$key]['questionList']= $this->getAllQuestionInfo($avaliableGroup[$key]['questionarr']);
 			$groupStartDay= $avaliableGroup[$key]['startday'];
 		}		
-
 		$isstart= date('d')>= $groupStartDay? 'start': 'unstart';
 		$this->assign('isstart', $isstart);
 		$this->assign('avaliableGroup', $avaliableGroup);
@@ -54,17 +59,39 @@ class PerformanceController extends CommonController{
 	}
 
 	protected function isPmExeced($userId, $groupid){
-		$pmcondition['fromuser']= session(C('USER_AUTH_KEY'));
 		$pmcondition['targetuser']= $userId;
-		$pmcondition['month']= date('m');
-		$pmcondition['year']= date('Y');
+		if(date('m')>1){
+			$pmcondition['month']= date('m')-1;
+			$pmcondition['year']= date('Y');
+		}else{
+			$pmcondition['month']= 12;
+			$pmcondition['year']= date('Y')-1;
+		}
 		$pmcondition['groupid']= $groupid;
 		$pmexecution= M('Pmresult')->where($pmcondition)->select();
 		if(count($pmexecution)> 0){
-			return true;
+			return 1;
 		}else{
 			return false;
 		}
+	}
+
+	protected function getAllUnPmUsers($leaders, $pmcondition){
+		$pmexeced= M('Pmresult')->where($pmcondition)->distinct(true)->field('fromuser')->select();
+		$pmexecedArr= [];
+		foreach ($pmexeced as $key => $value) {
+			# code...
+			$pmexecedArr[]= $value['fromuser'];
+		}
+		foreach ($leaders as $key => $value) {
+			# code...
+			if(in_array($value['id'], $pmexecedArr)){
+				
+			}else{
+				$unpmusers[]= $value;
+			}
+		}
+		return $unpmusers;
 	}
 
 	protected function getAllUserInfo($users){

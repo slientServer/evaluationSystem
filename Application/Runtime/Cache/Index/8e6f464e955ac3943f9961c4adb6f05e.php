@@ -47,19 +47,25 @@
                   <th class="textCenter">姓名</th>
                   <th class="textCenter">职位</th>
                   <th class="textCenter">电话</th>
-                  <th class="textCenter">考核</th>
+                   <th class="textCenter">月份</th>
+                  <th class="textCenter">考核结果</th>
+                  <th class="textCenter">未评分者</th>
                 </tr>
                 <?php if(is_array($vo["targetuser"])): foreach($vo["targetuser"] as $key=>$user): if($key%2 == 0): ?><tr>
                       <td class="textCenter verticalAlignCenter"><?php echo ($key); ?></td>
                       <td class="textCenter verticalAlignCenter"><?php echo ($user["showname"]); ?></td>
                       <td class="textCenter verticalAlignCenter"><?php echo ($user["position"]); ?></td>
                       <td class="textCenter verticalAlignCenter"><?php echo ($user["phone"]); ?></td>
+                      <td class="textCenter verticalAlignCenter"><?php echo ($user["year"]); ?>-<?php echo ($user["month"]); ?></td>
                       <td class="textCenter">
-                        <?php if($isstart == start): if($user["isexeced"] != 1): ?><button type="button" data-toggle="modal" userid="<?php echo ($user["id"]); ?>" data-target="#myModal<?php echo ($keyPanel); ?>" class="btn btn-link pm-button">考核</button>
-                            <?php else: ?>
-                                <span style="font-size:14px; color:gray;">已考核,成绩<?php echo ($user["avgscore"]); ?></span><?php endif; ?>
-                        <?php else: ?>
-                            <span style="font-size:14px; color:gray;">考核将于<?php echo ($groupStartDay); ?>日开启</span><?php endif; ?>
+                          <?php if($user["isexeced"] != 1): ?><!--  <button type="button" data-toggle="modal" userid="<?php echo ($user["id"]); ?>" data-target="#myModal<?php echo ($keyPanel); ?>" class="btn btn-link pm-button">无考核成绩</button> -->
+                             <span style="font-size:14px; color:gray;">无考核成绩</span>
+                          <?php else: ?>
+                              <span style="font-size:14px; color:gray;">考核成绩: <span style="color: red;"><?php echo ($user["avgscore"]); ?></span></span><?php endif; ?>
+                          
+                       </td>
+                       <td class="textCenter verticalAlignCenter">
+                          <?php if(is_array($user["unpmusers"])): foreach($user["unpmusers"] as $key=>$un): ?>[<?php echo ($un["showname"]); ?>]<?php endforeach; endif; ?>
                        </td>
                     </tr>
                   <?php else: ?>
@@ -68,12 +74,15 @@
                       <td class="textCenter verticalAlignCenter"><?php echo ($user["showname"]); ?></td>
                       <td class="textCenter verticalAlignCenter"><?php echo ($user["position"]); ?></td>
                       <td class="textCenter verticalAlignCenter"><?php echo ($user["phone"]); ?></td>
+                      <td class="textCenter verticalAlignCenter"><?php echo ($user["year"]); ?>-<?php echo ($user["month"]); ?></td>
                       <td class="textCenter">
-                        <?php if($isstart == start): if($user["isexeced"] != 1): ?><button type="button" data-toggle="modal" userid="<?php echo ($user["id"]); ?>" data-target="#myModal<?php echo ($keyPanel); ?>" class="btn btn-link pm-button">考核</button>
-                            <?php else: ?>
-                                <span style="font-size:14px; color:gray;">已考核,成绩<?php echo ($user["avgscore"]); ?></span><?php endif; ?>
-                        <?php else: ?>
-                            <span style="font-size:14px; color:gray;">考核将于<?php echo ($groupStartDay); ?>日开启</span><?php endif; ?>
+                          <?php if($user["isexeced"] != 1): ?><!--  <button type="button" data-toggle="modal" userid="<?php echo ($user["id"]); ?>" data-target="#myModal<?php echo ($keyPanel); ?>" class="btn btn-link pm-button">无考核成绩</button> -->
+                             <span style="font-size:14px; color:gray;">无考核成绩</span>
+                          <?php else: ?>
+                              <span style="font-size:14px; color:gray;">考核成绩: <span style="color: red;"><?php echo ($user["avgscore"]); ?></span></span><?php endif; ?>
+                       </td>
+                       <td class="textCenter verticalAlignCenter">
+                          <?php if(is_array($user["unpmusers"])): foreach($user["unpmusers"] as $key=>$un): ?>[<?php echo ($un["showname"]); ?>]<?php endforeach; endif; ?>
                        </td>
                     </tr><?php endif; endforeach; endif; ?>
             </table>
@@ -111,19 +120,24 @@
                   <th class="textCenter">姓名</th>
                   <th class="textCenter">职位</th>
                   <th class="textCenter">电话</th>
+                  <th class="textCenter">月份</th>
                   <th class="textCenter">考核</th>
+                  <th class="textCenter">未评分者</th>
                 </tr>
                 <?php if(is_array($vo["targetuser"])): foreach($vo["targetuser"] as $key=>$user): if($key%2 == 0): ?><tr>
                       <td class="textCenter verticalAlignCenter"><?php echo ($key); ?></td>
                       <td class="textCenter verticalAlignCenter"><?php echo ($user["showname"]); ?></td>
                       <td class="textCenter verticalAlignCenter"><?php echo ($user["position"]); ?></td>
                       <td class="textCenter verticalAlignCenter"><?php echo ($user["phone"]); ?></td>
+                      <td class="textCenter verticalAlignCenter"><?php echo ($user["year"]); ?>-<?php echo ($user["month"]); ?></td>
                       <td class="textCenter">
-                        <?php if($isstart == start): if($user["isexeced"] != 1): ?><button type="button" data-toggle="modal" userid="<?php echo ($user["id"]); ?>" data-target="#myModal<?php echo ($keyPanel); ?>" class="btn btn-link pm-button">考核</button>
-                            <?php else: ?>
-                                <span style="font-size:14px; color:gray;">已考核,成绩<?php echo ($user["avgscore"]); ?></span><?php endif; ?>
-                        <?php else: ?>
-                            <span style="font-size:14px; color:gray;">考核将于<?php echo ($groupStartDay); ?>日开启</span><?php endif; ?>
+                          <?php if($user["isexeced"] != 1): ?><!--  <button type="button" data-toggle="modal" userid="<?php echo ($user["id"]); ?>" data-target="#myModal<?php echo ($keyPanel); ?>" class="btn btn-link pm-button">无考核成绩</button> -->
+                            <span style="font-size:14px; color:gray;">无考核成绩</span>
+                          <?php else: ?>
+                              <span style="font-size:14px; color:gray;">考核成绩: <span style="color: red;"><?php echo ($user["avgscore"]); ?></span></span><?php endif; ?>
+                       </td>
+                       <td class="textCenter verticalAlignCenter">
+                          <?php if(is_array($user["unpmusers"])): foreach($user["unpmusers"] as $key=>$un): ?>[<?php echo ($un["showname"]); ?>]<?php endforeach; endif; ?>
                        </td>
                     </tr>
                   <?php else: ?>
@@ -132,12 +146,15 @@
                       <td class="textCenter verticalAlignCenter"><?php echo ($user["showname"]); ?></td>
                       <td class="textCenter verticalAlignCenter"><?php echo ($user["position"]); ?></td>
                       <td class="textCenter verticalAlignCenter"><?php echo ($user["phone"]); ?></td>
+                      <td class="textCenter verticalAlignCenter"><?php echo ($user["year"]); ?>-<?php echo ($user["month"]); ?></td>
                       <td class="textCenter">
-                        <?php if($isstart == start): if($user["isexeced"] != 1): ?><button type="button" data-toggle="modal" userid="<?php echo ($user["id"]); ?>" data-target="#myModal<?php echo ($keyPanel); ?>" class="btn btn-link pm-button">考核</button>
-                            <?php else: ?>
-                                <span style="font-size:14px; color:gray;">已考核,成绩<?php echo ($user["avgscore"]); ?></span><?php endif; ?>
-                        <?php else: ?>
-                            <span style="font-size:14px; color:gray;">考核将于<?php echo ($groupStartDay); ?>日开启</span><?php endif; ?>
+                          <?php if($user["isexeced"] != 1): ?><!--  <button type="button" data-toggle="modal" userid="<?php echo ($user["id"]); ?>" data-target="#myModal<?php echo ($keyPanel); ?>" class="btn btn-link pm-button">无考核成绩</button> -->
+                               <span style="font-size:14px; color:gray;">无考核成绩</span>
+                          <?php else: ?>
+                              <span style="font-size:14px; color:gray;">考核成绩: <span style="color: red;"><?php echo ($user["avgscore"]); ?></span></span><?php endif; ?>
+                       </td>
+                       <td class="textCenter verticalAlignCenter">
+                          <?php if(is_array($user["unpmusers"])): foreach($user["unpmusers"] as $key=>$un): ?>[<?php echo ($un["showname"]); ?>]<?php endforeach; endif; ?>
                        </td>
                     </tr><?php endif; endforeach; endif; ?>
             </table>
