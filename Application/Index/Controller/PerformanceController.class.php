@@ -22,7 +22,7 @@ class PerformanceController extends CommonController{
 		
 		$condition['es_pmgroup.id']= array('in', $relatedGroups);
 		$condition['status']= array('eq', 1);
-		$avaliableGroup= $pmgroup->join('es_pmform ON es_pmgroup.pmformid= es_pmform.id')->where($condition)->field('es_pmgroup.id as groupId, groupname, groupdescription, employees, startday, formname, formdescription, questionarr')->select();
+		$avaliableGroup= $pmgroup->join('es_pmform ON es_pmgroup.pmformid= es_pmform.id')->where($condition)->field('es_pmgroup.id as groupId, groupname, groupdescription, employees, startday, formname, formdescription, questionarr, indirectleaders')->select();
 		foreach ($avaliableGroup as $key => $value) {
 			# code...
 			$avaliableGroup[$key]['fromuser']= session(C('USER_AUTH_KEY'));
@@ -39,7 +39,10 @@ class PerformanceController extends CommonController{
 					$avaliableGroup[$key]['targetuser'][$key2]['avgscore']= round(M('Pmresult')->where($pmcondition)->avg('score'), 1);
 				}
 			}
-			$avaliableGroup[$key]['questionList']= $this->getAllQuestionInfo($avaliableGroup[$key]['questionarr']);
+			if(in_array(session(C('USER_AUTH_KEY')), explode('|', $avaliableGroup[$key]['indirectleaders']))){
+				$question= array('请输入您的分数' => array(array('questiontext'=>'请输入您对该员工的绩效考核分数', 'questionlevel'=>'2', 'questionparent'=> '0', 'questiontype'=> 'number')));
+				$avaliableGroup[$key]['questionList']= $question;
+			}
 			$groupStartDay= $avaliableGroup[$key]['startday'];
 		}		
 

@@ -14,6 +14,7 @@
 			<li><a class="edit" href="/evaluationSystem/Admin/Performance/setLeader/id/{item_id}"  width="550" height="380" target="dialog"><span>考核主管配置</span></a></li>
 			<li><a class="edit" href="/evaluationSystem/Admin/Performance/memberedit/groupid/{item_id}"  width="550" height="380" target="dialog"><span>考核成员配置</span></a></li>
 			<li><a class="edit" href="/evaluationSystem/Admin/Performance/setDay"  width="550" height="380" target="dialog"><span>设置评价开始日期</span></a></li>	
+			<li><a class="edit" href="/evaluationSystem/Admin/Performance/setIndirectLeader/id/{item_id}"  width="550" height="380" target="dialog"><span>简略打分主管配置</span></a></li>
 <!-- 			<li class="line">line</li>
 			<li><a class="icon"  href="javascript:navTabPageBreak();"><span>刷新</span></a></li>	 -->
 		</ul>

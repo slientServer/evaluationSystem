@@ -189,6 +189,57 @@ class PerformanceController extends CommonController{
 		}
 	}
 
+	public function setIndirectLeader(){
+		$model= M('User');
+		$users= $model->select();
+		$addedUsersStr= M('Pmgroup')->where(array('id' => $_REQUEST['id']))->field('indirectleaders')->find();
+		if(empty($addedUsersStr)){
+			$addedUsers=array();
+		}else{
+			$addedUsers= explode('|', $addedUsersStr['indirectleaders']);
+		}
+		$addedUsersBollean= array();
+		for($idx=0; $idx< count($addedUsers); $idx++) {
+			# code...
+			$addedUsersBollean[]= $addedUsers[$idx];
+		}
+		for($idx=0; $idx<count($users); $idx++){
+			if(in_array($users[$idx]['id'], $addedUsersBollean)){
+				$users[$idx]['isselected']= 1;
+			}else{
+				$users[$idx]['isselected']= 0;
+			}
+		}
+		$this->assign('groupid', $_REQUEST['id']);
+		$this->assign('list', $users);
+		$this->display('setindirectleaders');
+	}
+
+	public function updateindirectleaders(){
+		$model= D('Pmgroup');
+		$groupid= I('groupid');
+		$members= I('members');
+		$dataArr= array();
+		$dataArr['id']= $groupid;
+		if(empty($members)){
+			$dataArr['indirectleaders']= '';	
+		}else{
+			$dataArr['indirectleaders']= implode('|',$members);
+		}
+
+		$result= $model->save($dataArr);
+
+		// 保存当前数据对象
+		if ($result) { //保存成功
+			//成功提示
+			$this->success(L('保存成功'));
+		} else {
+			//失败提示
+			$this->error(L('保存失败')->getLastSql());
+		}
+	}
+
+
 	public function update() {	
 		$model = M('Pmgroup');
 

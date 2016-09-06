@@ -39,7 +39,7 @@ class PerformanceresultController extends CommonController{
 						$pmcondition['year']= date('Y')-1;
 					}
 					$pmcondition['groupid']= $avaliableGroup[$key]['groupid'];
-					$avaliableGroup[$key]['targetuser'][$key2]['avgscore']= round(M('Pmresult')->where($pmcondition)->avg('score'), 1);
+					$avaliableGroup[$key]['targetuser'][$key2]['avgscore']= $this->countTotalAvgScore($pmcondition);
 					$avaliableGroup[$key]['targetuser'][$key2]['year']= $pmcondition['year'];
 					$avaliableGroup[$key]['targetuser'][$key2]['month']= $pmcondition['month'];
 					$avaliableGroup[$key]['targetuser'][$key2]['unpmusers']= $this->getAllUnPmUsers($avaliableGroup[$key]['leaders'], $pmcondition);
@@ -56,6 +56,33 @@ class PerformanceresultController extends CommonController{
 		$this->assign('showname', $_SESSION[C('ADMIN_AUTH_KEY_SHOW_NAME')]);
 		$this->assign('userInfo', $userInfo);
 		$this->display();
+	}
+
+	protected function countTotalAvgScore($pmcondition){
+		$dirPercentage= 0.6;
+		$allScore= M('Pmresult')->where($pmcondition)->select();
+		$dirList= array();
+		$indirList= array();
+		for($idx=0; $idx< count($allScore); $idx++){
+			if(strpos($allScore[$idx]['question'], '请输入您对该员工的绩效考核分数') !== false){
+				$indirList[]= $allScore[$idx];
+			}else{
+				$dirList[]= $allScore[$idx];
+			}
+		}
+		$dirTotalScore= 0;
+		$indirTotalScore= 0;
+		for ($idy=0; $idy < count($dirList); $idy++) { 
+			# code...
+			$dirTotalScore= $dirTotalScore+ $dirList[$idy]['score'];
+		}
+		$dirAvgScore= round(($dirTotalScore/count($dirList))*$dirPercentage, 1);
+		for ($idy=0; $idy < count($indirList); $idy++) { 
+			# code...
+			$indirTotalScore= $indirTotalScore+ $indirList[$idy]['score'];
+		}
+		$indirAvgScore= round(($indirTotalScore/count($indirList))*(1-$dirPercentage), 1);
+		return ($dirAvgScore+ $indirAvgScore);
 	}
 
 	protected function isPmExeced($userId, $groupid){
