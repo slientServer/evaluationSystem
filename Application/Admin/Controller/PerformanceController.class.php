@@ -148,6 +148,7 @@ class PerformanceController extends CommonController{
 		}else{
 			$addedUsers= explode('|', $addedUsersStr['leaders']);
 		}
+
 		$addedUsersBollean= array();
 		for($idx=0; $idx< count($addedUsers); $idx++) {
 			# code...
@@ -160,9 +161,10 @@ class PerformanceController extends CommonController{
 				$users[$idx]['isselected']= 0;
 			}
 		}
+
 		$this->assign('groupid', $_REQUEST['id']);
 		$this->assign('list', $users);
-		$this->display();
+		$this->display('setleader');
 	}
 
 	public function updatleaders(){

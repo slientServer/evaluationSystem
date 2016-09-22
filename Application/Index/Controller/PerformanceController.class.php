@@ -13,16 +13,17 @@ class PerformanceController extends CommonController{
 		$pmgroup= M('Pmgroup');
 		$groupList= $pmgroup->select();
 		$relatedGroupId= '';
+
 		foreach ($groupList as $key => $value) {
 			# code...
 			if(in_array(session(C('USER_AUTH_KEY')), explode('|', $groupList[$key]['leaders']))){
-			 	$relatedGroups= $relatedGroups.$groupList[$key]['id'].',';
+			 	$relatedGroupId= $relatedGroupId.$groupList[$key]['id'].',';
 			}
 		}
-		
-		$condition['es_pmgroup.id']= array('in', $relatedGroups);
+		$condition['es_pmgroup.id']= array('in', $relatedGroupId);
 		$condition['status']= array('eq', 1);
 		$avaliableGroup= $pmgroup->join('es_pmform ON es_pmgroup.pmformid= es_pmform.id')->where($condition)->field('es_pmgroup.id as groupId, groupname, groupdescription, employees, startday, formname, formdescription, questionarr, indirectleaders')->select();
+	
 		foreach ($avaliableGroup as $key => $value) {
 			# code...
 			$avaliableGroup[$key]['fromuser']= session(C('USER_AUTH_KEY'));
@@ -36,12 +37,14 @@ class PerformanceController extends CommonController{
 					$pmcondition['month']= date('m');
 					$pmcondition['year']= date('Y');
 					$pmcondition['groupid']= $avaliableGroup[$key]['groupid'];
-					$avaliableGroup[$key]['targetuser'][$key2]['avgscore']= round(M('Pmresult')->where($pmcondition)->avg('score'), 1);
+					$avaliableGroup[$key]['targetuser'][$key2]['avgscore']= $this->countTotalAvgScore($pmcondition);
 				}
 			}
 			if(in_array(session(C('USER_AUTH_KEY')), explode('|', $avaliableGroup[$key]['indirectleaders']))){
 				$question= array('请输入您的分数' => array(array('questiontext'=>'请输入您对该员工的绩效考核分数', 'questionlevel'=>'2', 'questionparent'=> '0', 'questiontype'=> 'number')));
 				$avaliableGroup[$key]['questionList']= $question;
+			}else{
+				$avaliableGroup[$key]['questionList']= $this->getAllQuestionInfo($avaliableGroup[$key]['questionarr']);
 			}
 			$groupStartDay= $avaliableGroup[$key]['startday'];
 		}		
@@ -54,6 +57,33 @@ class PerformanceController extends CommonController{
 		$this->assign('showname', $_SESSION[C('ADMIN_AUTH_KEY_SHOW_NAME')]);
 		$this->assign('userInfo', $userInfo);
 		$this->display();
+	}
+
+	protected function countTotalAvgScore($pmcondition){
+		$dirPercentage= 0.6;
+		$allScore= M('Pmresult')->where($pmcondition)->select();
+		$dirList= array();
+		$indirList= array();
+		for($idx=0; $idx< count($allScore); $idx++){
+			if(strpos($allScore[$idx]['question'], '请输入您对该员工的绩效考核分数') !== false){
+				$indirList[]= $allScore[$idx];
+			}else{
+				$dirList[]= $allScore[$idx];
+			}
+		}
+		$dirTotalScore= 0;
+		$indirTotalScore= 0;
+		for ($idy=0; $idy < count($dirList); $idy++) { 
+			# code...
+			$dirTotalScore= $dirTotalScore+ round(($dirList[$idy]['score']*$dirList[$idy]['percentage'])/100, 1);
+		}
+		$dirAvgScore= $dirTotalScore* $dirPercentage;
+		for ($idy=0; $idy < count($indirList); $idy++) { 
+			# code...
+			$indirTotalScore= $indirTotalScore+ round(($indirList[$idy]['score']*$indirList[$idy]['percentage'])/100, 1);
+		}
+		$indirAvgScore= $indirTotalScore*(1-$dirPercentage);
+		return round($dirAvgScore+ $indirAvgScore, 1);
 	}
 
 	protected function isPmExeced($userId, $groupid){
@@ -74,7 +104,18 @@ class PerformanceController extends CommonController{
 		$model= M('User');
 		$userStr= str_replace('|', ',', $users);
 		$condition['id']= array('in', $userStr);
-		return $model->where($condition)->select();
+		return $this->excludeSomeUsers($model->where($condition)->select());
+	}
+
+	protected function excludeSomeUsers($usersInfo){
+		$excludeList= array('1', session(C('USER_AUTH_KEY')));
+		for($idx=0; $idx< count($usersInfo); $idx++){
+			if(in_array($usersInfo[$idx]['id'], $excludeList)){
+				array_splice($usersInfo, $idx, 1);
+				$idx--;
+			}
+		}
+		return $usersInfo;
 	}
 
 	protected function getAllQuestionInfo($questionarr){
@@ -97,10 +138,12 @@ class PerformanceController extends CommonController{
 		$targetuserid= I('userid');
 		$questionarr= I('questionArr');
 		$questionvalue= I('questionValue');
+		$questionpercentage= I('questionPercentage');
 		for($idx=0; $idx< count($questionarr); $idx++){
 			$data= array('fromuser' => $fromuserid, 
 					'targetuser' => $targetuserid,
 					'score' => $questionvalue[$idx],
+					'percentage' => $questionpercentage[$idx],
 					'question' => trim($questionarr[$idx]),
 					'groupid' => $groupid,
 					'month' => date('m'),

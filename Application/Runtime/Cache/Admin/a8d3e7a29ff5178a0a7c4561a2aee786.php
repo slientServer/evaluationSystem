@@ -17,6 +17,12 @@
 					</select>
 				</dd>
 			</dl>
+			<dl>
+				<dt>百分比：</dt>
+				<dd>
+					<input type="number" value="<?php echo ($vo["questionpercentage"]); ?>" name="questionpercentage" style="width: 200px;">%
+				</dd>
+			</dl>
 			<dl style="width:500px;">
 				<dt>父项目：</dt>
 				<dd style="width:227px">

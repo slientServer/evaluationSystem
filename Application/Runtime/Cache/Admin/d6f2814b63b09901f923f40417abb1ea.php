@@ -23,6 +23,7 @@
 				<th width="40">项目级别</th>
 				<th width="40">父级项目</th>
 				<th width="40">项目类型</th>
+				<th width="40">百分比</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -43,6 +44,9 @@
 						<?php if($vo["questiontype"] == number): ?>分数
 						<?php else: ?>
 							其它<?php endif; ?>
+					</td>
+					<td>
+						<?php echo ($vo["questionpercentage"]); ?>%
 					</td>
 				</tr><?php endforeach; endif; ?>
 		</tbody>

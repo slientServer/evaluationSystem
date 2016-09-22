@@ -12,6 +12,7 @@ $(document).ready(function(){
 			var modalNum= $('.active .pm-save').attr('modalNum');
 			var questionArr= [];
 			var questionValue= [];
+			var questionPercentage= [];
 			for(var idx=0; idx< $('.questionValue'+modalNum).length; idx++){
 				if($('.questionValue'+modalNum)[idx].value== ''|| $('.questionValue'+modalNum)[idx].value<0 || $('.questionValue'+modalNum)[idx].value>100){
 					$('.errorHint').fadeIn();
@@ -20,8 +21,9 @@ $(document).ready(function(){
 					}, 2000);
 					return false;
 				}else{
+					questionPercentage.push($('.questionPercentage'+modalNum)[idx].getAttribute('value'));
 					questionValue.push($('.questionValue'+modalNum)[idx].value);
-					questionArr.push($('.questionLabel'+modalNum)[idx].innerText);
+					questionArr.push($('.questionLabel'+modalNum)[idx].getAttribute('title'));
 				}
 			}
 			$.ajax({url:"performanceExecution",async:false, success: function(evt){
@@ -41,7 +43,7 @@ $(document).ready(function(){
 					}, 1000);
 				}				
 			},
-			data: {'userid': currentUserId, 'groupId': groupId, 'questionArr': questionArr, 'questionValue': questionValue}
+			data: {'userid': currentUserId, 'groupId': groupId, 'questionArr': questionArr, 'questionValue': questionValue, 'questionPercentage': questionPercentage}
 			});
 		}
 	);

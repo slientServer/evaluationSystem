@@ -74,15 +74,15 @@ class PerformanceresultController extends CommonController{
 		$indirTotalScore= 0;
 		for ($idy=0; $idy < count($dirList); $idy++) { 
 			# code...
-			$dirTotalScore= $dirTotalScore+ $dirList[$idy]['score'];
+			$dirTotalScore= $dirTotalScore+ round(($dirList[$idy]['score']*$dirList[$idy]['percentage'])/100, 1);
 		}
-		$dirAvgScore= round(($dirTotalScore/count($dirList))*$dirPercentage, 1);
+		$dirAvgScore= $dirTotalScore* $dirPercentage;
 		for ($idy=0; $idy < count($indirList); $idy++) { 
 			# code...
-			$indirTotalScore= $indirTotalScore+ $indirList[$idy]['score'];
+			$indirTotalScore= $indirTotalScore+ round(($indirList[$idy]['score']*$indirList[$idy]['percentage'])/100, 1);
 		}
-		$indirAvgScore= round(($indirTotalScore/count($indirList))*(1-$dirPercentage), 1);
-		return ($dirAvgScore+ $indirAvgScore);
+		$indirAvgScore= $indirTotalScore*(1-$dirPercentage);
+		return round($dirAvgScore+ $indirAvgScore, 1);
 	}
 
 	protected function isPmExeced($userId, $groupid){

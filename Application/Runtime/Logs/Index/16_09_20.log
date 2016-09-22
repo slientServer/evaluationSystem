@@ -1,0 +1,680 @@
+[ 2016-09-20T22:15:45+08:00 ] ::1 /evaluationSystem/Index/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\380876ff5eecdf3888d6968a913a5ee2.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.315005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.315005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.040001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.042500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.042500s ]
+
+[ 2016-09-20T22:15:45+08:00 ] ::1 /evaluationSystem/Index/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-09-20T22:15:52+08:00 ] ::1 /evaluationSystem/Index/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `es_user` WHERE `username` = 'bhao' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `es_user` SET `logintime`='1474380952',`loginip`='0' WHERE `id` = 17 [ RunTime:0.0624s ]
+NOTIC: [8] Undefined index: superadmin D:\xampp\htdocs\evaluationSystem\ThinkPHP\Library\Org\Util\Rbac.class.php 第 88 行.
+SQL: select node.id,node.name,node.title,node.imgsrc,node.remark from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.1404s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=26 and node.status=1 [ RunTime:0.0156s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=28 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=30 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=31 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=33 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=34 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=37 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=38 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=40 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=41 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=43 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=44 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=46 and node.status=1 [ RunTime:0.0156s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=47 and node.status=1 [ RunTime:0.0000s ]
+
+[ 2016-09-20T22:15:53+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `es_fields` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `es_fields` WHERE `field` = 'ad'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-20T22:15:56+08:00 ] ::1 /evaluationSystem/Index/Performance/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_pmgroup` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `es_pmgroup`  [ RunTime:0.0000s ]
+SQL: SELECT es_pmgroup.id as groupId,`groupname`,`groupdescription`,`employees`,`startday`,`formname`,`formdescription`,`questionarr`,`indirectleaders` FROM `es_pmgroup` INNER JOIN es_pmform ON es_pmgroup.pmformid= es_pmform.id  WHERE es_pmgroup.id IN ('4','5','6','') AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('1','17','18','19')  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `es_pmresult` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('1','19')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('17','18')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: userInfo D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\PerformanceController.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 58 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 72 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 58 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 72 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 122 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 136 行.
+NOTIC: [8] Undefined index: questionList D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 154 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 122 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 136 行.
+NOTIC: [8] Undefined index: questionList D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 154 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-20T22:33:30+08:00 ] ::1 /evaluationSystem/Index/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\380876ff5eecdf3888d6968a913a5ee2.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-09-20T22:33:30+08:00 ] ::1 /evaluationSystem/Index/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-20T22:33:38+08:00 ] ::1 /evaluationSystem/Index/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `es_user` WHERE `username` = 'bhao' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `es_user` SET `logintime`='1474382018',`loginip`='0' WHERE `id` = 17 [ RunTime:0.2300s ]
+SQL: select node.id,node.name,node.title,node.imgsrc,node.remark from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.0025s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=26 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=28 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=30 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=31 and node.status=1 [ RunTime:0.0025s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=33 and node.status=1 [ RunTime:0.0025s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=34 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=37 and node.status=1 [ RunTime:0.0025s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=38 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=40 and node.status=1 [ RunTime:0.0025s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=41 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=43 and node.status=1 [ RunTime:0.0025s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=44 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=46 and node.status=1 [ RunTime:0.0025s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=47 and node.status=1 [ RunTime:0.0000s ]
+
+[ 2016-09-20T22:33:38+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `es_fields` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `es_fields` WHERE `field` = 'ad'  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-20T22:33:43+08:00 ] ::1 /evaluationSystem/Index/Performance/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `es_pmgroup` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmgroup`  [ RunTime:0.0000s ]
+SQL: SELECT es_pmgroup.id as groupId,`groupname`,`groupdescription`,`employees`,`startday`,`formname`,`formdescription`,`questionarr`,`indirectleaders` FROM `es_pmgroup` INNER JOIN es_pmform ON es_pmgroup.pmformid= es_pmform.id  WHERE es_pmgroup.id IN ('4','5','6','') AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('1','17','18','19')  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `es_pmresult` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('1','19')  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('17','18')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: userInfo D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\PerformanceController.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 58 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 72 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 58 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 72 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 122 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 136 行.
+NOTIC: [8] Undefined index: questionList D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 154 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 122 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 136 行.
+NOTIC: [8] Undefined index: questionList D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 154 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-09-20T22:33:59+08:00 ] ::1 /evaluationSystem/Index/Login/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\380876ff5eecdf3888d6968a913a5ee2.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-09-20T22:33:59+08:00 ] ::1 /evaluationSystem/Index/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-20T22:34:06+08:00 ] ::1 /evaluationSystem/Index/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `es_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `es_user` SET `logintime`='1474382045',`loginip`='0' WHERE `id` = 1 [ RunTime:0.1425s ]
+
+[ 2016-09-20T22:35:00+08:00 ] ::1 /evaluationSystem/Index/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: message D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\380876ff5eecdf3888d6968a913a5ee2.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-20T22:35:00+08:00 ] ::1 /evaluationSystem/Index/Login/verify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-09-20T22:35:10+08:00 ] ::1 /evaluationSystem/Index/Login/checkLogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `es_user` WHERE `username` = 'bhao' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `es_user` SET `logintime`='1474382110',`loginip`='0' WHERE `id` = 17 [ RunTime:0.1375s ]
+SQL: select node.id,node.name,node.title,node.imgsrc,node.remark from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=26 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=28 and node.status=1 [ RunTime:0.0025s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=30 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=31 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=33 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=34 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=37 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=38 and node.status=1 [ RunTime:0.0025s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=40 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=41 and node.status=1 [ RunTime:0.0025s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=43 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=44 and node.status=1 [ RunTime:0.0025s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=46 and node.status=1 [ RunTime:0.0000s ]
+SQL: select node.id,node.name from es_role as role,es_role_user as user,es_access as access ,es_node as node where user.user_id='17' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=47 and node.status=1 [ RunTime:0.0025s ]
+
+[ 2016-09-20T22:35:10+08:00 ] ::1 /evaluationSystem/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `es_fields` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `es_fields` WHERE `field` = 'ad'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-09-20T22:35:12+08:00 ] ::1 /evaluationSystem/Index/Performance/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `es_pmgroup` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmgroup`  [ RunTime:0.0025s ]
+SQL: SELECT es_pmgroup.id as groupId,`groupname`,`groupdescription`,`employees`,`startday`,`formname`,`formdescription`,`questionarr`,`indirectleaders` FROM `es_pmgroup` INNER JOIN es_pmform ON es_pmgroup.pmformid= es_pmform.id  WHERE es_pmgroup.id IN ('4','5','6','') AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('1','17','18','19')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_pmresult` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('1','19')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('17','18')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: userInfo D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\PerformanceController.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 58 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 72 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 58 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 72 行.
+NOTIC: [8] Undefined index: questionList D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 90 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 122 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 136 行.
+NOTIC: [8] Undefined index: questionList D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 154 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 122 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 136 行.
+NOTIC: [8] Undefined index: questionList D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 154 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-09-20T22:35:20+08:00 ] ::1 /evaluationSystem/Index/Performanceresult/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `es_pmgroup` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmgroup`  [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: relatedGroups D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\PerformanceresultController.class.php 第 18 行.
+SQL: SELECT es_pmgroup.id as groupId,`groupname`,`leaders`,`groupdescription`,`employees`,`startday`,`formname`,`formdescription`,`questionarr` FROM `es_pmgroup` INNER JOIN es_pmform ON es_pmgroup.pmformid= es_pmform.id  WHERE es_pmgroup.id IN ('4','5','6','') AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('1','17','18','19')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('17','18')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_pmresult` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `targetuser` = 1 AND `month` = 8 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `targetuser` = 1 AND `month` = 8 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\PerformanceresultController.class.php 第 79 行.
+SQL: SELECT DISTINCT  `fromuser` FROM `es_pmresult` WHERE `targetuser` = 1 AND `month` = 8 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `targetuser` = 17 AND `month` = 8 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `targetuser` = 17 AND `month` = 8 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\PerformanceresultController.class.php 第 79 行.
+SQL: SELECT DISTINCT  `fromuser` FROM `es_pmresult` WHERE `targetuser` = 17 AND `month` = 8 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `targetuser` = 18 AND `month` = 8 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `targetuser` = 18 AND `month` = 8 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0025s ]
+NOTIC: [2] Division by zero D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\PerformanceresultController.class.php 第 79 行.
+SQL: SELECT DISTINCT  `fromuser` FROM `es_pmresult` WHERE `targetuser` = 18 AND `month` = 8 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `targetuser` = 19 AND `month` = 8 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `targetuser` = 19 AND `month` = 8 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0025s ]
+NOTIC: [2] Division by zero D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\PerformanceresultController.class.php 第 79 行.
+SQL: SELECT DISTINCT  `fromuser` FROM `es_pmresult` WHERE `targetuser` = 19 AND `month` = 8 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0325s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` IN ('','24','25','26')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('1','19')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('17')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `targetuser` = 1 AND `month` = 8 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `targetuser` = 1 AND `month` = 8 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0025s ]
+NOTIC: [2] Division by zero D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\PerformanceresultController.class.php 第 79 行.
+NOTIC: [2] Division by zero D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\PerformanceresultController.class.php 第 84 行.
+SQL: SELECT DISTINCT  `fromuser` FROM `es_pmresult` WHERE `targetuser` = 1 AND `month` = 8 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `targetuser` = 19 AND `month` = 8 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `targetuser` = 19 AND `month` = 8 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\PerformanceresultController.class.php 第 79 行.
+NOTIC: [2] Division by zero D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\PerformanceresultController.class.php 第 84 行.
+SQL: SELECT DISTINCT  `fromuser` FROM `es_pmresult` WHERE `targetuser` = 19 AND `month` = 8 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` IN ('','24','26')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('17','18')  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('17','18','19')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `targetuser` = 17 AND `month` = 8 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `targetuser` = 17 AND `month` = 8 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\PerformanceresultController.class.php 第 79 行.
+NOTIC: [2] Division by zero D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\PerformanceresultController.class.php 第 84 行.
+SQL: SELECT DISTINCT  `fromuser` FROM `es_pmresult` WHERE `targetuser` = 17 AND `month` = 8 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `targetuser` = 18 AND `month` = 8 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `targetuser` = 18 AND `month` = 8 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0025s ]
+NOTIC: [2] Division by zero D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\PerformanceresultController.class.php 第 79 行.
+NOTIC: [2] Division by zero D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\PerformanceresultController.class.php 第 84 行.
+SQL: SELECT DISTINCT  `fromuser` FROM `es_pmresult` WHERE `targetuser` = 18 AND `month` = 8 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` IN ('','24','25','26')  [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: userInfo D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\PerformanceresultController.class.php 第 57 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-09-20T22:35:45+08:00 ] ::1 /evaluationSystem/Index/Performance/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `es_pmgroup` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmgroup`  [ RunTime:0.0025s ]
+SQL: SELECT es_pmgroup.id as groupId,`groupname`,`groupdescription`,`employees`,`startday`,`formname`,`formdescription`,`questionarr`,`indirectleaders` FROM `es_pmgroup` INNER JOIN es_pmform ON es_pmgroup.pmformid= es_pmform.id  WHERE es_pmgroup.id IN ('4','5','6','') AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('1','17','18','19')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_pmresult` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('1','19')  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('17','18')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: userInfo D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\PerformanceController.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 58 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 72 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 58 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 72 行.
+NOTIC: [8] Undefined index: questionList D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 90 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 122 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 136 行.
+NOTIC: [8] Undefined index: questionList D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 154 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 122 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 136 行.
+NOTIC: [8] Undefined index: questionList D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 154 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-09-20T22:41:53+08:00 ] ::1 /evaluationSystem/Index/Performance/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `es_pmgroup` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmgroup`  [ RunTime:0.0025s ]
+SQL: SELECT es_pmgroup.id as groupId,`groupname`,`groupdescription`,`employees`,`startday`,`formname`,`formdescription`,`questionarr`,`indirectleaders` FROM `es_pmgroup` INNER JOIN es_pmform ON es_pmgroup.pmformid= es_pmform.id  WHERE es_pmgroup.id IN ('4','5','6','') AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('1','17','18','19')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_pmresult` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` IN ('','24','25','26')  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('1','19')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` IN ('','24','26')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('17','18')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 6  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` IN ('','24','25','26')  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: userInfo D:\xampp\htdocs\evaluationSystem\Application\Index\Controller\PerformanceController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 58 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 72 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 58 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 72 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 122 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 136 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 122 行.
+NOTIC: [8] Use of undefined constant start - assumed 'start' D:\xampp\htdocs\evaluationSystem\Application\Runtime\Cache\Index\32aca1b2fd7daa5c2ffc40df0c87ea28.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-09-20T22:42:56+08:00 ] ::1 /evaluationSystem/Index/Performance/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `es_pmgroup` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `es_pmgroup`  [ RunTime:0.0000s ]
+SQL: SELECT es_pmgroup.id as groupId,`groupname`,`groupdescription`,`employees`,`startday`,`formname`,`formdescription`,`questionarr`,`indirectleaders` FROM `es_pmgroup` INNER JOIN es_pmform ON es_pmgroup.pmformid= es_pmform.id  WHERE es_pmgroup.id IN ('4','5','6','') AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('1','17','18','19')  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `es_pmresult` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` IN ('','24','25','26')  [ RunTime:0.0025s ]
+
+[ 2016-09-20T22:44:22+08:00 ] ::1 /evaluationSystem/Index/Performance/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `es_pmgroup` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `es_pmgroup`  [ RunTime:0.0000s ]
+SQL: SELECT es_pmgroup.id as groupId,`groupname`,`groupdescription`,`employees`,`startday`,`formname`,`formdescription`,`questionarr`,`indirectleaders` FROM `es_pmgroup` INNER JOIN es_pmform ON es_pmgroup.pmformid= es_pmform.id  WHERE es_pmgroup.id IN ('4','5','6','') AND `status` = 1  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('1','17','18','19')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_pmresult` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 1 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 17 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 18 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmresult` WHERE `fromuser` = 17 AND `targetuser` = 19 AND `month` = 9 AND `year` = 2016 AND `groupid` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `es_pmquestion` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` IN ('','24','25','26')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_pmquestion` WHERE `id` IN ('','24','25','26')  [ RunTime:0.0000s ]
+
+[ 2016-09-20T22:50:11+08:00 ] ::1 /evaluationSystem/Index/Performance/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-09-20T22:50:29+08:00 ] ::1 /evaluationSystem/Index/Performance/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `es_pmgroup` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmgroup`  [ RunTime:0.0000s ]
+SQL: SELECT es_pmgroup.id as groupId,`groupname`,`groupdescription`,`employees`,`startday`,`formname`,`formdescription`,`questionarr`,`indirectleaders` FROM `es_pmgroup` INNER JOIN es_pmform ON es_pmgroup.pmformid= es_pmform.id  WHERE es_pmgroup.id IN ('4','5','6','') AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('1','17','18','19')  [ RunTime:0.0025s ]
+
+[ 2016-09-20T22:55:27+08:00 ] ::1 /evaluationSystem/Index/Performance/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-09-20T22:55:41+08:00 ] ::1 /evaluationSystem/Index/Performance/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-09-20T22:55:58+08:00 ] ::1 /evaluationSystem/Index/Performance/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-20T22:56:54+08:00 ] ::1 /evaluationSystem/Index/Performance/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-09-20T22:57:06+08:00 ] ::1 /evaluationSystem/Index/Performance/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `es_pmgroup` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `es_pmgroup`  [ RunTime:0.0000s ]
+SQL: SELECT es_pmgroup.id as groupId,`groupname`,`groupdescription`,`employees`,`startday`,`formname`,`formdescription`,`questionarr`,`indirectleaders` FROM `es_pmgroup` INNER JOIN es_pmform ON es_pmgroup.pmformid= es_pmform.id  WHERE es_pmgroup.id IN ('4','5','6','') AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2016-09-20T22:59:20+08:00 ] ::1 /evaluationSystem/Index/Performance/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `es_pmgroup` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `es_pmgroup`  [ RunTime:0.0000s ]
+SQL: SELECT es_pmgroup.id as groupId,`groupname`,`groupdescription`,`employees`,`startday`,`formname`,`formdescription`,`questionarr`,`indirectleaders` FROM `es_pmgroup` INNER JOIN es_pmform ON es_pmgroup.pmformid= es_pmform.id  WHERE es_pmgroup.id IN ('4','5','6','') AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('1','17','18','19')  [ RunTime:0.0000s ]
+
+[ 2016-09-20T23:06:19+08:00 ] ::1 /evaluationSystem/Index/Performance/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `es_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `es_pmgroup` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `es_pmgroup`  [ RunTime:0.0000s ]
+SQL: SELECT es_pmgroup.id as groupId,`groupname`,`groupdescription`,`employees`,`startday`,`formname`,`formdescription`,`questionarr`,`indirectleaders` FROM `es_pmgroup` INNER JOIN es_pmform ON es_pmgroup.pmformid= es_pmform.id  WHERE es_pmgroup.id IN ('4','5','6','') AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `es_user` WHERE `id` IN ('1','17','18','19')  [ RunTime:0.0000s ]
+

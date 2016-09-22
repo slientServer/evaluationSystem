@@ -112,8 +112,8 @@
                       <hr>
                       <div style="display: block; margin-bottom: 50px;">
                         <foreach name= "questionArr" item="question" key="number">
-                        <span class="questionLabel<{$keyPanel}>" title="<{$question.questiontext}>" style="text-indent:2%; display: inline-block; width: 80%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><{$question.questiontext}>&nbsp;&nbsp;</span>
-                        <input class="questionValue<{$keyPanel}>" style="width: 15%;" type="number" min=0 max=100 placeholder="分数" aria-describedby="basic-addon1" required>
+                        <span class="questionLabel<{$keyPanel}>" title="<{$question.questiontext}>" style="text-indent:2%; display: inline-block; width: 80%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span value="<{$question.questionpercentage}>" class="questionPercentage<{$keyPanel}>" style="color:red;"><{$question.questionpercentage}>%&nbsp;</span><{$question.questiontext}>&nbsp;&nbsp;</span>
+                        <input class="questionValue<{$keyPanel}>" style="width: 10%;" type="number" min=0 max=100 placeholder="分数" aria-describedby="basic-addon1" required>
                         </foreach>
                       </div>
                     </foreach> 
@@ -192,8 +192,8 @@
                       <hr>
                       <div style="display: block; margin-bottom: 50px;">
                         <foreach name= "questionArr" item="question" key="number">
-                        <span class="questionLabel<{$keyPanel}>" title="<{$question.questiontext}>" style="text-indent:2%; display: inline-block; width: 80%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><{$question.questiontext}>&nbsp;&nbsp;</span>
-                        <input class="questionValue<{$keyPanel}>" style="width: 15%;" type="number" min=0 max=100 placeholder="分数" aria-describedby="basic-addon1" required>
+                        <span class="questionLabel<{$keyPanel}>" title="<{$question.questiontext}>" style="text-indent:2%; display: inline-block; width: 80%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span class="questionPercentage<{$keyPanel}>" value="<{$question.questionpercentage}>" style="color:red;"><{$question.questionpercentage}>%&nbsp;</span><{$question.questiontext}>&nbsp;&nbsp;</span>
+                        <input class="questionValue<{$keyPanel}>" style="width: 10%;" type="number" min=0 max=100 placeholder="分数" aria-describedby="basic-addon1" required>
                         </foreach>
                       </div>
                     </foreach> 

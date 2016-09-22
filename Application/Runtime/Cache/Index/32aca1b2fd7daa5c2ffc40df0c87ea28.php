@@ -90,8 +90,8 @@
                     <?php if(is_array($vo["questionList"])): foreach($vo["questionList"] as $k=>$questionArr): ?><h4 style="font-weight:bold;"><?php echo ($k); ?></h4>
                       <hr>
                       <div style="display: block; margin-bottom: 50px;">
-                        <?php if(is_array($questionArr)): foreach($questionArr as $number=>$question): ?><span class="questionLabel<?php echo ($keyPanel); ?>" title="<?php echo ($question["questiontext"]); ?>" style="text-indent:2%; display: inline-block; width: 80%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><?php echo ($question["questiontext"]); ?>&nbsp;&nbsp;</span>
-                        <input class="questionValue<?php echo ($keyPanel); ?>" style="width: 15%;" type="number" min=0 max=100 placeholder="分数" aria-describedby="basic-addon1" required><?php endforeach; endif; ?>
+                        <?php if(is_array($questionArr)): foreach($questionArr as $number=>$question): ?><span class="questionLabel<?php echo ($keyPanel); ?>" title="<?php echo ($question["questiontext"]); ?>" style="text-indent:2%; display: inline-block; width: 80%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span value="<?php echo ($question["questionpercentage"]); ?>" class="questionPercentage<?php echo ($keyPanel); ?>" style="color:red;"><?php echo ($question["questionpercentage"]); ?>%&nbsp;</span><?php echo ($question["questiontext"]); ?>&nbsp;&nbsp;</span>
+                        <input class="questionValue<?php echo ($keyPanel); ?>" style="width: 10%;" type="number" min=0 max=100 placeholder="分数" aria-describedby="basic-addon1" required><?php endforeach; endif; ?>
                       </div><?php endforeach; endif; ?> 
                     <p class="errorHint">所有分数都必填，且不得小于0分， 不得大于100分<p>
                   </div>
@@ -154,8 +154,8 @@
                     <?php if(is_array($vo["questionList"])): foreach($vo["questionList"] as $k=>$questionArr): ?><h4 style="font-weight:bold;"><?php echo ($k); ?></h4>
                       <hr>
                       <div style="display: block; margin-bottom: 50px;">
-                        <?php if(is_array($questionArr)): foreach($questionArr as $number=>$question): ?><span class="questionLabel<?php echo ($keyPanel); ?>" title="<?php echo ($question["questiontext"]); ?>" style="text-indent:2%; display: inline-block; width: 80%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><?php echo ($question["questiontext"]); ?>&nbsp;&nbsp;</span>
-                        <input class="questionValue<?php echo ($keyPanel); ?>" style="width: 15%;" type="number" min=0 max=100 placeholder="分数" aria-describedby="basic-addon1" required><?php endforeach; endif; ?>
+                        <?php if(is_array($questionArr)): foreach($questionArr as $number=>$question): ?><span class="questionLabel<?php echo ($keyPanel); ?>" title="<?php echo ($question["questiontext"]); ?>" style="text-indent:2%; display: inline-block; width: 80%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span class="questionPercentage<?php echo ($keyPanel); ?>" value="<?php echo ($question["questionpercentage"]); ?>" style="color:red;"><?php echo ($question["questionpercentage"]); ?>%&nbsp;</span><?php echo ($question["questiontext"]); ?>&nbsp;&nbsp;</span>
+                        <input class="questionValue<?php echo ($keyPanel); ?>" style="width: 10%;" type="number" min=0 max=100 placeholder="分数" aria-describedby="basic-addon1" required><?php endforeach; endif; ?>
                       </div><?php endforeach; endif; ?> 
                     <p class="errorHint">所有分数都必填，且不得小于0分， 不得大于100分<p>
                   </div>
