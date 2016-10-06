@@ -45,6 +45,7 @@ class RbacuserController extends CommonController{
 			'enrolldate'=>I('enrolldate'),
 			'deptid'=>I('deptid'),
 			'directleader'=>I('directleader'),
+			'scoreratio'=>I('scoreratio'),
 			'logintime'=>time(),
 			'loginip'=>get_client_ip(),
 			'islock'=> I('islock'),
@@ -107,6 +108,7 @@ class RbacuserController extends CommonController{
 			$data['phone']=I('phone');
 			$data['position']=I('position');
 			$data['enrolldate']=I('enrolldate');
+			$data['scoreratio']=I('scoreratio');
 			$data['deptid']=I('deptid');
 			$data['directleader']=I('directleader');
 			$data['islock']= I('islock');

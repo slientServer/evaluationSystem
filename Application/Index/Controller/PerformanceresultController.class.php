@@ -32,7 +32,9 @@ class PerformanceresultController extends CommonController{
 				if(1){
 					$pmcondition['targetuser']= $avaliableGroup[$key]['targetuser'][$key2]['id'];
 					if(date('m')>1){
-						$pmcondition['month']= date('m')-1;
+						//For test
+						// $pmcondition['month']= date('m')-1;
+						$pmcondition['month']= date('m');
 						$pmcondition['year']= date('Y');
 					}else{
 						$pmcondition['month']= 12;
@@ -59,8 +61,8 @@ class PerformanceresultController extends CommonController{
 	}
 
 	protected function countTotalAvgScore($pmcondition){
-		$dirPercentage= 0.6;
 		$allScore= M('Pmresult')->where($pmcondition)->select();
+		$allScoreUsers= M('Pmresult')->where($pmcondition)->distinct(true)->field('fromuser')->select();
 		$dirList= array();
 		$indirList= array();
 		for($idx=0; $idx< count($allScore); $idx++){
@@ -74,21 +76,47 @@ class PerformanceresultController extends CommonController{
 		$indirTotalScore= 0;
 		for ($idy=0; $idy < count($dirList); $idy++) { 
 			# code...
-			$dirTotalScore= $dirTotalScore+ round(($dirList[$idy]['score']*$dirList[$idy]['percentage'])/100, 1);
+			$dirTotalScore= $dirTotalScore+ round(($dirList[$idy]['score']*$dirList[$idy]['percentage']*$this->getScoreRatioPerUser($dirList[$idy]['fromuser'], $indirList, $dirList, $allScoreUsers))/10000, 1);
 		}
-		$dirAvgScore= $dirTotalScore* $dirPercentage;
+		$dirAvgScore= $dirTotalScore;
 		for ($idy=0; $idy < count($indirList); $idy++) { 
 			# code...
-			$indirTotalScore= $indirTotalScore+ round(($indirList[$idy]['score']*$indirList[$idy]['percentage'])/100, 1);
+			$indirTotalScore= $indirTotalScore+ round(($indirList[$idy]['score']*$indirList[$idy]['percentage']*$this->getScoreRatioPerUser($indirList[$idy]['fromuser'], $indirList, $dirList, $allScoreUsers))/10000, 1);
 		}
-		$indirAvgScore= $indirTotalScore*(1-$dirPercentage);
+		$indirAvgScore= $indirTotalScore;
 		return round($dirAvgScore+ $indirAvgScore, 1);
+	}
+
+	protected function getScoreRatioPerUser($id, $indirList, $dirList, $allScoreUsers){
+		$listStr='';
+		$indirListId= array();
+		foreach ($indirList as $key1 => $value1) {
+			# code...
+			$indirListId[]= $indirList[$key1]['fromuser'];
+			$listStr= $listStr.$indirList[$key1]['fromuser'].',';
+		}
+		$userCondition['id']= array('in', $listStr);
+		$userCondition['scoreratio']= array('neq', '0');
+		$userListHasRatio= M('user')->where($userCondition)->field('scoreratio')->select();
+		$scoreRatio= M('user')->where(array('id'=> $id))->field('scoreratio')->find();
+		if(in_array($id, $indirListId) && $scoreRatio['scoreratio'] != '0'){
+			return $scoreRatio['scoreratio'];
+		}else{
+			$leftCount= count($allScoreUsers)-count($userListHasRatio);
+			$leftRatio= 1;
+			foreach($userListHasRatio as $key2=> $value2){
+				$leftRatio= $leftRatio- $userListHasRatio[$key2]['scoreratio'];
+			}
+			return $leftCount/$leftRatio;
+		}
 	}
 
 	protected function isPmExeced($userId, $groupid){
 		$pmcondition['targetuser']= $userId;
 		if(date('m')>1){
-			$pmcondition['month']= date('m')-1;
+			//For test
+			// $pmcondition['month']= date('m')-1;
+			$pmcondition['month']= date('m');
 			$pmcondition['year']= date('Y');
 		}else{
 			$pmcondition['month']= 12;

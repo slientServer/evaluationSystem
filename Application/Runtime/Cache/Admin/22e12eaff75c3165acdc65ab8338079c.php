@@ -27,6 +27,7 @@
 				<th width="30">直属领导</th>
 				<th width="30">所属部门</th>
 				<th width="30">入职日期</th>
+				<th width="30">打分所占比重</th>
 				<th width="40">上次登陆时间</th>
 				<th width="40">上次登陆IP</th>
 				<th width="40">所属组别</th>
@@ -44,6 +45,11 @@
 					<td><?php echo ($vo["directleader"]); ?></td>
 					<td><?php echo ($vo["deptid"]); ?></td>
 					<td><?php echo ($vo["enrolldate"]); ?></td>
+					<td>
+						<?php if($vo['scoreratio']== 0): ?>无特殊要求
+							<?php else: ?>
+								<?php echo ($vo["scoreratio"]); ?>%<?php endif; ?>
+					</td>
 					<td><?php echo (date("Y-m-d H:i:s",$vo["logintime"])); ?></td>
 					<td><?php echo ($vo["loginip"]); ?></td>
 					<td>

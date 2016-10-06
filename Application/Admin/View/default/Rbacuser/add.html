@@ -48,6 +48,10 @@
 				<dt>入职时间：</dt>
 				<dd><input type="input" class="date textInput valid" style="width:100%" name="enrolldate" /></dd>
 			</dl>
+			<dl>
+				<dt>打分比重：</dt>
+				<dd><input type="number"  style="width:30%" name="scoreratio"/>%(如无特殊要求，可不设)</dd>
+			</dl>
 			<dl style="width:500px;">
 				<dt>部门ID：</dt>
 				<dd style="width:227px">

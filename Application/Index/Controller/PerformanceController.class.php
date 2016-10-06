@@ -16,7 +16,7 @@ class PerformanceController extends CommonController{
 
 		foreach ($groupList as $key => $value) {
 			# code...
-			if(in_array(session(C('USER_AUTH_KEY')), explode('|', $groupList[$key]['leaders']))){
+			if(in_array(session(C('USER_AUTH_KEY')), explode('|', $groupList[$key]['leaders'])) || in_array(session(C('USER_AUTH_KEY')), explode('|', $groupList[$key]['indirectleaders']))){
 			 	$relatedGroupId= $relatedGroupId.$groupList[$key]['id'].',';
 			}
 		}
@@ -59,31 +59,41 @@ class PerformanceController extends CommonController{
 		$this->display();
 	}
 
+	// protected function countTotalAvgScore($pmcondition){
+	// 	$dirPercentage= 0.6;
+	// 	$allScore= M('Pmresult')->where($pmcondition)->select();
+	// 	$dirList= array();
+	// 	$indirList= array();
+	// 	for($idx=0; $idx< count($allScore); $idx++){
+	// 		if(strpos($allScore[$idx]['question'], '请输入您对该员工的绩效考核分数') !== false){
+	// 			$indirList[]= $allScore[$idx];
+	// 		}else{
+	// 			$dirList[]= $allScore[$idx];
+	// 		}
+	// 	}
+	// 	$dirTotalScore= 0;
+	// 	$indirTotalScore= 0;
+	// 	for ($idy=0; $idy < count($dirList); $idy++) { 
+	// 		# code...
+	// 		$dirTotalScore= $dirTotalScore+ round(($dirList[$idy]['score']*$dirList[$idy]['percentage'])/100, 1);
+	// 	}
+	// 	$dirAvgScore= $dirTotalScore* $dirPercentage;
+	// 	for ($idy=0; $idy < count($indirList); $idy++) { 
+	// 		# code...
+	// 		$indirTotalScore= $indirTotalScore+ round(($indirList[$idy]['score']*$indirList[$idy]['percentage'])/100, 1);
+	// 	}
+	// 	$indirAvgScore= $indirTotalScore*(1-$dirPercentage);
+	// 	return round($dirAvgScore+ $indirAvgScore, 1);
+	// }
+	//只显示本人打分结果
 	protected function countTotalAvgScore($pmcondition){
-		$dirPercentage= 0.6;
 		$allScore= M('Pmresult')->where($pmcondition)->select();
-		$dirList= array();
-		$indirList= array();
-		for($idx=0; $idx< count($allScore); $idx++){
-			if(strpos($allScore[$idx]['question'], '请输入您对该员工的绩效考核分数') !== false){
-				$indirList[]= $allScore[$idx];
-			}else{
-				$dirList[]= $allScore[$idx];
-			}
-		}
-		$dirTotalScore= 0;
-		$indirTotalScore= 0;
-		for ($idy=0; $idy < count($dirList); $idy++) { 
+		$avgscore= 0;
+		foreach ($allScore as $key => $value) {
 			# code...
-			$dirTotalScore= $dirTotalScore+ round(($dirList[$idy]['score']*$dirList[$idy]['percentage'])/100, 1);
+			$avgscore= $avgscore+ round($value['score']*$value['percentage']/100, 1);
 		}
-		$dirAvgScore= $dirTotalScore* $dirPercentage;
-		for ($idy=0; $idy < count($indirList); $idy++) { 
-			# code...
-			$indirTotalScore= $indirTotalScore+ round(($indirList[$idy]['score']*$indirList[$idy]['percentage'])/100, 1);
-		}
-		$indirAvgScore= $indirTotalScore*(1-$dirPercentage);
-		return round($dirAvgScore+ $indirAvgScore, 1);
+		return $avgscore;
 	}
 
 	protected function isPmExeced($userId, $groupid){
@@ -187,7 +197,7 @@ class PerformanceController extends CommonController{
 				$this->_tigger_update('更新成功', 'index', 1);
 			}
 			//成功提示
-		} else {
+		}else {
 			//错误提示
 			if (method_exists($this, '_tigger_update')) {
 				$this->_tigger_update('更新失败', 'index', 1);

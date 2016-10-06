@@ -22,6 +22,7 @@
 				<th width="30">直属领导</th>
 				<th width="30">所属部门</th>
 				<th width="30">入职日期</th>
+				<th width="30">打分所占比重</th>
 				<th width="40">上次登陆时间</th>
 				<th width="40">上次登陆IP</th>
 				<th width="40">所属组别</th>
@@ -40,6 +41,13 @@
 					<td><{$vo.directleader}></td>
 					<td><{$vo.deptid}></td>
 					<td><{$vo.enrolldate}></td>
+					<td>
+						<if condition="$vo['scoreratio']== 0">
+								无特殊要求
+							<else/>
+								<{$vo.scoreratio}>%
+						</if>
+					</td>
 					<td><{$vo.logintime|date="Y-m-d H:i:s",###}></td>
 					<td><{$vo.loginip}></td>
 					<td>

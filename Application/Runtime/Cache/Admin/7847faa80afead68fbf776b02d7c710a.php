@@ -19,15 +19,19 @@
 			</dl>
 			<dl>
 				<dt>电话：</dt>
-				<dd><input type="text" class="required"  style="width:100%" name="phone" value="<?php echo ($vo["phone"]); ?>"/></dd>
+				<dd><input type="text" style="width:100%" name="phone" value="<?php echo ($vo["phone"]); ?>"/></dd>
 			</dl>			
 			<dl>
 				<dt>职位：</dt>
-				<dd><input type="text" class="required"  style="width:100%" name="position" value="<?php echo ($vo["position"]); ?>"/></dd>
+				<dd><input type="text" style="width:100%" name="position" value="<?php echo ($vo["position"]); ?>"/></dd>
 			</dl>
 			<dl>
 				<dt>入职时间：</dt>
 				<dd><input type="input" class="date textInput valid" style="width:100%" name="enrolldate" value="<?php echo ($vo["enrolldate"]); ?>"/></dd>
+			</dl>
+			<dl>
+				<dt>打分比重：</dt>
+				<dd><input type="number"  style="width:30%" name="scoreratio" value="<?php echo ($vo["scoreratio"]); ?>"/>%(如无特殊要求，可不设)</dd>
 			</dl>
 			<dl>
 				<dt>当前部门:</dt>
